@@ -3,6 +3,11 @@ title: People
 permalink: /people/
 ---
 
+
+
+<img src="{{site.baseurl}}/images/people/group_photo.jpeg" alt="Group Photo" style="width:100%; max-width:1000px;">
+<hr>
+
 {% assign people_sorted = site.people | sort: 'joined' %}
 {% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
 
@@ -59,7 +64,3 @@ permalink: /people/
 <h2>Past Supporters and Collaborators</h2>
 <p>Download the PDF <a href="https://drive.google.com/file/d/10a1xLuJ5Q6iOPjchg42H5qcY-SPkOPwd/view?usp=sharing">here</a>.</p>
 
-<hr>
-
-<h2>Group Photo</h2>
-<img src="{{site.baseurl}}/images/people/group_photo.jpeg" alt="Group Photo" style="width:100%; max-width:1000px;">
