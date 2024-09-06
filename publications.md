@@ -3,7 +3,7 @@ title: Publication
 permalink: /publication/
 ---
 
-For a full list, see Vivek's <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAAAJ&hl=en">Google Scholar citations profile</a>.
+For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAAAJ&hl=en">Google Scholar</a>.
 
 <h3>Semi-Structured Data (Tabular Reasoning)</h3>
 <ul>
