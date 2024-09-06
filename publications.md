@@ -48,13 +48,13 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
   Published at <a href="https://2023.aclweb.org/">ACL 2023</a>, presented at <a href="https://megagon.ai/matching-2023/">Matching@ACL 2023</a> <a href="https://info-sync.github.io/info-sync/">Project Page</a>, <a href="https://aclanthology.org/2023.findings-acl.159/">Paper</a>, <a href="https://drive.google.com/file/d/18b67cU2XDxMZpJ-99VdWeL8F3lBGyaLj/view">Video</a>, <a href="https://vgupta123.github.io/docs/infosync_poster.pdf">Poster</a>, <a href="https://docs.google.com/presentation/d/1lPm7c8hubwADNpWHfcqNCRX-KlChh8gEzWPBLIFP79Y/edit?usp=sharing">PPT</a>
   </li>
 
-  <li><p><b>Right for the Right Reason: Evidence Extraction for Trustworthy Tabular Reasoning</b>, <br/> 
+  <li><b>Right for the Right Reason: Evidence Extraction for Trustworthy Tabular Reasoning</b>, <br/> 
     <b>Vivek Gupta</b>, Shuo Zhang, Alakananda Vempala, Yujie He, Temma Choji, Vivek Srikumar <br/> published at 
     <a href="https://www.2022.aclweb.org/">ACL 2022</a> <a href="https://aclanthology.org/2022.acl-long.231.pdf">Paper</a>
     <a href="docs/ACL-2022_Poster.pdf">Poster</a>] [<a href="docs/ACL-2022-PPT.pptx">PPT</a> 
     <a href="https://youtu.be/YwGik-QCntA">Video</a>
     <a href="https://www.bloomberg.com/company/stories/bloomberg-ai-group-cto-office-publish-8-research-papers-at-acl-2022-dublin/">Media</a>
-    <a href="https://www.linkedin.com/posts/shawn-edwards-0902a28b_bloombergs-ai-group-cto-office-publish-activity-6935303372510027776-SbHp?utm_source=share&amp;utm_medium=member_desktop">LinkedIn</a></p>
+    <a href="https://www.linkedin.com/posts/shawn-edwards-0902a28b_bloombergs-ai-group-cto-office-publish-activity-6935303372510027776-SbHp?utm_source=share&amp;utm_medium=member_desktop">LinkedIn</a>
 </li>
 
 <li><p><b>Is My Model Using The Right Evidence? Systematic Probes for Examining Evidence-Based Tabular Reasoning</b>, <br /> <b>Vivek Gupta</b>, Riyaz A. Bhat, Atreya Ghosal, Manish Srivastava, Maneesh Singh, Vivek Srikumar <br /> published at <a href="https://transacl.org/index.php/tacl">TACL 2022</a>, presented at <a href="https://www.2022.aclweb.org/">ACL 2022</a> [<a href="https://aclanthology.org/2022.tacl-1.38.pdf">Paper</a>][<a href="https://arxiv.org/pdf/2108.00578.pdf">Preprint</a>] [<a href="docs/TACL-2022_Poster-Final.pdf">Poster</a>] [<a href="docs/TACL-2022_PPT.pdf">PPT</a>] [<a href="https://youtu.be/VRvttI4Ppso">Video</a>]</p>
