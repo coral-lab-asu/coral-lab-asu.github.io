@@ -5,10 +5,6 @@ permalink: /publication/
 
 For a full list, see Vivek's <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAAAJ&hl=en">Google Scholar citations profile</a>.
 
-<h1>Publications</h1>
-
-<h2>Refereed Conference/Workshop Publications (+arXiv Preprint)</h2>
-
 <h3>Semi-Structured Data (Tabular Reasoning)</h3>
 <ul>
   <li><b>FlowVQA: Mapping Multimodal Logic in Visual Question Answering with Flowcharts</b><br>
