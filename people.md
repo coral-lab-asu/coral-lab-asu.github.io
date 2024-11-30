@@ -9,7 +9,7 @@ permalink: /people/
 <hr>
 
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
+{% assign role_array = "pi|postdoc|phd|gradstudent|researchstaff|visiting|others|pet|alumni" | split: "|" %}
 
 {% for role in role_array %}
 
@@ -25,12 +25,16 @@ permalink: /people/
     <h2>Postdoctoral Fellows</h2>
   {% elsif role == 'pi' %}
     <h2>Principal Investigator</h2>
+  {% elsif role == 'phd' %}
+    <h2>PhD. Students</h2>
   {% elsif role == 'gradstudent' %}
     <h2>Master's Students</h2>
   {% elsif role == 'researchstaff' %}
     <h2>Bachelor's Students</h2>
   {% elsif role == 'visiting' %}
     <h2>Visiting Scholars</h2>
+  {% elsif role == 'pet' %}
+    <h2>Our Pets</h2>
   {% elsif role == 'others' %}
     <h2>Honorary Members</h2>
   {% elsif role == 'alumni' %}
@@ -50,8 +54,12 @@ permalink: /people/
               <a href="{{ profile.personal-url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
             {% endif %}
             <a class="name" href="{{ profile.personal-url }}">{{ profile.name }}</a>
+            {% if role == 'phd' %}
+              <br>
+              <span style="color: gray; font-size: 0.9em;">(joining Spring'25)</span>
+            {% endif %}
           </p>
-        </div>    
+        </div>
       {% endif %}
     {% endfor %}
   </div>
