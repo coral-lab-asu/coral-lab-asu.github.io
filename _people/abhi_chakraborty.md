@@ -1,5 +1,5 @@
 ---
-name: Abhi Chakraborty (joining Spring'24)
+name: Abhi Chakraborty
 position: phd
 avatar: abhi_chakraborty.jpeg
 twitter: 
