@@ -54,10 +54,10 @@ permalink: /people/
               <a href="{{ profile.personal-url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
             {% endif %}
             <a class="name" href="{{ profile.personal-url }}">{{ profile.name }}</a>
-            {% if role == 'phd' %}
+            <!-- {% if role == 'phd' %}
               <br>
               <span style="color: gray; font-size: 0.9em;">(joining Spring'25)</span>
-            {% endif %}
+            {% endif %} -->
           </p>
         </div>
       {% endif %}
