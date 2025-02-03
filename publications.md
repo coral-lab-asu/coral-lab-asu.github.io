@@ -8,6 +8,37 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
 <h3>Complex data (Structured Data)</h3>
 <ul>
 
+  <li><b>MAPWise: Evaluating Vision-Language Models for Advanced Map Queries</b><br>
+  Srija Mukhopadhyay, Abhishek Rajgaria, Prerana Khatiwada, Manish Shrivastava, Dan Roth, Vivek Gupta<br>
+  Published at <a href="https://2025.naacl.org/">NAACL 2025</a>, <a href="https://arxiv.org/abs/2409.00255">Paper</a>
+  </li>
+
+  <li><b>Leveraging LLM for Synchronizing Information Across Multilingual Tables</b><br>
+  Siddharth Khincha, Tushar Kataria, Ankita Anand, Dan Roth, Vivek Gupta <br>
+  Published at <a href="https://2025.naacl.org/">NAACL 2025</a>
+  </li>
+
+  <li><b>TRANSIENT TABLES: Evaluating LLMs’ Reasoning on Temporally Evolving Semi-structured Tables</b><br>
+  Abhilash Shankarampeta, Harsh Mahajan, Tushar Kataria, Dan Roth, Vivek Gupta <br>
+  Published at <a href="https://2025.naacl.org/">NAACL 2025</a>
+  </li>
+
+  <li><b>H-STAR: LLM-driven Hybrid SQL-Text Adaptive Reasoning on Tables</b><br>
+  Nikhil Abhyankar, Vivek Gupta, Dan Roth, Chandan Reddy <br>
+  Published at <a href="https://2025.naacl.org//">NAACL 2025</a>, <a href="https://arxiv.org/abs/2407.05952">Paper</a>
+  </li>
+
+  <li><b>Enhancing Temporal Understanding in LLMs for Semi-structured Tables</b><br>
+  Irwin Deng, Kushagra Dixit, Dan Roth, Vivek Gupta <br>
+  Published at <a href="https://2025.naacl.org/">NAACL 2025</a>, <a href="https://arxiv.org/abs/2407.16030">Paper</a>
+  </li>
+
+  <li><b>NTSEBENCH: Cognitive Reasoning Benchmark for Vision Language Models</b><br>
+  Pranshu Pandya, Vatsal Gupta, Agney S Talwarr, Tushar Kataria, Dan Roth, Vivek Gupta <br>
+  Published at <a href="https://2025.naacl.org/">NAACL 2025</a>, <a href="https://arxiv.org/abs/2407.10380">Paper</a>
+  </li>
+
+
   <li><b>Evaluating Concurrent Robustness of Language Models Across Diverse Challenge Sets</b><br>
   Vatsal Gupta, Pranshu Pandya, Tushar Kataria, <b>Vivek Gupta</b>, Dan Roth <br>
   Published at <a href="https://2024.emnlp.org/">EMNLP 2024</a>, <a href="https://aclanthology.org/2024.emnlp-main.1237.pdf">Paper</a>, 
