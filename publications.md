@@ -11,31 +11,31 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
   <li><b>MapIQ: Benchmarking Multimodal Large Language Models for Map Question Answering</b><br>
   V Srivastava, F Lei, S Mukhopadhyay, V Gupta, R Maciejewski<br>
   Published at <a href="https://colmweb.org/">COLM 2025</a>, <a href="https://arxiv.org/pdf/2507.11625">Paper</a>,
-  <a href="">Project Page</a>
   </li>
 
   <li><b>Map&Make: Schema Guided Text to Table Generation</b><br>
   Naman Ahuja, Fenil Bardoliya, Chitta Baral, Vivek Gupta<br>
   Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-long.1460/">Paper</a>,
-  <a href="https://coral-lab-asu.github.io/map-make/">Project Page</a>, <a href="https://github.com/coral-lab-asu/map-make/tree/main/code">GitHub</a>
+  <a href="https://coral-lab-asu.github.io/map-make/">Project Page</a>, <a href="https://github.com/coral-lab-asu/map-make/">GitHub</a>
   </li>
 
   <li><b>PRAISE: Enhancing Product Descriptions with LLM-Driven Structured Insights</b><br>
   Adnan Qidwai, Srija Mukhopadhyay, Prerana Khatiwada, Dan Roth, Vivek Gupta<br>
-  Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-demo.62/">Paper</a>,
-  <a href="https://project-praise.github.io/">Project Page</a>
+  Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-demo.62/">Paper</a>, 
+  <a href="https://project-praise.github.io/">Project Page</a>, <a href="https://github.com/project-PRAISE/system-demo/">GitHub</a> 
+    
   </li>
   
   <li><b>LLM-Symbolic Integration for Robust Temporal Tabular Reasoning</b><br>
   Atharv Kulkarni, Kushagra Dixit, Vivek Srikumar, Dan Roth, Vivek Gupta<br>
   Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.findings-acl.1022/">Paper</a>, 
-    <a href="https://coral-lab-asu.github.io/llm_symbolic/">Project Page</a>
+    <a href="https://coral-lab-asu.github.io/llm_symbolic/">Project Page</a>, <a href="https://github.com/CoRAL-ASU/TEMPTABQA-C">GitHub</a>
   </li>
   
   <li><b>GETReason: Enhancing Image Context Extraction through Hierarchical Multi-Agent Reasoning</b><br>
   Shikhhar Siingh, Abhinav Rawat, Chitta Baral, Vivek Gupta<br>
   Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-long.1439.pdf">Paper</a>,
-    <a href="https://coral-asu.github.io/getreason/">Project Page</a>
+    <a href="https://coral-asu.github.io/getreason/">Project Page</a>, <a href="https://github.com/CoRAL-ASU/getreason">GitHub</a>
   </li>
 
   <li><b>MAPWise: Evaluating Vision-Language Models for Advanced Map Queries</b><br>
@@ -120,7 +120,7 @@ Findings of the Association for Computational Linguistics: ACL 2025
   <li><b>TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation</b><br>
   Vihang Pancholi, Jainit Sushil Bafna, Tejas Anvekar, Manish Shrivastava, Vivek Gupta <br>
   Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.findings-acl.1176.pdf">Paper</a>, 
-    <a href="https://coral-lab-asu.github.io/tabxeval/">Project Page</a>
+    <a href="https://coral-lab-asu.github.io/tabxeval/">Project Page</a>, <a href="https://github.com/CoRAL-ASU/TabXEval">GitHub</a>
   </li>
 
   <li><b>TempTabQA: Temporal Question Answering for Semi-Structured Tables</b><br>
