@@ -40,7 +40,8 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
 
   <li><b>MAPWise: Evaluating Vision-Language Models for Advanced Map Queries</b><br>
   Srija Mukhopadhyay, Abhishek Rajgaria, Prerana Khatiwada, Manish Shrivastava, Dan Roth, Vivek Gupta<br>
-  Published at <a href="https://2025.naacl.org/">NAACL 2025</a>, <a href="https://arxiv.org/abs/2409.00255">Paper</a>
+  Published at <a href="https://2025.naacl.org/">NAACL 2025</a>, <a href="https://arxiv.org/abs/2409.00255">Paper</a>, 
+    <a href="https://map-wise.github.io/">Project Page</a>, <a href="https://github.com/abhishekrajgaria/Mapwise">GitHub</a>
   </li>
 
   <li><b>Leveraging LLM for Synchronizing Information Across Multilingual Tables</b><br>
