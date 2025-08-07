@@ -8,6 +8,12 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
 <h3>Complex data (Structured Data)</h3>
 <ul>
 
+
+  <li><b>MAPWise: GETReason: Enhancing Image Context Extraction through Hierarchical Multi-Agent Reasoning</b><br>
+  Shikhhar Siingh, Abhinav Rawat, Chitta Baral, Vivek Gupta<br>
+  Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-long.1439.pdf">Paper</a>
+  </li>
+
   <li><b>MAPWise: Evaluating Vision-Language Models for Advanced Map Queries</b><br>
   Srija Mukhopadhyay, Abhishek Rajgaria, Prerana Khatiwada, Manish Shrivastava, Dan Roth, Vivek Gupta<br>
   Published at <a href="https://2025.naacl.org/">NAACL 2025</a>, <a href="https://arxiv.org/abs/2409.00255">Paper</a>
