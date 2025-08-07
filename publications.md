@@ -34,7 +34,8 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
   
   <li><b>GETReason: Enhancing Image Context Extraction through Hierarchical Multi-Agent Reasoning</b><br>
   Shikhhar Siingh, Abhinav Rawat, Chitta Baral, Vivek Gupta<br>
-  Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-long.1439.pdf">Paper</a>
+  Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-long.1439.pdf">Paper</a>,
+    <a href="https://coral-asu.github.io/getreason/">Project Page</a>
   </li>
 
   <li><b>MAPWise: Evaluating Vision-Language Models for Advanced Map Queries</b><br>
