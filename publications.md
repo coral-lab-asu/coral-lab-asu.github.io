@@ -11,13 +11,13 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
   <li><b>MapIQ: Benchmarking Multimodal Large Language Models for Map Question Answering</b><br>
   V Srivastava, F Lei, S Mukhopadhyay, V Gupta, R Maciejewski<br>
   Published at <a href="https://colmweb.org/">COLM 2025</a>, <a href="https://arxiv.org/pdf/2507.11625">Paper</a>,
-  <a href="">Project Page</a> 
+  <a href="">Project Page</a>
   </li>
 
   <li><b>Map&Make: Schema Guided Text to Table Generation</b><br>
   Naman Ahuja, Fenil Bardoliya, Chitta Baral, Vivek Gupta<br>
   Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-long.1460/">Paper</a>,
-  <a href="https://coral-lab-asu.github.io/map-make/">Project Page</a> 
+  <a href="https://coral-lab-asu.github.io/map-make/">Project Page</a>, <a href="https://github.com/coral-lab-asu/map-make/tree/main/code">GitHub</a>
   </li>
 
   <li><b>PRAISE: Enhancing Product Descriptions with LLM-Driven Structured Insights</b><br>
