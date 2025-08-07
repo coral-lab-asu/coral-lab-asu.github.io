@@ -10,13 +10,14 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
 
   <li><b>Map&Make: Schema Guided Text to Table Generation</b><br>
   Naman Ahuja, Fenil Bardoliya, Chitta Baral, Vivek Gupta<br>
-  Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-long.1460/">Paper</a>
+  Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-long.1460/">Paper</a>,
+  <a href="https://coral-lab-asu.github.io/map-make/">Project Page</a> 
   </li>
 
   <li><b>PRAISE: Enhancing Product Descriptions with LLM-Driven Structured Insights</b><br>
   Adnan Qidwai, Srija Mukhopadhyay, Prerana Khatiwada, Dan Roth, Vivek Gupta<br>
   Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-demo.62/">Paper</a>,
-  <a href="">Project Page</a>
+  <a href="https://project-praise.github.io/">Project Page</a>
   </li>
   
   <li><b>LLM-Symbolic Integration for Robust Temporal Tabular Reasoning</b><br>
@@ -109,10 +110,10 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
 
 Findings of the Association for Computational Linguistics: ACL 2025
 
-<li><b>TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation</b><br>
+  <li><b>TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation</b><br>
   Vihang Pancholi, Jainit Sushil Bafna, Tejas Anvekar, Manish Shrivastava, Vivek Gupta <br>
   Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.findings-acl.1176.pdf">Paper</a>, 
-    <a href="">Project Page</a>
+    <a href="https://coral-lab-asu.github.io/tabxeval/">Project Page</a>
   </li>
 
   <li><b>TempTabQA: Temporal Question Answering for Semi-Structured Tables</b><br>
