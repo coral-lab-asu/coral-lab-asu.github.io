@@ -13,6 +13,12 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
   Published at <a href="https://colmweb.org/">COLM 2025</a>, <a href="https://arxiv.org/pdf/2507.11625">Paper</a>
   </li>
 
+  <li><b>TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation</b><br>
+  Vihang Pancholi, Jainit Sushil Bafna, Tejas Anvekar, Manish Shrivastava, Vivek Gupta <br>
+  Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.findings-acl.1176.pdf">Paper</a>, 
+    <a href="https://coral-lab-asu.github.io/tabxeval/">Project Page</a>, <a href="https://github.com/CoRAL-ASU/TabXEval">GitHub</a>
+  </li>
+
   <li><b>Map&Make: Schema Guided Text to Table Generation</b><br>
   Naman Ahuja, Fenil Bardoliya, Chitta Baral, Vivek Gupta<br>
   Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.acl-long.1460/">Paper</a>,
@@ -118,12 +124,7 @@ For a full list, <a href="https://scholar.google.co.in/citations?user=Bs5H0S4AAA
 
 Findings of the Association for Computational Linguistics: ACL 2025
 
-  <li><b>TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation</b><br>
-  Vihang Pancholi, Jainit Sushil Bafna, Tejas Anvekar, Manish Shrivastava, Vivek Gupta <br>
-  Published at <a href="https://2025.aclweb.org/">ACL 2025</a>, <a href="https://aclanthology.org/2025.findings-acl.1176.pdf">Paper</a>, 
-    <a href="https://coral-lab-asu.github.io/tabxeval/">Project Page</a>, <a href="https://github.com/CoRAL-ASU/TabXEval">GitHub</a>
-  </li>
-
+  
   <li><b>TempTabQA: Temporal Question Answering for Semi-Structured Tables</b><br>
   <b>Vivek Gupta</b>, Pranshu Kandoi, Mahek Bhavesh Vora, Shuo Zhang, Yujie He, Ridho Reinanda, Vivek Srikumar <br>
   Published at <a href="https://2023.emnlp.org/">EMNLP 2023</a>, <a href="https://aclanthology.org/2023.emnlp-main.149.pdf">Paper</a>, 
