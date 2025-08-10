@@ -1,3 +1,8 @@
+---
+layout: default
+title: Publications
+permalink: /publication/
+---
 <!-- selected-publications.html -->
 <section class="selected-publications">
   <h2 class="section-title">Complex Data (Structured Data)</h2>
