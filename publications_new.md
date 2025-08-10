@@ -46,7 +46,7 @@
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="poster_docs/TabXEval_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
