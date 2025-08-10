@@ -64,11 +64,9 @@
         </div>
 
         <p class="pub-abstract">
- Evaluating tables qualitatively and quantita
-tively poses a significant challenge, as standard
+ Evaluating tables qualitatively and quantitatively poses a significant challenge, as standard
  metrics often overlook subtle structural and
- content-level discrepancies. To address this,
- we propose a rubric-based evaluation frame
+ content-level discrepancies. To address this, we propose a rubric-based evaluation frame
 work that integrates multi-level structural de
 scriptors with fine-grained contextual signals,
  enabling more precise and consistent table
@@ -83,6 +81,8 @@ scriptors with fine-grained contextual signals,
           <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-acl.1176.pdf">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/tabxeval/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/TabXEval">code</a>
+          <a class="btn btn-ppt" href="presentation_docs/Getreason_presentation.pdf">code</a>
+          
         </div>
       </div>
     </article>
