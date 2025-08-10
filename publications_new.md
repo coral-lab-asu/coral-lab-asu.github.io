@@ -37,7 +37,7 @@ permalink: /publication/
  limited range of thematic categories and visual analytical tasks. To address these gaps, we introduce MapIQ, a benchmark dataset comprising
  14,706 question-answer pairs across three map types—choropleth maps,
  cartograms, and proportional symbol maps spanning topics from six distinct themes (e.g., housing, crime). We evaluate multiple MLLMs using six visual analytical tasks, comparing their performance against one another
- and a humanbaseline. An additional experiment...
+ and a human baseline. An additional experiment...
         </p>
 
         <div class="pub-links">
@@ -98,7 +98,7 @@ scriptors with fine-grained contextual signals,
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/M&M_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -130,7 +130,7 @@ scriptors with fine-grained contextual signals,
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Praise_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -161,7 +161,7 @@ scriptors with fine-grained contextual signals,
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/ACL_2025_FIND-3902_LLM-Symbolic_Poster-1.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -192,7 +192,7 @@ scriptors with fine-grained contextual signals,
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Getreason_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
