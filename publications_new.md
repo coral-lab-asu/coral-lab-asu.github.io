@@ -3,6 +3,15 @@ layout: default
 title: Publications
 permalink: /publication/
 ---
+
+<!-- Google Scholar Link -->
+<div class="google-scholar-link">
+  <a href="https://scholar.google.com/citations?user=Bs5H0S4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+    View All Publications on Google Scholar
+  </a>
+</div>
+
+
 <!-- selected-publications.html -->
 <section class="selected-publications">
   <h2 class="section-title">RECENT PUBLICATIONS</h2>
@@ -1116,6 +1125,27 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   color: #000000;
   border-color: rgba(110,42,168,0.08);
 }
+
+.google-scholar-link {
+  text-align: center;
+  margin: 0.5rem 0 0rem;
+}
+
+.google-scholar-link a {
+  display: inline-block;
+  background-color: #FFC627; /* ASU Gold */
+  color: #000000;
+  text-decoration: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+  font-weight: normal;
+  transition: background-color 0.3s ease;
+}
+
+.google-scholar-link a:hover {
+  background-color: #FFC627;
+}
+
 /* Responsive fallback */
 @media (max-width: 740px) {
   .pub-item { grid-template-columns: 1fr; }
