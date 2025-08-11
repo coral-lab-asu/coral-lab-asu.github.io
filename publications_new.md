@@ -6,7 +6,7 @@ permalink: /publication/
 
 <!-- Google Scholar Link -->
 <div class="google-scholar-link">
-  <a href="https://scholar.google.com/citations?user=YOUR_ID_HERE" target="_blank" rel="noopener noreferrer">
+  <a href="https://scholar.google.com/citations?user=Bs5H0S4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
     View All Publications on Google Scholar
   </a>
 </div>
@@ -1133,17 +1133,17 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
 
 .google-scholar-link a {
   display: inline-block;
-  background-color: #4285F4; /* Google blue */
-  color: #fff;
+  background-color: #FFC627; /* ASU Gold */
+  color: #000000;
   text-decoration: none;
   padding: 0.3rem 0.8rem;
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: normal;
   transition: background-color 0.3s ease;
 }
 
 .google-scholar-link a:hover {
-  background-color: #3367d6;
+  background-color: #FFC627;
 }
 
 /* Responsive fallback */
