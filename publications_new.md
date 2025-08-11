@@ -61,7 +61,7 @@ permalink: /publication/
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/TabXEval_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/TabXEval_Poster.png" alt="paper thumbnail">
 
       </figure>
 
@@ -224,10 +224,8 @@ work that integrates multi-level structural descriptors with fine-grained contex
  valuable contextual information with applications in domains such as journalism and education. However, existing methodologies of ten struggle to accurately extract this contextual relevance from images. To address
  this challenge, we introduce GETREASON(Geospatial Event Temporal Reasoning), a
  framework designed to go beyond surface
-level image descriptions and infer deeper con
-textual meaning. We hypothesize that ex
-tracting global event, temporal, and geospatial information from an image enables a
- more accurate understanding of its contextual significance. We also introduce a new
+level image descriptions and infer deeper contextual meaning. We hypothesize that extracting global event, temporal, and geospatial information from an image enables a
+enables a more accurate understanding of its contextual significance. We also introduce a new
  metric GREAT (Geospatial, Reasoning and
  Event Accuracy with Temporal alignment) for
  a reasoning capturing evaluation. Our layered multi-agentic approach, evaluated...
@@ -636,10 +634,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         </div>
 
         <p class="pub-abstract">
-            Existing benchmarks for visual question answering lack in visual grounding and complexity, particularly in evaluating spatial reasoning
- skills. We introduce FlowVQA, a novel benchmark aimed at assessing the capabilities of vi
-sual question-answering multimodal language
- models in reasoning with flowcharts as visual
+            Existing benchmarks for visual question answering lack in visual grounding and complexity, particularly in evaluating spatial reasoning skills. We introduce FlowVQA, a novel benchmark aimed at assessing the capabilities of visual question-answering multimodal language models in reasoning with flowcharts as visual
  contexts. FlowVQA comprises 2,272 carefully
  generated and human-verified flowchart images
  from three distinct content sources, along with
@@ -772,10 +767,8 @@ sual question-answering multimodal language
  is also required. While the current state-of
 the-art approaches for document understanding
  (both OCR-based and OCR-free) work well,
- we have not found any other works conducting a thorough analysis of their capabilities and
- limitations. Therefore, in this work, we address the limitation of current VisualQA models when applied to charts and plots. To investigate shortcomings of the state-of-the-art
- models, we conduct a comprehensive behavioral analysis, using ChartQA as a case study.
- Our findings ...
+ we have not found any other works conducting a thorough analysis of their capabilities and limitations. Therefore, in this work, we address the limitation of current VisualQA models when applied to charts and plots. 
+To investigate shortcomings of the state-of-the-art models, we conduct a comprehensive behavioral analysis, using ChartQA as a case study. Our findings ...
         </p>
 
         <div class="pub-links">
