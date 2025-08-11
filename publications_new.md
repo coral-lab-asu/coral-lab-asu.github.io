@@ -161,7 +161,7 @@ scriptors with fine-grained contextual signals,
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/ACL_2025_FIND_3902_LLM_Symbolic_Poster_1.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/LLM_Symbolic_Poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -610,6 +610,8 @@ ing typically focus exclusively on text within
   </div>
 </section>
 
+
+
 <!-- /Publication item -->
 
     <!-- Repeat other pub-items as needed -->
@@ -662,6 +664,7 @@ tion localization, decision-making, and logical
     
   </div>
 </section>
+
 
 <!-- /Publication item -->
 
