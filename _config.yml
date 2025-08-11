@@ -29,8 +29,8 @@ nav:
     href: "/publication"
   - name: "people"
     href: "/people"
-  - name: "software"
-    href: "/software" 
+  - name: "resources"
+    href: "/resources" 
 
 # Sass
 sass:
