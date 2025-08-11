@@ -1,28 +1,143 @@
----
-layout: page
-title: People 
-permalink: /people
----
-<div class="hero-with-pi">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>People</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <link href="http://0.0.0.0:4000/css/zoom.css" rel="stylesheet">
+  <script src="http://0.0.0.0:4000/js/zoom.js"></script>
+  <script src="http://0.0.0.0:4000/js/transition.js"></script>
+
+  <link rel="stylesheet" href="/style.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="http://0.0.0.0:4000/favicon.ico">
+  <link rel="shortcut icon" href="http://0.0.0.0:4000/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="http://0.0.0.0:4000/images/logo/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://0.0.0.0:4000/images/logo/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://0.0.0.0:4000/images/logo/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://0.0.0.0:4000/images/logo/apple-touch-icon-144x144-precomposed.png">
+
+  <!-- open graph -->
+
+  
+  
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://0.0.0.0:4000/people">
+  <meta property="og:title" content="People">
+  <meta property="og:site_name" content="CoRAL Lab at ASU">
+  <meta property="og:description" content="
+  
+  
+
+
+
+
+  
+  
+    
+    Advancing the frontiers of knowledge, one discovery at a time.
+  
+
+  
+  
+    
+    Equipped with expertise, poised to shap..." />
+  <meta property="og:image" content="http://0.0.0.0:4000/images/logo/logo_square.jpg">
+
+</head>
+
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//kordinglab.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<body id="page-top" style="padding-top: 7em;">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        <a class='navbar-brand page-scroll' href='/' style="display: flex; align-items: center;">
+            <!-- Add logo image here -->
+            <img src="/images/logo/logo.png" alt="Logo" style="height:30px; margin-top:10px;margin-right:10px;">
+            <span style='font-family:"Open Sans", sans-serif; font-weight:bold; color:#8C1D40;'>CoRAL</span>
+        </a>
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li><a class='name' href="/">home</a></li>
+                  
+                  <li><a class='name' href="/publication">publications</a></li>
+                  
+                  <li><a class='name' href="/people">people</a></li>
+                  
+                </ul>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+    <div class="container content page">
+  <!-- <h1 class="page-title">People</h1> -->
+  <div class="hero-with-pi">
 
 
 <!-- ===== Buttons row (IMAGE ONLY) ===== -->
 <div class="people-sections">
   <!-- Ph.D. -->
   <div class="section-card" data-target="phd-panel" role="button" tabindex="0">
-    <img src="{{ 'images/logo/PhD.jpeg' | relative_url }}" alt="Ph.D." class="button-img-fixed">
+    <img src="/images/logo/PhD.jpeg" alt="Ph.D." class="button-img-fixed" />
     <p class="card-sub">Advancing the frontiers of knowledge, one discovery at a time.</p>
   </div>
 
   <!-- Graduate -->
   <div class="section-card" data-target="grad-panel" role="button" tabindex="0">
-    <img src="{{ 'images/logo/Grad_underGrad.jpeg' | relative_url }}" alt="Graduate" class="button-img-fixed">
+    <img src="/images/logo/Grad_underGrad.jpeg" alt="Graduate" class="button-img-fixed" />
     <p class="card-sub">Equipped with expertise, poised to shape the foundation for tomorrow’s breakthroughs.</p>
   </div>
 
   <!-- Alumni -->
   <div class="section-card" data-target="alumni-panel" role="button" tabindex="0">
-    <img src="{{ 'images/logo/Alumini.jpeg' | relative_url }}" alt="Alumni" class="button-img-fixed">
+    <img src="/images/logo/Alumini.jpeg" alt="Alumni" class="button-img-fixed" />
     <p class="card-sub">Carrying our legacy into new horizons of impact.</p>
   </div>
 </div>
@@ -74,34 +189,34 @@ permalink: /people
   <div class="card-grid">
     <a href="https://abhijit85.github.io/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/abhi_chakraborty.jpeg' | relative_url }}" alt="Abhi Chakraborty">
+        <img src="/images/people/abhi_chakraborty.jpeg" alt="Abhi Chakraborty" />
         <p>Abhi Chakraborty</p>
       </div>
     </a>
 
     <a href="https://www.linkedin.com/in/manan-roy-choudhury-2b2093208/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/manan_choudhury.jpeg' | relative_url }}" alt="Manan Roy Choudhury">
+        <img src="/images/people/manan_choudhury.jpeg" alt="Manan Roy Choudhury" />
         <p>Manan Roy Choudhury</p>
       </div>
     </a>
 
     <a href="https://tejasanvekar.github.io/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/tejas_anvekar.jpeg' | relative_url }}" alt="Tejas Anvekar">
+        <img src="/images/people/tejas_anvekar.jpeg" alt="Tejas Anvekar" />
         <p>Tejas Anvekar</p>
       </div>
     </a>
         <a href="http://eunwooim.github.io" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Eun Woo Im.jpeg' | relative_url }}" alt="Eun Woo Im">
+        <img src="/images/people/Eun%20Woo%20Im.jpeg" alt="Eun Woo Im" />
         <p>Eun Woo Im</p>
       </div>
    
     </a>
         <a href="https://www.linkedin.com/in/sandipande-301/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Sandipan.jpg' | relative_url }}" alt="Sandipan De">
+        <img src="/images/people/Sandipan.jpg" alt="Sandipan De" />
         <p>Sandipan De</p>
       </div>
     </a>
@@ -115,93 +230,93 @@ permalink: /people
   <div class="card-grid">
     <a href="https://www.linkedin.com/in/adarshsingh7647" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/adarsh_singh.jpeg' | relative_url }}" alt="Adarsh Singh">
+        <img src="/images/people/adarsh_singh.jpeg" alt="Adarsh Singh" />
         <p>Adarsh Singh</p>
       </div>
     </a>
 
     <a href="https://personalportfolio-git-main-namans-projects-599c78da.vercel.app/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/naman.jpg' | relative_url }}" alt="Naman Ahuja">
+        <img src="/images/people/naman.jpg" alt="Naman Ahuja" />
         <p>Naman Ahuja</p>
       </div>
     </a>
 
     <a href="https://www.linkedin.com/in/rohit-khoja344/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/rohit.jpg' | relative_url }}" alt="Rohit Khoja">
+        <img src="/images/people/rohit.jpg" alt="Rohit Khoja" />
         <p>Rohit Khoja</p>
       </div>
     </a>
     <a href="http://linkedin.com/in/ashish-raj-shekhar-877ba9218" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/A R Shekhar.JPG' | relative_url }}" alt="A R Shekhar">
+        <img src="/images/people/A%20R%20Shekhar.JPG" alt="A R Shekhar" />
         <p>A R Shekhar</p>
       </div>
     </a>
         <a href="https://www.linkedin.com/in/gauravnajpande/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/gaurav.JPG' | relative_url }}" alt="Gaurav Najpande">
+        <img src="/images/people/gaurav.JPG" alt="Gaurav Najpande" />
         <p>Gaurav Najpande</p>
       </div>
     </a>
         <a href="https://mayankvyas-git-main-mayank-glitch-cpus-projects.vercel.app/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Mayank Vyas.jpeg' | relative_url }}" alt="Mayank Vyas">
+        <img src="/images/people/Mayank%20Vyas.jpeg" alt="Mayank Vyas" />
         <p>Mayank Vyas</p>
       </div>
     </a>
         <a href="http://dhruvmadhwal.github.io" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Dhruv.jpeg' | relative_url }}" alt="Dhruv Madhwal">
+        <img src="/images/people/Dhruv.jpeg" alt="Dhruv Madhwal" />
         <p>Dhruv Madhwal</p>
       </div>
         </a>
         <a href="https://anirudh6415.github.io/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Anirudh.png' | relative_url }}" alt="Anirudh Iyengar Kaniyar Narayana Iyengar">
+        <img src="/images/people/Anirudh.png" alt="Anirudh Iyengar Kaniyar Narayana Iyengar" />
         <p>Anirudh Iyengar Kaniyar Narayana Iyengar</p>
       </div>
     </a>
         <a href="https://vibhu-dixit.github.io/website/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Vibhu Dixit.jpg' | relative_url }}" alt="Vibhu Dixit">
+        <img src="/images/people/Vibhu%20Dixit.jpg" alt="Vibhu Dixit" />
         <p>Vibhu Dixit</p>
       </div>
     </a>
         <a href="https://www.linkedin.com/in/nehavaleti" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Neha Photo.jpg' | relative_url }}" alt="Neha Valeti">
+        <img src="/images/people/Neha%20Photo.jpg" alt="Neha Valeti" />
         <p>Neha Valeti</p>
       </div>
     </a>
         <a href="https://www.linkedin.com/in/suparno-roy-chowdhury" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Suparno.jpg' | relative_url }}" alt="Suparno Roy Chowdhury">
+        <img src="/images/people/Suparno.jpg" alt="Suparno Roy Chowdhury" />
         <p>Suparno Roy Chowdhury</p>
       </div>
     </a>
         <a href="https://sanikac10.github.io/my-portfolio/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Sanika.JPG' | relative_url }}" alt="Sanika Chavan">
+        <img src="/images/people/Sanika.JPG" alt="Sanika Chavan" />
         <p>Sanika Chavan</p>
       </div>
     </a>
         <a href="https://www.linkedin.com/in/tampuravi/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Tampu.jpeg' | relative_url }}" alt="Tampu Ravi Kumar">
+        <img src="/images/people/Tampu.jpeg" alt="Tampu Ravi Kumar" />
         <p>Tampu Ravi Kumar</p>
       </div>
     </a>
  <a href="https://www.linkedin.com/in/rishabh-baral-5b9247141" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Rishabh.jpeg' | relative_url }}" alt="Rishabh Baral">
+        <img src="/images/people/Rishabh.jpeg" alt="Rishabh Baral" />
         <p>Rishabh Baral</p>
       </div>
     </a>
         <a href="https://www.linkedin.com/in/ritam-upadhyay-51ba81192/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/ritam_upadhyay.jpg' | relative_url }}" alt="Ritam Upadhyay">
+        <img src="/images/people/ritam_upadhyay.jpg" alt="Ritam Upadhyay" />
         <p>Ritam Upadhyay</p>
       </div>
     </a>
@@ -211,7 +326,7 @@ permalink: /people
   <div class="card-grid single-center">
     <a href="https://www.linkedin.com/in/junha-park-ab2b4b181/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/Junha park.jpeg' | relative_url }}" alt="Junha Park">
+        <img src="/images/people/Junha%20park.jpeg" alt="Junha Park" />
         <p>Junha Park</p>
       </div>
     </a>
@@ -307,14 +422,14 @@ permalink: /people
         <article class="alumni-card">
           <a href="https://www.linkedin.com/in/devanshu0gupta/" target="_blank" class="alumni-photo-link" rel="noopener">
             <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/devanshu_gupta.jpeg' | relative_url | uri_escape }}" alt="Portrait of Devanshu Gupta" class="alumni-photo" loading="lazy">
+              <img src="/images/people/devanshu_gupta.jpeg" alt="Portrait of Devanshu Gupta" class="alumni-photo" loading="lazy" />
             </div>
           </a>
           <div class="alumni-content">
             <a href="https://www.linkedin.com/in/devanshu0gupta/" target="_blank" class="alumni-name" rel="noopener">Devanshu Gupta</a>
             <div class="alumni-role">MS in Computer Science</div>
             <div class="alumni-company">
-              <img src="{{ 'images/logo/Amazon logo.jpeg' | relative_url | uri_escape }}" alt="Amazon logo" class="company-logo" loading="lazy">
+              <img src="/images/logo/Amazon%20logo.jpeg" alt="Amazon logo" class="company-logo" loading="lazy" />
               <div class="company-name">Amazon</div>
             </div>
           </div>
@@ -324,14 +439,14 @@ permalink: /people
         <article class="alumni-card">
           <a href="https://www.linkedin.com/in/kannak-sharma/">
             <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/kannak_sharma.jpeg' | relative_url | uri_escape }}" alt="Portrait of Kanak Sharma" class="alumni-photo" loading="lazy">
+              <img src="/images/people/kannak_sharma.jpeg" alt="Portrait of Kanak Sharma" class="alumni-photo" loading="lazy" />
             </div>
           </a>
           <div class="alumni-content">
             <a href="#" class="alumni-name">Kanak Sharma</a>
             <div class="alumni-role">MS in Robotics and Autonomous Systems</div>
             <div class="alumni-company">
-              <img src="{{ 'images/logo/Amazon logo.jpeg' | relative_url | uri_escape }}" alt="Amazon logo" class="company-logo" loading="lazy">
+              <img src="/images/logo/Amazon%20logo.jpeg" alt="Amazon logo" class="company-logo" loading="lazy" />
               <div class="company-name">Amazon</div>
             </div>
           </div>
@@ -341,14 +456,14 @@ permalink: /people
         <article class="alumni-card">
           <a href="https://www.linkedin.com/in/poojah-ganesan-8571251a1">
             <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/poojah_ganesan.jpeg' | relative_url | uri_escape }}" alt="Portrait of Poojah Ganesan" class="alumni-photo" loading="lazy">
+              <img src="/images/people/poojah_ganesan.jpeg" alt="Portrait of Poojah Ganesan" class="alumni-photo" loading="lazy" />
             </div>
           </a>
           <div class="alumni-content">
             <a href="#" class="alumni-name">Poojah Ganesan</a>
             <div class="alumni-role">MS in Computer Science</div>
             <div class="alumni-company">
-              <img src="{{ 'images/logo/Amazon logo.jpeg' | relative_url | uri_escape }}" alt="Amazon logo" class="company-logo" loading="lazy">
+              <img src="/images/logo/Amazon%20logo.jpeg" alt="Amazon logo" class="company-logo" loading="lazy" />
               <div class="company-name">Amazon</div>
             </div>
           </div>
@@ -358,14 +473,14 @@ permalink: /people
         <article class="alumni-card">
           <a href="https://www.linkedin.com/in/rajat-aayush-jha-4596b616b/">
             <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/rajat.jpg' | relative_url | uri_escape }}" alt="Portrait of Rajat Aayush Jha" class="alumni-photo" loading="lazy">
+              <img src="/images/people/rajat.jpg" alt="Portrait of Rajat Aayush Jha" class="alumni-photo" loading="lazy" />
             </div>
           </a>
           <div class="alumni-content">
             <a href="#" class="alumni-name">Rajat Aayush Jha</a>
             <div class="alumni-role">MS in Computer Science</div>
             <div class="alumni-company">
-              <img src="{{ 'images/logo/Amazon logo.jpeg' | relative_url | uri_escape }}" alt="Amazon logo" class="company-logo" loading="lazy">
+              <img src="/images/logo/Amazon%20logo.jpeg" alt="Amazon logo" class="company-logo" loading="lazy" />
               <div class="company-name">Amazon</div>
             </div>
           </div>
@@ -375,7 +490,7 @@ permalink: /people
         <article class="alumni-card">
           <a href="https://fenil-b.github.io/">
             <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/fenil_bardoliya.jpeg' | relative_url | uri_escape }}" alt="Portrait of Fenil Bardoliya" class="alumni-photo" loading="lazy">
+              <img src="/images/people/fenil_bardoliya.jpeg" alt="Portrait of Fenil Bardoliya" class="alumni-photo" loading="lazy" />
             </div>
           </a>
           <div class="alumni-content">
@@ -388,7 +503,7 @@ permalink: /people
         <article class="alumni-card">
           <a href="https://www.linkedin.com/in/jainiltrivedi04/">
             <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/jainil_trivedi.jpeg' | relative_url | uri_escape }}" alt="Portrait of Jainil Trivedi" class="alumni-photo" loading="lazy">
+              <img src="/images/people/jainil_trivedi.jpeg" alt="Portrait of Jainil Trivedi" class="alumni-photo" loading="lazy" />
             </div>
           </a>
           <div class="alumni-content">
@@ -401,7 +516,7 @@ permalink: /people
         <article class="alumni-card">
           <a href="https://krish-oo7.github.io/portfolio.io">
             <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/krishna_rajput.jpeg' | relative_url | uri_escape }}" alt="Portrait of Krishna Singh Rajput" class="alumni-photo" loading="lazy">
+              <img src="/images/people/krishna_rajput.jpeg" alt="Portrait of Krishna Singh Rajput" class="alumni-photo" loading="lazy" />
             </div>
           </a>
           <div class="alumni-content">
@@ -414,7 +529,7 @@ permalink: /people
         <article class="alumni-card">
           <a href="https://www.linkedin.com/in/prasham-titiya-99b686205/">
             <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/prasham_titiya.jpeg' | relative_url | uri_escape }}" alt="Portrait of Prasham Titiya" class="alumni-photo" loading="lazy">
+              <img src="/images/people/prasham_titiya.jpeg" alt="Portrait of Prasham Titiya" class="alumni-photo" loading="lazy" />
             </div>
           </a>
           <div class="alumni-content">
@@ -577,3 +692,32 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
 </style>
+</div>
+
+</div>
+
+
+    <script id="dsq-count-scr" src="//kordinglab.disqus.com/count.js" async></script>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-34145995-1");
+    pageTracker._trackPageview();
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34145995-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-34145995-1');
+    </script>
+
+</body>
+</html>
