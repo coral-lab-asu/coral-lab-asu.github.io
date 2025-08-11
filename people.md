@@ -4,6 +4,18 @@ title: People
 permalink: /people
 ---
 
+<!-- ===== PI Photo Section ===== -->
+<div class="pi-header">
+<a href="https://vgupta123.github.io/" target="_blank" rel="noopener">
+      <img src="{{ 'images/people/Prof_photo.jpg' | relative_url }}" alt="Prof. Vivek Gupta" class="pi-header-photo">
+    </a>
+  
+  <div class="pi-header-text">
+    <div class="pi-title">Principal Investigator</div>
+    <a href="https://vgupta123.github.io/" target="_blank" class="pi-name">Prof. Vivek Gupta</a>
+  </div>
+</div>
+
 <!-- ===== Buttons row (IMAGE ONLY) ===== -->
 <div class="people-sections">
   <!-- Ph.D. -->
@@ -527,4 +539,48 @@ document.addEventListener('DOMContentLoaded', function() {
     color: #8c1d40 !important;
     font-weight: 700 !important;         /* ASU Maroon on hover */
   }
+
+
+/* ===== PI Top Section ===== */
+.pi-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto 1.5rem;
+}
+
+.pi-header-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+.pi-header-text {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.pi-title {
+  font-size: 1.1rem;
+  color: #8c1d40; /* ASU Maroon */
+  font-weight: 600;
+}
+
+.pi-name {
+  margin-top: 0.5rem;
+  font-size: 1.35rem;
+  color: #222;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .25s ease;
+}
+.pi-name:hover {
+  color: #8c1d40;
+  text-decoration: underline;
+}
+
+
+
 </style>
