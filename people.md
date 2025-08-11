@@ -14,7 +14,7 @@ permalink: /people
 
   <!-- Graduate -->
   <div class="section-card" data-target="grad-panel" role="button" tabindex="0">
-    <img src="{{ 'images/logo/Grad:underGrad.jpeg' | relative_url }}" alt="Graduate" class="button-img-fixed">
+    <img src="{{ 'images/logo/Grad_underGrad.jpeg' | relative_url }}" alt="Graduate" class="button-img-fixed">
     <p class="card-sub">Equipped with expertise, poised to shape the foundation for tomorrow’s breakthroughs.</p>
   </div>
 
