@@ -5,7 +5,8 @@ permalink: /publication/
 ---
 <!-- selected-publications.html -->
 <section class="selected-publications">
-  <h2 class="section-title">Complex Data (Structured Data)</h2>
+  <h2 class="section-title">RECENT PUBLICATIONS</h2>
+  <h3 class="subsection-title">Complex Data (Structured Data)</h3>
 
   <div class="pub-list">
 
@@ -25,7 +26,7 @@ permalink: /publication/
             V Srivastava, F Lei, S Mukhopadhyay, V Gupta, R Maciejewski
           </span>
           <span class="venue">
-              Published at <a href="https://colmweb.org/" target="_blank" rel="noopener">COLM 2025</a>
+             <a href="https://colmweb.org/" target="_blank" rel="noopener">COLM 2025</a>
           </span>
         </div>
 
@@ -64,7 +65,7 @@ permalink: /publication/
           <span class="authors"></span>
           Vihang Pancholi, Jainit Sushil Bafna, Tejas Anvekar, Manish Shrivastava, Vivek Gupta
           <span class="venue"> 
-          Published at <a href="https://2025.aclweb.org/">ACL 2025</a>
+          <a href="https://2025.aclweb.org/">ACL 2025</a>
           </span>
          
         </div>
@@ -109,7 +110,7 @@ scriptors with fine-grained contextual signals,
         <div class="pub-meta">
           <span class="authors">Naman Ahuja, Fenil Bardoliya, Chitta Baral, Vivek Gupta</span>
           <span class="venue">
-          Published at <a href="https://2025.aclweb.org/">ACL 2025</a>
+          <a href="https://2025.aclweb.org/">ACL 2025</a>
           </span>
         </div>
 
@@ -141,7 +142,7 @@ scriptors with fine-grained contextual signals,
         <div class="pub-meta">
           <span class="authors">Adnan Qidwai, Srija Mukhopadhyay, Prerana Khatiwada, Dan Roth, Vivek Gupta</span>
           <span class="venue">
-              Published at <a href="https://2025.aclweb.org/">ACL 2025</a>
+              <a href="https://2025.aclweb.org/">ACL 2025</a>
               </span>
         </div>
 
@@ -172,7 +173,7 @@ scriptors with fine-grained contextual signals,
         <div class="pub-meta">
           <span class="authors">Atharv Kulkarni, Kushagra Dixit, Vivek Srikumar, Dan Roth, Vivek Gupta</span>
           <span class="venue">
-              Published at <a href="https://2025.aclweb.org/">ACL 2025</a>
+              <a href="https://2025.aclweb.org/">ACL 2025</a>
               </span>
         </div>
 
@@ -203,7 +204,7 @@ scriptors with fine-grained contextual signals,
         <div class="pub-meta">
           <span class="authors">Shikhhar Siingh, Abhinav Rawat, Chitta Baral, Vivek Gupta</span>
           <span class="venue">
-              Published at <a href="https://2025.aclweb.org/">ACL 2025</a>
+              <a href="https://2025.aclweb.org/">ACL 2025</a>
               </span>
         </div>
 
@@ -247,7 +248,7 @@ ered multi-agentic approach, evaluated...
         <div class="pub-meta">
           <span class="authors">Srija Mukhopadhyay, Abhishek Rajgaria, Prerana Khatiwada, Manish Shrivastava, Dan Roth, Vivek Gupta</span>
           <span class="venue">
-              Published at <a href="https://2025.naacl.org/">NAACL 2025</a>
+              <a href="https://2025.naacl.org/">NAACL 2025</a>
               </span>
         </div>
 
@@ -296,7 +297,7 @@ duce a novel map-based question-answering
         <div class="pub-meta">
           <span class="authors">Siddharth Khincha, Tushar Kataria, Ankita Anand, Dan Roth, Vivek Gupta</span>
           <span class="venue">
-              Published at <a href="https://2025.naacl.org/">NAACL 2025</a>
+              <a href="https://2025.naacl.org/">NAACL 2025</a>
               </span>
         </div>
 
@@ -329,7 +330,7 @@ duce a novel map-based question-answering
         <div class="pub-meta">
           <span class="authors">Abhilash Shankarampeta, Harsh Mahajan, Tushar Kataria, Dan Roth, Vivek Gupta</span>
           <span class="venue">
-              Published at <a href="https://2025.naacl.org/">NAACL 2025</a>
+              <a href="https://2025.naacl.org/">NAACL 2025</a>
               </span>
         </div>
 
@@ -376,7 +377,7 @@ duce a novel map-based question-answering
         <div class="pub-meta">
           <span class="authors">Nikhil Abhyankar, Vivek Gupta, Dan Roth, Chandan Reddy</span>
           <span class="venue">
-              Published at <a href="https://2025.naacl.org/">NAACL 2025</a>(Findings)
+              <a href="https://2025.naacl.org/">NAACL 2025</a><sup><b>*</b></sup>
               </span>
         </div>
 
@@ -406,14 +407,14 @@ duce a novel map-based question-answering
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://aclanthology.org/2025.findings-naacl.278.pdf" target="_blank" rel="noopener">Enhancing Temporal Understanding in LLMs for Semi-structured Tables</a>(Findings)
+          <a href="https://aclanthology.org/2025.findings-naacl.278.pdf" target="_blank" rel="noopener">Enhancing Temporal Understanding in LLMs for Semi-structured Tables</a>
         </h3>
 
         <div class="pub-meta">
           <span class="authors">Irwin Deng, Kushagra Dixit, Dan Roth, Vivek Gupta</span>
           
           <span class="venue">
-              Published at <a href="https://2025.naacl.org/">NAACL 2025</a>(Findings)
+              <a href="https://2025.naacl.org/">NAACL 2025</a><sup><b>*</b></sup>
               </span>
         </div>
 
@@ -460,7 +461,7 @@ proves evidence-based reasoning across various
         <div class="pub-meta">
           <span class="authors">Pranshu Pandya, Vatsal Gupta, Agney S Talwarr, Tushar Kataria, Dan Roth, Vivek Gupta</span>
           <span class="venue">
-              Published at <a href="https://2025.naacl.org/">NAACL 2025</a>
+              <a href="https://2025.naacl.org/">NAACL 2025</a>
               </span>
           
         </div>
@@ -503,7 +504,7 @@ proves evidence-based reasoning across various
         <div class="pub-meta">
           <span class="authors">Vatsal Gupta, Pranshu Pandya, Tushar Kataria, <b>Vivek Gupta</b>, Dan Roth <br></span>
           <span class="venue">
-              Published at <a href="https://2024.emnlp.org/">EMNLP 2024</a>
+              <a href="https://2024.emnlp.org/">EMNLP 2024</a>
              </span>
         </div>
 
@@ -540,14 +541,14 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
       <div class="pub-body">
         <h3 class="pub-title">
           <a href="https://aclanthology.org/2024.findings-emnlp.973.pdf" target="_blank" rel="noopener">Unraveling the Truth: Do VLMs really Understand Charts? A Deep Dive into Consistency and Robustness</a>
-        </h3>(Findings)
+        </h3>
 
         <div class="pub-meta">
           <span class="authors"><br>
   Srija Mukhopadhyay, Adnan Qidwai, Aparna Garimella, Pritika Ramu, <b>Vivek Gupta</b>, Dan Roth <br></span>
           
           <span class="venue">
-          Published at <a href="https://2024.emnlp.org/">EMNLP 2024</a> (Findings)
+          <a href="https://2024.emnlp.org/">EMNLP 2024</a><sup><b>*</b></sup>
           </span>
         </div>
 
@@ -578,7 +579,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Suyash Vardhan Mathur, Jainit Sushil Bafna, Kunal Kartik, Harshita Khandelwal, Manish Shrivastava, <b>Vivek Gupta</b>, Mohit Bansal, Dan Roth</span>
           <span class="venue">
-              Published at <a href="https://2024.emnlp.org/">EMNLP 2024</a>(Findings)
+              <a href="https://2024.emnlp.org/">EMNLP 2024</a><sup><b>*</b></sup>
            </span>  
         </div>
 
@@ -625,7 +626,7 @@ ing typically focus exclusively on text within
         <div class="pub-meta">
           <span class="authors">Shubhankar Singh, Purvi Chaurasia, Yerram Varun, Pranshu Pandya, Vatsal Gupta, <b>Vivek Gupta</b>, Dan Roth</span>
           <span class="venue">
-              Published at <a href="https://2024.aclweb.org/">ACL 2024</a>(Findings)
+              <a href="https://2024.aclweb.org/">ACL 2024</a><sup><b>*</b></sup>
            </span>  
         </div>
 
@@ -675,7 +676,7 @@ tion localization, decision-making, and logical
         <div class="pub-meta">
           <span class="authors">Pragya Srivastava, Manuj Malik, <b>Vivek Gupta</b>, Tanuja Ganu, Dan Roth</span>
           <span class="venue">
-              Published at <a href="https://2024.aclweb.org/">ACL 2024</a>(Findings)
+              <a href="https://2024.aclweb.org/">ACL 2024</a><sup><b>*</b></sup>
            </span>  
         </div>
 
@@ -716,7 +717,7 @@ plores LLMs’ mathematical reasoning on four
         <div class="pub-meta">
           <span class="authors">Mubashara Akhtar, Nikesh Subedi, <b>Vivek Gupta</b>, Sahar Tahmasebi, Oana Cocarascu, Elena Simperl</span>
           <span class="venue">
-              Published at <a href="https://2024.aclweb.org/">ACL 2024</a>(Finding)
+              <a href="https://2024.aclweb.org/">ACL 2024</a><sup><b>*</b></sup>
            </span>  
         </div>
 
@@ -762,7 +763,7 @@ municate key information, but they can also
         <div class="pub-meta">
           <span class="authors">Ashim Gupta, <b>Vivek Gupta</b>, Shuo Zhang, Yujie He, Ning Zhang, Shalin Shah </span>
           <span class="venue">
-              Published at <a href="https://blackboxnlp.github.io/">BlackboxNLP 2024</a>
+              <a href="https://blackboxnlp.github.io/">BlackboxNLP 2024</a><sup><b>*</b></sup>
               
            </span>  
         </div>
@@ -791,12 +792,15 @@ ioral analysis, using ChartQA as a case study.
         </div>
       </div>
     </article>
-    
+<hr>
+<p style="margin:0; padding:0; line-height:1; vertical-align:baseline;">
+  <sup style="line-height:1; vertical-align:baseline;"><b>*</b></sup> Findings
+</p>
+
 <section class="past-publications">
 
-     <h3>Past Publications</h3>
-
-     <h3>Semi-structred Data (Tabular Reasoning)</h3>
+     <h2 class="section-title">PAST PUBLICATIONS</h2>
+     <h3 class="subsection-title">Semi-structured Data (Tabular Reasoning)</h3>
 <ul>
 
 
@@ -1000,12 +1004,21 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   margin: 2rem auto;
   padding: 0 1rem;
   font-family: "Helvetica Neue", Arial, sans-serif;
+
 }
 .section-title {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #8C1D40; /* ASU Maroon */
+  text-decoration: none;
+  margin-bottom: 1rem;
+  padding-top: 0.75rem;
+}  
+}
+.subsection-title {
+  font-size: 1rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  border-top: 2px solid #e6e6e6;
   padding-top: 0.75rem;
 }
 
@@ -1041,7 +1054,7 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   font-size: 1.05rem;
 }
 .pub-title a {
-  color: #800000; /* blue link like screenshot */
+  color: #8C1D40; /* ASU Maroon */
   text-decoration: none;
   font-weight: 700;
 }
@@ -1059,6 +1072,7 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   margin: 0.5rem 0 0.6rem 0;
   color: #555;
   line-height: 1.45;
+  text-align: justify
 }
 
 .pub-links {
@@ -1075,18 +1089,18 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   box-sizing: border-box;
 }
 .btn-paper {
-  background: #FFD700;
+  background: #FFC627;
   color: #000000;
   border-color: rgba(11,99,214,0.12);
 }
 .btn-site {
-  background: #FFD700;
+  background: #FFC627;
   color: #000000;
   border-color: rgba(110,42,168,0.08);
 }
 
 .btn-code {
-  background: #FFD700;
+  background: #FFC627;
   color: #000000;
   border-color: rgba(110,42,168,0.08);
 }
