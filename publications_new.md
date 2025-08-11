@@ -362,6 +362,7 @@ duce a novel map-based question-answering
           <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.332.pdf">paper</a>
           <a class="btn btn-site" href="https://transienttables.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/harsh1399/TransientTables">code</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/TRANSIENTTABLES_presentation.pdf" target="_blank">slides</a>
           
         </div>
       </div>
@@ -609,6 +610,7 @@ ing typically focus exclusively on text within
           <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-emnlp.822.pdf">paper</a>
           <a class="btn btn-site" href="https://mmtabqa.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/MMTabQA/mmtabqa">code</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/mmtabqa_slides.pdf" target="_blank">slides</a>
         </div>
       </div>
     </article>
