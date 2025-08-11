@@ -103,7 +103,7 @@ scriptors with fine-grained contextual signals,
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://aclanthology.org/2025.acl-long.1460/" target="_blank" rel="noopener">Map&Make: Schema Guided Text to Table Generation</a>
+          <a href="https://aclanthology.org/2025.acl-long.1460.pdf" target="_blank" rel="noopener">Map&Make: Schema Guided Text to Table Generation</a>
         </h3>
 
         <div class="pub-meta">
@@ -118,7 +118,7 @@ scriptors with fine-grained contextual signals,
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://aclanthology.org/2025.acl-long.1460/">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.acl-long.1460.pdf">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/map-make/">website</a>
           <a class="btn btn-code" href="https://github.com/coral-lab-asu/map-make/">code</a>
           
@@ -135,7 +135,7 @@ scriptors with fine-grained contextual signals,
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://aclanthology.org/2025.acl-demo.62/" target="_blank" rel="noopener">PRAISE: Enhancing Product Descriptions with LLM-Driven Structured Insights</a>
+          <a href="https://aclanthology.org/2025.acl-demo.62.pdf" target="_blank" rel="noopener">PRAISE: Enhancing Product Descriptions with LLM-Driven Structured Insights</a>
         </h3>
 
         <div class="pub-meta">
@@ -150,7 +150,7 @@ scriptors with fine-grained contextual signals,
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://aclanthology.org/2025.acl-demo.62/">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.acl-demo.62.pdf">paper</a>
           <a class="btn btn-site" href="https://project-praise.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/project-PRAISE/system-demo/">code</a>
         </div>
@@ -166,7 +166,7 @@ scriptors with fine-grained contextual signals,
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://aclanthology.org/2025.findings-acl.1022/" target="_blank" rel="noopener">LLM-Symbolic Integration for Robust Temporal Tabular Reasoning</a>
+          <a href="https://aclanthology.org/2025.findings-acl.1022.pdf" target="_blank" rel="noopener">LLM-Symbolic Integration for Robust Temporal Tabular Reasoning</a>
         </h3>
 
         <div class="pub-meta">
@@ -181,7 +181,7 @@ scriptors with fine-grained contextual signals,
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-acl.1022/">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-acl.1022.pdf">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/llm_symbolic/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/TEMPTABQA-C">code</a>
         </div>
