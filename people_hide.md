@@ -1,8 +1,3 @@
----
-layout: page
-title: People 
-permalink: /people
----
 
 <!-- ===== Buttons row (IMAGE ONLY) ===== -->
 <div class="people-sections">
