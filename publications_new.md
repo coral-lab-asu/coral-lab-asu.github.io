@@ -606,10 +606,6 @@ ing typically focus exclusively on text within
         </div>
       </div>
     </article>
-    
-  </div>
-</section>
-
 
 
 <!-- /Publication item -->
@@ -660,10 +656,7 @@ tion localization, decision-making, and logical
           <a class="btn btn-code" href="https://github.com/flowvqa">code</a>
         </div>
       </div>
-    </article>
-    
-  </div>
-</section>
+      </article>
 
 
 <!-- /Publication item -->
@@ -707,9 +700,6 @@ plores LLMs’ mathematical reasoning on four
       </div>
     </article>
     
-  </div>
-</section>
-
 <!-- /Publication item -->
 
     <!-- Repeat other pub-items as needed -->
@@ -756,9 +746,6 @@ municate key information, but they can also
       </div>
     </article>
     
-  </div>
-</section>
-
 <!-- /Publication item -->
 
     <!-- Repeat other pub-items as needed -->
@@ -805,9 +792,6 @@ ioral analysis, using ChartQA as a case study.
       </div>
     </article>
     
-  </div>
-</section>
-
 <section class="past-publications">
 
      <h3>Past Publications</h3>
