@@ -174,7 +174,7 @@ permalink: /people
         <li><a class="alumni-name" href="https://www.linkedin.com/in/jainiltrivedi04/" target="_blank" rel="noopener">Jainil Trivedi</a>, <span class="alumni-degree">MS in Computer Science</span></li>
         <li><a class="alumni-name" href="https://krish-oo7.github.io/portfolio.io" target="_blank" rel="noopener">Krishna Singh Rajput</a>, <span class="alumni-degree">MS in Data Science</span></li>
         <li><a class="alumni-name" href="https://www.linkedin.com/in/prasham-titiya-99b686205/" target="_blank" rel="noopener">Prasham Titiya</a>, <span class="alumni-degree">MS in Computer Science</span></li>
-        <li><a class="alumni-name" href="" target="_blank" rel="noopener">Sebastian Martinez</a>, <span class="alumni-degree">BS in Computer Science(Barrett Honors)</span></li>
+    
 
         
       </ul>
