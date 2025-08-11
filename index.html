@@ -11,16 +11,7 @@ layout: default
       <aside class="pi-rail">
         <a href="https://urldefense.com/v3/__https://vgupta123.github.io/__;!!IKRxdwAv5BmarQ!ZNAv79pt92gtTXa9bzI8IClf_DcJItOlGDE8uW8o41wL_4QCERpTJCjDVu6TTlXb-zMhMMf0SqNqYwaf0zQ9aA$" target="_blank" rel="noopener" class="pi-card">
           <!-- TODO: update src if your photo path differs -->
-          <img
-            src="images/people/Prof_photo.jpg"
-            alt="Prof. Vivek Gupta"
-            class="pi-photo"
-            loading="eager"
-          />
-          <div class="pi-meta">
-            <div class="pi-title">Principal Investigator</div>
-            <div class="pi-name">Prof. Vivek Gupta</div>
-          </div>
+          
         </a>
       </aside>
 
@@ -168,8 +159,8 @@ layout: default
   }
   .pi-photo{
     display: block;
-    width: 100%;
-    height: 240px;          /* keep tight so the card fits nicely */
+    width: 50%;
+    height: 180px;          /* keep tight so the card fits nicely */
     object-fit: cover;
     background: #f6f6f6;
   }
@@ -183,8 +174,8 @@ layout: default
   .pi-card:hover .pi-name{ color:#8c1d40; }
 
   /* On narrow screens, stack the PI card above the banner */
-  @media (max-width: 1200px){
+  @media (max-width: 700px){
     .pi-rail{ position: static; width: 100%; margin-bottom: 1rem; }
-    .pi-photo{ height: 220px; }
+    .pi-photo{ height: 180px; }
   }
 </style>
