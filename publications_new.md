@@ -285,7 +285,7 @@ duce a novel map-based question-answering
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Infotabs_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -318,7 +318,7 @@ duce a novel map-based question-answering
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/TRANSIENTTABLES_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -365,7 +365,7 @@ duce a novel map-based question-answering
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/H-Star_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -401,7 +401,7 @@ duce a novel map-based question-answering
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Enhancing_temporal_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
