@@ -61,7 +61,7 @@ permalink: /publication/
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/TabXEval_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/TabXEval_Poster.png" alt="paper thumbnail">
 
       </figure>
 
@@ -80,13 +80,11 @@ permalink: /publication/
         </div>
 
         <p class="pub-abstract">
- Evaluating tables qualitatively and quantita
-tively poses a significant challenge, as standard
+ Evaluating tables qualitatively and quantitatively poses a significant challenge, as standard
  metrics often overlook subtle structural and
  content-level discrepancies. To address this,
  we propose a rubric-based evaluation frame
-work that integrates multi-level structural de
-scriptors with fine-grained contextual signals,
+work that integrates multi-level structural descriptors with fine-grained contextual signals,
  enabling more precise and consistent table
  comparison. Building on this, we introduce
  TabXEval, an eXhaustive and eXplainable
@@ -227,15 +225,11 @@ scriptors with fine-grained contextual signals,
  this challenge, we introduce GETREASON(Geospatial Event Temporal Reasoning), a
  framework designed to go beyond surface
 level image descriptions and infer deeper con
-textual meaning. We hypothesize that ex
-tracting global event, temporal, and geospa
-tial information from an image enables a
- more accurate understanding of its contex
-tual significance. We also introduce a new
+textual meaning. We hypothesize that extracting global event, temporal, and geospatial information from an image enables a
+ more accurate understanding of its contextual significance. We also introduce a new
  metric GREAT (Geospatial, Reasoning and
  Event Accuracy with Temporal alignment) for
- a reasoning capturing evaluation. Our lay
-ered multi-agentic approach, evaluated...
+ a reasoning capturing evaluation. Our layered multi-agentic approach, evaluated...
         </p>
 
         <div class="pub-links">
@@ -269,16 +263,14 @@ ered multi-agentic approach, evaluated...
         <p class="pub-abstract">
             
              Vision-language models (VLMs) excel at tasks
- requiring joint understanding of visual and lin
-guistic information. A particularly promising
+ requiring joint understanding of visual and linguistic information. A particularly promising
  yet under-explored application for these models
  lies in answering questions based on various
  kinds of maps. This study investigates the
  efficacy of VLMs in answering questions based
  on choropleth maps, which are widely used for
  data analysis and representation. To facilitate
- and encourage research in this area, we intro
-duce a novel map-based question-answering
+ and encourage research in this area, we introduce a novel map-based question-answering
  benchmark, consisting of maps from three
  geographical regions (United States, India,
  China), each containing 1000 questions. Our
@@ -435,14 +427,11 @@ duce a novel map-based question-answering
 
         <p class="pub-abstract">
            Temporal reasoning over tabular data presents
- substantial challenges for large language mod
-els (LLMs), as evidenced by recent research. In
- this study, we conduct a comprehensive analy
-sis of temporal datasets to pinpoint the specific
+ substantial challenges for large language models (LLMs), as evidenced by recent research. In
+ this study, we conduct a comprehensive analysis of temporal datasets to pinpoint the specific
  limitations of LLMs. Our investigation leads
  to enhancements in TempTabQA, a benchmark
- specifically designed for tabular temporal ques
-tion answering. We provide critical insights
+ specifically designed for tabular temporal question answering. We provide critical insights
  for enhancing LLM performance in temporal
  reasoning tasks with tabular data. Furthermore,
  we introduce a novel approach, C.L.E.A.R to
@@ -599,8 +588,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         </div>
 
         <p class="pub-abstract">
-           Existing datasets for tabular question answer
-ing typically focus exclusively on text within
+           Existing datasets for tabular question answering typically focus exclusively on text within
  cells. However, real-world data is inherently
  multimodal, often blending images such as
  symbols, faces, icons, patterns, and charts
@@ -647,19 +635,14 @@ ing typically focus exclusively on text within
         </div>
 
         <p class="pub-abstract">
-            Existing benchmarks for visual question an
-swering lack in visual grounding and complex
-ity, particularly in evaluating spatial reasoning
- skills. We introduce FlowVQA, a novel bench
-mark aimed at assessing the capabilities of vi
-sual question-answering multimodal language
+            Existing benchmarks for visual question answering lack in visual grounding and complexity, particularly in evaluating spatial reasoning
+ skills. We introduce FlowVQA, a novel benchmark aimed at assessing the capabilities of visual question-answering multimodal language
  models in reasoning with flowcharts as visual
  contexts. FlowVQA comprises 2,272 carefully
  generated and human-verified flowchart images
  from three distinct content sources, along with
  22,413 diverse question-answer pairs, to test a
- spectrum of reasoning tasks, including informa
-tion localization, decision-making, and logical
+ spectrum of reasoning tasks, including information localization, decision-making, and logical
  progression. We conduct a thorough baseline
  evaluation on a suite of both open-source and
  proprietary multimodal language models using
@@ -699,8 +682,7 @@ tion localization, decision-making, and logical
         <p class="pub-abstract">
             Large Language Models (LLMs), excel in
  natural language understanding, but their capability for complex mathematical reasoning
- with a hybrid of structured tables and unstructured text remain uncertain. This study ex
-plores LLMs’ mathematical reasoning on four
+ with a hybrid of structured tables and unstructured text remain uncertain. This study explores LLMs’ mathematical reasoning on four
  financial tabular question-answering datasets:
  TATQA, FinQA, ConvFinQA, and Multihiertt.
  Through extensive experiments with various
@@ -738,13 +720,11 @@ plores LLMs’ mathematical reasoning on four
         </div>
 
         <p class="pub-abstract">
-           Whilst fact verification has attracted substan
-tial interest in the natural language processing
+           Whilst fact verification has attracted substantial interest in the natural language processing
  community, verifying misinforming statements
  against data visualizations such as charts has
  so far been overlooked. Charts are commonly
- used in the real-world to summarize and com
-municate key information, but they can also
+ used in the real-world to summarize and communicate key information, but they can also
  be easily misused to spread misinformation
  and promote certain agendas. In this paper,
  we introduce ChartCheck, a novel, large-scale
@@ -791,14 +771,8 @@ standing visual cues, such as layouts and charts,
  is also required. While the current state-of
 the-art approaches for document understanding
  (both OCR-based and OCR-free) work well,
- we have not found any other works conduct
-ing a thorough analysis of their capabilities and
- limitations. Therefore, in this work, we ad
-dress the limitation of current VisualQA mod
-els when applied to charts and plots. To in
-vestigate shortcomings of the state-of-the-art
- models, we conduct a comprehensive behav
-ioral analysis, using ChartQA as a case study.
+ we have not found any other works conducting a thorough analysis of their capabilities and
+ limitations. Therefore, in this work, we address the limitation of current VisualQA models when applied to charts and plots. To investigate shortcomings of the state-of-the-art models, we conduct a comprehensive behavioral analysis, using ChartQA as a case study.
  Our findings ...
         </p>
 
