@@ -192,7 +192,7 @@ scriptors with fine-grained contextual signals,
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Getreason_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Getreason_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -236,7 +236,7 @@ ered multi-agentic approach, evaluated...
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -285,7 +285,7 @@ duce a novel map-based question-answering
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -306,6 +306,10 @@ duce a novel map-based question-answering
 
         <div class="pub-links">
           <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.329/">paper</a>
+          <a class="btn btn-site" href="https://zero-shot-llm-infosync.github.io/zero-shot-llm-infosync/">website</a>
+          
+
+          
         </div>
       </div>
     </article>
@@ -314,7 +318,7 @@ duce a novel map-based question-answering
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -342,13 +346,10 @@ duce a novel map-based question-answering
  to perform effective temporal reasoning. To
  assess the temporal reasoning capabilities of
  LLMs, we present the TRANSIENTTABLES
- dataset, which comprises 3,971 questions de
-rived from over 14,000 tables, spanning 1,238
- entities across multiple time periods. We in
-troduce a template-based question-generation
+ dataset, which comprises 3,971 questions derived from over 14,000 tables, spanning 1,238
+ entities across multiple time periods. We introduce a template-based question-generation
  pipeline that harnesses LLMs to refine both
- templates and questions. Additionally, we es
-tablish baseline...
+ templates and questions. Additionally, we establish baseline...
         </p>
 
         <div class="pub-links">
@@ -364,7 +365,7 @@ tablish baseline...
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -375,7 +376,7 @@ tablish baseline...
         <div class="pub-meta">
           <span class="authors">Nikhil Abhyankar, Vivek Gupta, Dan Roth, Chandan Reddy</span>
           <span class="venue">
-              Published at <a href="https://2025.naacl.org/">NAACL 2025</a>
+              Published at <a href="https://2025.naacl.org/">NAACL 2025</a>(Findings)
               </span>
         </div>
 
@@ -389,8 +390,9 @@ tablish baseline...
 
         <div class="pub-links">
           <a class="btn btn-paper" href="https://arxiv.org/abs/2407.05952">paper</a>
-          <a class="btn btn-site" href="https://github.com/nikhilsab/H-STAR">website</a>
-          <a class="btn btn-code" href="https://hstar-llm.github.io/">code</a>
+          <a class="btn btn-site" href="https://hstar-llm.github.io/">website</a>
+          <a class="btn btn-code" href="https://github.com/nikhilsab/H-STAR">code</a>
+          
         </div>
       </div>
     </article>
@@ -399,19 +401,19 @@ tablish baseline...
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://aclanthology.org/2025.findings-naacl.278.pdf" target="_blank" rel="noopener">Enhancing Temporal Understanding in LLMs for Semi-structured Tables</a>
+          <a href="https://aclanthology.org/2025.findings-naacl.278.pdf" target="_blank" rel="noopener">Enhancing Temporal Understanding in LLMs for Semi-structured Tables</a>(Findings)
         </h3>
 
         <div class="pub-meta">
           <span class="authors">Irwin Deng, Kushagra Dixit, Dan Roth, Vivek Gupta</span>
           
           <span class="venue">
-              Published at <a href="https://2025.naacl.org/">NAACL 2025</a>
+              Published at <a href="https://2025.naacl.org/">NAACL 2025</a>(Findings)
               </span>
         </div>
 
@@ -447,7 +449,7 @@ proves evidence-based reasoning across various
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/NTSEBench_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -490,7 +492,7 @@ proves evidence-based reasoning across various
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Infotabs_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -532,20 +534,20 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Unravelling_truth_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
         <h3 class="pub-title">
           <a href="https://aclanthology.org/2024.findings-emnlp.973.pdf" target="_blank" rel="noopener">Unraveling the Truth: Do VLMs really Understand Charts? A Deep Dive into Consistency and Robustness</a>
-        </h3>
+        </h3>(Findings)
 
         <div class="pub-meta">
           <span class="authors"><br>
   Srija Mukhopadhyay, Adnan Qidwai, Aparna Garimella, Pritika Ramu, <b>Vivek Gupta</b>, Dan Roth <br></span>
           
           <span class="venue">
-          Published at <a href="https://2024.emnlp.org/">EMNLP 2024</a> (Finding)
+          Published at <a href="https://2024.emnlp.org/">EMNLP 2024</a> (Findings)
           </span>
         </div>
 
@@ -565,7 +567,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/MMTabQA_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -576,7 +578,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Suyash Vardhan Mathur, Jainit Sushil Bafna, Kunal Kartik, Harshita Khandelwal, Manish Shrivastava, <b>Vivek Gupta</b>, Mohit Bansal, Dan Roth</span>
           <span class="venue">
-              Published at <a href="https://2024.emnlp.org/">EMNLP 2024</a>
+              Published at <a href="https://2024.emnlp.org/">EMNLP 2024</a>(Findings)
            </span>  
         </div>
 
@@ -586,10 +588,8 @@ ing typically focus exclusively on text within
  cells. However, real-world data is inherently
  multimodal, often blending images such as
  symbols, faces, icons, patterns, and charts
- with textual content in tables. With the evo
-lution of AI models capable of multimodal
- reasoning, it is pertinent to assess their effi
-cacy in handling such structured data. This
+ with textual content in tables. With the evolution of AI models capable of multimodal
+ reasoning, it is pertinent to assess their efficacy in handling such structured data. This
  study investigates whether current AI models
  can perform knowledge-aware reasoning on
  multimodal structured data. We explore their
@@ -615,19 +615,19 @@ cacy in handling such structured data. This
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/flowqa_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://aclanthology.org/2024.findings-emnlp.822.pdf" target="_blank" rel="noopener">FlowVQA: Mapping Multimodal Logic in
+          <a href="https://aclanthology.org/2024.findings-acl.78.pdf" target="_blank" rel="noopener">FlowVQA: Mapping Multimodal Logic in
  Visual Question Answering with Flowcharts</a>
         </h3>
 
         <div class="pub-meta">
           <span class="authors">Shubhankar Singh, Purvi Chaurasia, Yerram Varun, Pranshu Pandya, Vatsal Gupta, <b>Vivek Gupta</b>, Dan Roth</span>
           <span class="venue">
-              Published at <a href="https://2024.aclweb.org/">ACL 2024</a>(Finding)
+              Published at <a href="https://2024.aclweb.org/">ACL 2024</a>(Findings)
            </span>  
         </div>
 
@@ -653,9 +653,9 @@ tion localization, decision-making, and logical
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-emnlp.822.pdf">paper</a>
-          <a class="btn btn-site" href="https://mmtabqa.github.io/">website</a>
-          <a class="btn btn-code" href="https://github.com/MMTabQA/mmtabqa">code</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-acl.78.pdf">paper</a>
+          <a class="btn btn-site" href="https://flowvqa.github.io/">website</a>
+          <a class="btn btn-code" href="https://github.com/flowvqa">code</a>
         </div>
       </div>
     </article>
@@ -668,7 +668,7 @@ tion localization, decision-making, and logical
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Evaluating_LM_Math_Reasoning_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -679,33 +679,27 @@ tion localization, decision-making, and logical
         <div class="pub-meta">
           <span class="authors">Pragya Srivastava, Manuj Malik, <b>Vivek Gupta</b>, Tanuja Ganu, Dan Roth</span>
           <span class="venue">
-              Published at <a href="https://2024.aclweb.org/">ACL 2024</a>(Finding)
+              Published at <a href="https://2024.aclweb.org/">ACL 2024</a>(Findings)
            </span>  
         </div>
 
         <p class="pub-abstract">
-           Existing datasets for tabular question answer
-ing typically focus exclusively on text within
- cells. However, real-world data is inherently
- multimodal, often blending images such as
- symbols, faces, icons, patterns, and charts
- with textual content in tables. With the evo
-lution of AI models capable of multimodal
- reasoning, it is pertinent to assess their effi
-cacy in handling such structured data. This
- study investigates whether current AI models
- can perform knowledge-aware reasoning on
- multimodal structured data. We explore their
- ability to reason on tables that integrate both
- images and text, introducing MMTABQA, a
- new dataset designed for this purpose. Our
- experiments...
+            Large Language Models (LLMs), excel in
+ natural language understanding, but their capability for complex mathematical reasoning
+ with a hybrid of structured tables and unstructured text remain uncertain. This study ex
+plores LLMs’ mathematical reasoning on four
+ financial tabular question-answering datasets:
+ TATQA, FinQA, ConvFinQA, and Multihiertt.
+ Through extensive experiments with various
+ models and prompting techniques, we assess
+ how LLMs adapt to complex tables and mathematical tasks. We focus on sensitivity to
+ table complexity and performance variations
+ with an increasing number of arithmetic reasoning steps. The results...
         </p>
 
         <div class="pub-links">
           <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-acl.231.pdf">paper</a>
-          <a class="btn btn-site" href="https://flowvqa.github.io/">website</a>
-          <a class="btn btn-code" href="https://github.com/flowvqa/flowvqa">code</a>
+          
         </div>
       </div>
     </article>
@@ -718,7 +712,7 @@ cacy in handling such structured data. This
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/ChartCheck_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -767,7 +761,7 @@ municate key information, but they can also
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/assets/images/thumb-example-2.jpg" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Enhancing_Question_Answering_on_Charts_QA_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -803,8 +797,7 @@ ioral analysis, using ChartQA as a case study.
 
         <div class="pub-links">
           <a class="btn btn-paper" href="https://aclanthology.org/2024.blackboxnlp-1.11.pdf">paper</a>
-          <a class="btn btn-site" href="">website</a>
-          <a class="btn btn-code" href="">code</a>
+          
         </div>
       </div>
     </article>
