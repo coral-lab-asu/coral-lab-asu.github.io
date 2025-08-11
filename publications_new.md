@@ -90,6 +90,8 @@ scriptors with fine-grained contextual signals,
           <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-acl.1176.pdf">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/tabxeval/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/TabXEval">code</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/TabXEval_presentation.pdf" target="_blank">slides</a>
+
         </div>
       </div>
     </article>
@@ -122,6 +124,7 @@ scriptors with fine-grained contextual signals,
           <a class="btn btn-paper" href="https://aclanthology.org/2025.acl-long.1460.pdf">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/map-make/">website</a>
           <a class="btn btn-code" href="https://github.com/coral-lab-asu/map-make/">code</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/Map&Make_presentation.pdf" target="_blank">slides</a>
           
         </div>
       </div>
@@ -185,6 +188,7 @@ scriptors with fine-grained contextual signals,
           <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-acl.1022.pdf">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/llm_symbolic/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/TEMPTABQA-C">code</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/LLM-Symbolic_presentation.pdf" target="_blank">slides</a>
         </div>
       </div>
     </article>
@@ -229,6 +233,7 @@ ered multi-agentic approach, evaluated...
           <a class="btn btn-paper" href="https://aclanthology.org/2025.acl-long.1439.pdf">paper</a>
           <a class="btn btn-site" href="https://coral-asu.github.io/getreason/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/getreason">code</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/Getreason_presentation.pdf" target="_blank">slides</a>
         </div>
       </div>
     </article>
@@ -1100,6 +1105,11 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
 }
 
 .btn-code {
+  background: #FFC627;
+  color: #000000;
+  border-color: rgba(110,42,168,0.08);
+}
+.btn-slides {
   background: #FFC627;
   color: #000000;
   border-color: rgba(110,42,168,0.08);
