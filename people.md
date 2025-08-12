@@ -1,20 +1,3 @@
-Conversation opened. 1 read message.
-
-Skip to content
-Using Arizona State University Mail with screen readers
-
-2 of 1,243
-final update
-Inbox
-
-Gaurav Najpande
-Attachments
-12:58 PM (2 hours ago)
-to me
-
-
- One attachment
-  •  Scanned by Gmail
 ---
 layout: page
 title: People
@@ -357,5 +340,4 @@ permalink: /people
 .collab-text{ margin: 0; font-size: 1.05rem; }
 
 </style>
-people_final.md
-Displaying people_final.md.
+
