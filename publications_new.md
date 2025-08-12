@@ -377,13 +377,13 @@ enables a more accurate understanding of its contextual significance. We also in
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/abs/2407.05952" target="_blank" rel="noopener">H-STAR: LLM-driven Hybrid SQL-Text Adaptive Reasoning on Tables</a>
+          <a href="https://aclanthology.org/2025.naacl-long.445.pdf" target="_blank" rel="noopener">H-STAR: LLM-driven Hybrid SQL-Text Adaptive Reasoning on Tables</a>
         </h3>
 
         <div class="pub-meta">
           <span class="authors">Nikhil Abhyankar, Vivek Gupta, Dan Roth, Chandan Reddy</span>
           <span class="venue">
-              <a href="https://2025.naacl.org/">NAACL 2025</a><sup><b>*</b></sup>
+              <a href="https://2025.naacl.org/">NAACL 2025</a>
               </span>
         </div>
 
@@ -396,7 +396,7 @@ enables a more accurate understanding of its contextual significance. We also in
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://arxiv.org/abs/2407.05952">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.445.pdf">paper</a>
           <a class="btn btn-site" href="https://hstar-llm.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/nikhilsab/H-STAR">code</a>
           
@@ -420,7 +420,7 @@ enables a more accurate understanding of its contextual significance. We also in
           <span class="authors">Irwin Deng, Kushagra Dixit, Dan Roth, Vivek Gupta</span>
           
           <span class="venue">
-              <a href="https://2025.naacl.org/">NAACL 2025</a><sup><b>*</b></sup>
+              <a href="https://2025.naacl.org/">NAACL 2025</a> (Findings)
               </span>
         </div>
 
@@ -551,7 +551,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
   Srija Mukhopadhyay, Adnan Qidwai, Aparna Garimella, Pritika Ramu, <b>Vivek Gupta</b>, Dan Roth <br></span>
           
           <span class="venue">
-          <a href="https://2024.emnlp.org/">EMNLP 2024</a><sup><b>*</b></sup>
+          <a href="https://2024.emnlp.org/">EMNLP 2024</a> (Findings)
           </span>
         </div>
 
@@ -582,7 +582,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Suyash Vardhan Mathur, Jainit Sushil Bafna, Kunal Kartik, Harshita Khandelwal, Manish Shrivastava, <b>Vivek Gupta</b>, Mohit Bansal, Dan Roth</span>
           <span class="venue">
-              <a href="https://2024.emnlp.org/">EMNLP 2024</a><sup><b>*</b></sup>
+              <a href="https://2024.emnlp.org/">EMNLP 2024</a> (Findings)
            </span>  
         </div>
 
@@ -629,7 +629,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Shubhankar Singh, Purvi Chaurasia, Yerram Varun, Pranshu Pandya, Vatsal Gupta, <b>Vivek Gupta</b>, Dan Roth</span>
           <span class="venue">
-              <a href="https://2024.aclweb.org/">ACL 2024</a><sup><b>*</b></sup>
+              <a href="https://2024.aclweb.org/">ACL 2024</a> (Findings)
            </span>  
         </div>
 
@@ -672,7 +672,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Pragya Srivastava, Manuj Malik, <b>Vivek Gupta</b>, Tanuja Ganu, Dan Roth</span>
           <span class="venue">
-              <a href="https://2024.aclweb.org/">ACL 2024</a><sup><b>*</b></sup>
+              <a href="https://2024.aclweb.org/">ACL 2024</a> (Findings)
            </span>  
         </div>
 
@@ -712,7 +712,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Mubashara Akhtar, Nikesh Subedi, <b>Vivek Gupta</b>, Sahar Tahmasebi, Oana Cocarascu, Elena Simperl</span>
           <span class="venue">
-              <a href="https://2024.aclweb.org/">ACL 2024</a><sup><b>*</b></sup>
+              <a href="https://2024.aclweb.org/">ACL 2024</a> (Findings)
            </span>  
         </div>
 
@@ -756,7 +756,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Ashim Gupta, <b>Vivek Gupta</b>, Shuo Zhang, Yujie He, Ning Zhang, Shalin Shah </span>
           <span class="venue">
-              <a href="https://blackboxnlp.github.io/">BlackboxNLP 2024</a><sup><b>*</b></sup>
+              <a href="https://blackboxnlp.github.io/">BlackboxNLP 2024</a> (Findings)
               
            </span>  
         </div>
@@ -778,9 +778,6 @@ To investigate shortcomings of the state-of-the-art models, we conduct a compreh
       </div>
     </article>
 <hr>
-<p style="margin:0; padding:0; line-height:1; vertical-align:baseline;">
-  <sup style="line-height:1; vertical-align:baseline;"><b>*</b></sup> Findings
-</p>
 
 <section class="past-publications">
 
@@ -956,7 +953,7 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   Technical Report. <a href="https://arxiv.org/pdf/1802.06771.pdf">Report</a>
   </li>
 
-  <li><b>On Long-Tailed Phenomena in Neural Machine Translation</b>, <br /> Vikas Raunak, Siddharth Dalmia, <b>Vivek Gupta</b>, and Florian Metze <br /> Published at <a href="https://2020.emnlp.org">EMNLP 2020</a> (findings), Presented at <a href="http://structuredprediction.github.io/SPNLP20">SPNLP2020</a> [<a href="https://www.aclweb.org/anthology/2020.findings-emnlp.276.pdf">Paper</a>] [<a href="https://github.com/vyraun/long-tailed">Code</a>]
+  <li><b>On Long-Tailed Phenomena in Neural Machine Translation</b>, <br /> Vikas Raunak, Siddharth Dalmia, <b>Vivek Gupta</b>, and Florian Metze <br /> Published at <a href="https://2020.emnlp.org">EMNLP 2020</a> (Findings), Presented at <a href="http://structuredprediction.github.io/SPNLP20">SPNLP2020</a> [<a href="https://www.aclweb.org/anthology/2020.findings-emnlp.276.pdf">Paper</a>] [<a href="https://github.com/vyraun/long-tailed">Code</a>]
 </li>
 
 </ul>
