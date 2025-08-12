@@ -192,9 +192,9 @@ permalink: /people
   padding: 0 1rem 2rem;
 }
 .people-h2{
-  font-size: clamp(1.6rem, 2.2vw, 2rem);
+  font-size: clamp(1.4rem, 2.2vw, 2rem);
   font-weight: 800;
-  margin: 1.4rem 0 .9rem;
+  margin: 3rem 0 .9rem;
   color:#222;
 }
 .people-h2 { text-align: center; }
