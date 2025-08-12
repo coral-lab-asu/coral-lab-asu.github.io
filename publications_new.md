@@ -421,7 +421,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
           <span class="authors">Irwin Deng, Kushagra Dixit, Dan Roth, Vivek Gupta</span>
           
           <span class="venue">
-              <a href="https://2025.naacl.org/">NAACL 2025</a>(Findings)
+              <a href="https://2025.naacl.org/">NAACL 2025</a> (Findings)
               </span>
         </div>
 
@@ -552,7 +552,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
   Srija Mukhopadhyay, Adnan Qidwai, Aparna Garimella, Pritika Ramu, <b>Vivek Gupta</b>, Dan Roth <br></span>
           
           <span class="venue">
-          <a href="https://2024.emnlp.org/">EMNLP 2024</a>(Findings)
+          <a href="https://2024.emnlp.org/">EMNLP 2024</a> (Findings)
           </span>
         </div>
 
@@ -583,7 +583,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Suyash Vardhan Mathur, Jainit Sushil Bafna, Kunal Kartik, Harshita Khandelwal, Manish Shrivastava, <b>Vivek Gupta</b>, Mohit Bansal, Dan Roth</span>
           <span class="venue">
-              <a href="https://2024.emnlp.org/">EMNLP 2024</a>(Findings)
+              <a href="https://2024.emnlp.org/">EMNLP 2024</a> (Findings)
            </span>  
         </div>
 
@@ -630,7 +630,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Shubhankar Singh, Purvi Chaurasia, Yerram Varun, Pranshu Pandya, Vatsal Gupta, <b>Vivek Gupta</b>, Dan Roth</span>
           <span class="venue">
-              <a href="https://2024.aclweb.org/">ACL 2024</a>(Findings)
+              <a href="https://2024.aclweb.org/">ACL 2024</a> (Findings)
            </span>  
         </div>
 
@@ -675,7 +675,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Pragya Srivastava, Manuj Malik, <b>Vivek Gupta</b>, Tanuja Ganu, Dan Roth</span>
           <span class="venue">
-              <a href="https://2024.aclweb.org/">ACL 2024</a>(Findings)
+              <a href="https://2024.aclweb.org/">ACL 2024</a> (Findings)
            </span>  
         </div>
 
@@ -715,7 +715,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Mubashara Akhtar, Nikesh Subedi, <b>Vivek Gupta</b>, Sahar Tahmasebi, Oana Cocarascu, Elena Simperl</span>
           <span class="venue">
-              <a href="https://2024.aclweb.org/">ACL 2024</a>(Findings)
+              <a href="https://2024.aclweb.org/">ACL 2024</a> (Findings)
            </span>  
         </div>
 
@@ -759,7 +759,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Ashim Gupta, <b>Vivek Gupta</b>, Shuo Zhang, Yujie He, Ning Zhang, Shalin Shah </span>
           <span class="venue">
-              <a href="https://blackboxnlp.github.io/">BlackboxNLP 2024</a>(Findings)
+              <a href="https://blackboxnlp.github.io/">BlackboxNLP 2024</a> (Findings)
               
            </span>  
         </div>
