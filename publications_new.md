@@ -224,8 +224,9 @@ work that integrates multi-level structural descriptors with fine-grained contex
  valuable contextual information with applications in domains such as journalism and education. However, existing methodologies of ten struggle to accurately extract this contextual relevance from images. To address
  this challenge, we introduce GETREASON(Geospatial Event Temporal Reasoning), a
  framework designed to go beyond surface
-level image descriptions and infer deeper contextual meaning. We hypothesize that extracting global event, temporal, and geospatial information from an image enables a
-enables a more accurate understanding of its contextual significance. We also introduce a new
+level image descriptions and infer deeper con
+textual meaning. We hypothesize that extracting global event, temporal, and geospatial information from an image enables a
+ more accurate understanding of its contextual significance. We also introduce a new
  metric GREAT (Geospatial, Reasoning and
  Event Accuracy with Temporal alignment) for
  a reasoning capturing evaluation. Our layered multi-agentic approach, evaluated...
@@ -634,7 +635,9 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         </div>
 
         <p class="pub-abstract">
-            Existing benchmarks for visual question answering lack in visual grounding and complexity, particularly in evaluating spatial reasoning skills. We introduce FlowVQA, a novel benchmark aimed at assessing the capabilities of visual question-answering multimodal language models in reasoning with flowcharts as visual
+            Existing benchmarks for visual question answering lack in visual grounding and complexity, particularly in evaluating spatial reasoning
+ skills. We introduce FlowVQA, a novel benchmark aimed at assessing the capabilities of visual question-answering multimodal language
+ models in reasoning with flowcharts as visual
  contexts. FlowVQA comprises 2,272 carefully
  generated and human-verified flowchart images
  from three distinct content sources, along with
@@ -763,12 +766,14 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
 
         <p class="pub-abstract">
             To completely understand a document, the use
- of textual information is not enough. Understanding visual cues, such as layouts and charts,
+ of textual information is not enough. Under
+standing visual cues, such as layouts and charts,
  is also required. While the current state-of
 the-art approaches for document understanding
  (both OCR-based and OCR-free) work well,
- we have not found any other works conducting a thorough analysis of their capabilities and limitations. Therefore, in this work, we address the limitation of current VisualQA models when applied to charts and plots. 
-To investigate shortcomings of the state-of-the-art models, we conduct a comprehensive behavioral analysis, using ChartQA as a case study. Our findings ...
+ we have not found any other works conducting a thorough analysis of their capabilities and
+ limitations. Therefore, in this work, we address the limitation of current VisualQA models when applied to charts and plots. To investigate shortcomings of the state-of-the-art models, we conduct a comprehensive behavioral analysis, using ChartQA as a case study.
+ Our findings ...
         </p>
 
         <div class="pub-links">
@@ -782,11 +787,7 @@ To investigate shortcomings of the state-of-the-art models, we conduct a compreh
 <section class="past-publications">
 
      <h2 class="section-title">PAST PUBLICATIONS</h2>
-     <h3 class="subsection-title">Semi-structured Data (Tabular Reasoning)</h3>
-<ul>
-
-
-  
+   
   <li><b>TempTabQA: Temporal Question Answering for Semi-Structured Tables</b><br>
   <b>Vivek Gupta</b>, Pranshu Kandoi, Mahek Bhavesh Vora, Shuo Zhang, Yujie He, Ridho Reinanda, Vivek Srikumar <br>
   Published at <a href="https://2023.emnlp.org/">EMNLP 2023</a>, <a href="https://aclanthology.org/2023.emnlp-main.149.pdf">Paper</a>, 
@@ -849,10 +850,6 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
 <li><b>InfoTabS: Inference on Tables as Semi-structured Data</b>, <br /> <b>Vivek Gupta</b>, Maitrey Mehta, Pegah Nokhiz, Vivek Srikumar <br /> Published at <a href="https://acl2020.org">ACL 2020</a> [<a href="https://www.aclweb.org/anthology/2020.acl-main.210/">Paper</a>] [<a href="https://infotabs.github.io">Project Page</a>] [<a href="https://www.youtube.com/watch?v=YhfU1BON8EI">Video</a>] [<a href="https://github.com/infotabs/infotabs">Data</a>] [<a href="https://github.com/utahnlp/infotabs-code">Code</a>]
 </li>
 
-</ul>
-
-<h3>Logic Consistency / Low-resource Applications</h3>
-<ul>
   <li><b>IndicSemParse: Evaluating Inter-Bilingual Semantic Parsing for Indian Languages</b><br>
   Divyanshu Aggarwal*, <b>Vivek Gupta</b>*, Anoop Kunchukuttan <br>
   To appear at <a href="https://sites.google.com/view/5thnlp4convai/">NLP4ConvAI 2023</a> <a href="https://iesemparse.github.io/">Project Page</a>, <a href="https://arxiv.org/pdf/2304.13005.pdf">Preprint</a>
@@ -872,10 +869,7 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   Tao Li, <b>Vivek Gupta</b>, Maitrey Mehta, and Vivek Srikumar <br>
   Published at EMNLP-IJCNLP 2019 <a href="https://www.aclweb.org/anthology/D19-1405.pdf">Paper</a>
   </li>
-</ul>
 
-<h3>Fairness and Bias</h3>
-<ul>
   <li><b>Unbiasing Review Ratings with Tendency-based Collaborative Filtering</b><br>
   Pranshi Yadav*, Priya Yadav*, Pegah Nokhiz, <b>Vivek Gupta</b><br>
   Published at <a href="https://aacl2020-srw.github.io">AACL-IJCNLP SRW 2020</a> <a href="https://www.aclweb.org/anthology/2020.aacl-srw.8.pdf">Paper</a>
@@ -894,12 +888,6 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   <li><b>Efficient Estimation of Generalization Error and Bias-Variance Components of Ensembles</b> <br /> Dhruv Mahajan, <b>Vivek Gupta</b>, Satya Keerthi, Sundararjan Sellamanickam <br /> Technical Report. [<a href="https://arxiv.org/abs/1711.05482">Preprint</a>]
 </li>
 
-</ul>
-
-<h3>Long-length Document Classification</h3>
-
-<ul>
-  
 <li><b>Unsupervised Contextualized Document Representation</b>, <br /> Ankur Gupta, <b>Vivek Gupta</b> <br /> Published at <a href="https://sites.google.com/view/sustainlp2021/call-for-papers">SustaiNLP 2021</a> at <a href="https://2021.emnlp.org/">EMNLP 2021</a> workshop. [<a href="https://aclanthology.org/2021.sustainlp-1.17.pdf">Paper</a>] [<a href="https://arxiv.org/pdf/2109.10509.pdf">Preprint</a>] [<a href="docs/sustainlp21_ppt.pdf">PPT</a>] [<a href="docs/sustainlp21_poster.pdf">Poster</a>] [<a href="https://www.youtube.com/watch?v=xp576-9fZGw&amp;ab_channel=VivekGupta">Video</a>] [<a href="https://github.com/vgupta123/contextualize_scdv">Code</a>]
 </li>
   
@@ -915,21 +903,12 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
 <li><b>Sparse Composite Document Vectors using soft clustering over distributional representations</b> <br /> Dheeraj Mekala*, <b>Vivek Gupta</b>*, Bhargavi Paranjape , Harish Karnick <br /> Published at <a href="https://www.aclweb.org/anthology/events/emnlp-2017/">EMNLP 2017</a>. [<a href="http://aclweb.org/anthology/D17-1069">Paper</a>] [<a href="https://www.slideshare.net/vivekgupta3150/sparse-composite-document-vector-emnlp-2017">PPT</a>] [<a href="https://vimeo.com/238235553">Video</a>] [<a href="https://github.com/dheeraj7596/SCDV">Code</a>]
 </li>
   
-</ul>
-
-<h3>Effective Dimentional Properties</h3>
-<ul>
-  
 <li><b>On Dimensional Linguistic Properties of the Word Embedding Space</b> <br /> Vikas Raunak*, Vaibhav Kumar*, <b>Vivek Gupta</b> and Florian Metze <br /> Presented at <a href="https://sites.google.com/view/acl19studentresearchworkshop/">ACL-SRW 2019</a> (non-archival), Published at <a href="https://sites.google.com/view/repl4nlp2020/home">RepL4NLP 2020</a> [<a href="https://www.aclweb.org/anthology/2020.repl4nlp-1.19.pdf">Paper</a>] [<a href="https://www.aclweb.org/anthology/2020.repl4nlp-1.19/">Paper</a>] [<a href="https://github.com/vyraun/dlp">Code</a>] <br />
 </li>
   
 <li><b>Effective Dimensionality Reduction for Word Embeddings</b> <br /> Vikas Raunak, <b>Vivek Gupta</b> and Florian Metze <br /> Published at <a href="https://sites.google.com/view/repl4nlp2019/home">RepL4NLP 2019</a>. [<a href="https://www.aclweb.org/anthology/W19-4328">Paper</a>] [<a href="docs/RepL4NLP_Poster.pdf">Poster</a>] [<a href="https://github.com/vyraun/Half-Size">Code</a>]
 </li>
   
-</ul>
-
-<h3>Summarization</h3>
-<ul>
   <li><b>SumPubMed: Summarization Dataset of PubMed Scientific Articles</b><br>
   <b>Vivek Gupta</b>, Prerna Bharti, Pegah Nokhiz, Harish Karnick <br>
   Accepted to appear in ACL-IJCNLP SRW 2021 <a href="docs/121_paper.pdf">Preprint</a> <a href="https://github.com/vgupta123/sumpubmed">Dataset</a> <a href="https://docs.google.com/presentation/d/12zNpBw02DXjwQYTop5LQHwXe_HCLR8dg6D4bYYMYS7E/edit?usp=sharing">PPT</a>
@@ -939,10 +918,7 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   Shibhansh Dohare, <b>Vivek Gupta</b>, Harish Karnick <br>
   Published at ACL-SRW 2018 <a href="https://arxiv.org/pdf/1706.01678.pdf">Preprint</a> <a href="http://aclweb.org/anthology/P18-3011">Paper</a>
   </li>
-</ul>
 
-<h3>eXtreme Learning (Capturing Tail)</h3>
-<ul>
   <li><b>Distributional Semantics meet Multi-Label Learning</b><br>
   <b>Vivek Gupta</b>, Rahul Wadbude, Nagararjan Natararjan, Harish Karnick, Prateek Jain, Piyush Rai <br>
   Published at AAAI 2019 <a href="https://aaai.org/ojs/index.php/AAAI/article/view/4260">Paper</a>
@@ -956,10 +932,6 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   <li><b>On Long-Tailed Phenomena in Neural Machine Translation</b>, <br /> Vikas Raunak, Siddharth Dalmia, <b>Vivek Gupta</b>, and Florian Metze <br /> Published at <a href="https://2020.emnlp.org">EMNLP 2020</a> (Findings), Presented at <a href="http://structuredprediction.github.io/SPNLP20">SPNLP2020</a> [<a href="https://www.aclweb.org/anthology/2020.findings-emnlp.276.pdf">Paper</a>] [<a href="https://github.com/vyraun/long-tailed">Code</a>]
 </li>
 
-</ul>
-
-<h3>Applications</h3>
-<ul>
   <li><b>Product Classification in E-Commerce using Distributional Semantics</b><br>
   <b>Vivek Gupta</b>, Harish Karnick, Ashendra Bansal, Pradhuman Jhala <br>
   Published at COLING 2016 <a href="https://aclweb.org/anthology/C/C16/C16-1052.pdf">Paper</a>
@@ -969,8 +941,6 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   <b>Vivek Gupta</b>*, Siddhant Mittal*, Sandip Bhaumik, Raj Roy <br>
   Published at BIBM 2016 <a href="http://ieeexplore.ieee.org/document/7822635/">Paper</a>
   </li>
-</ul>
-
 
 <style>
 /* Basic styling — tweak to match fonts/colors of your site */
@@ -983,7 +953,7 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
 
   .past-publications {
   max-width: 980px;
-  margin: 2rem auto;
+  margin: 0.8rem auto;
   padding: 0 1rem;
   font-family: "Helvetica Neue", Arial, sans-serif;
 
