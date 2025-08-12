@@ -78,7 +78,7 @@ permalink: /people
     </a>
 
     <a class="person-card" href="https://mayankvyas-git-main-mayank-glitch-cpus-projects.vercel.app/" target="_blank" rel="noopener">
-      <div class="person-photo"><img src="{{ 'images/people/Mayank.jpeg' | relative_url }}" alt="Mayank Vyas"></div>
+      <div class="person-photo"><img src="{{ 'images/people/Mayank Vyas.jpeg' | relative_url }}" alt="Mayank Vyas"></div>
       <div class="person-meta"><div class="person-name">Mayank Vyas</div></div>
     </a>
 
