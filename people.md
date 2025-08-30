@@ -1,517 +1,341 @@
 ---
 layout: page
-title: People 
+title: People
 permalink: /people
 ---
 
-<!-- ===== Buttons row (IMAGE ONLY) ===== -->
-<div class="people-sections">
-  <!-- Ph.D. -->
-  <div class="section-card" data-target="phd-panel" role="button" tabindex="0">
-    <img src="{{ 'images/logo/PhD.jpeg' | relative_url }}" alt="Ph.D." class="button-img-fixed">
-    <p class="card-sub">Advancing the frontiers of knowledge, one discovery at a time.</p>
+<section class="people-wrap">
+
+  <!-- ===== Faculty ===== -->
+  <h2 class="people-h2">Faculty</h2>
+  <div class="people-grid people-grid--faculty">
+    <a class="person-card" href="https://vgupta123.github.io/" target="_blank" rel="noopener">
+      <div class="person-photo">
+        <img src="{{ 'images/people/Prof_photo.jpg' | relative_url }}" alt="Prof. Vivek Gupta">
+      </div>
+      <div class="person-meta">
+        <div class="person-name">Prof. Vivek Gupta</div>
+        <div class="person-role">Principal Investigator</div>
+      </div>
+    </a>
   </div>
 
-  <!-- Graduate -->
-  <div class="section-card" data-target="grad-panel" role="button" tabindex="0">
-    <img src="{{ 'images/logo/Grad:underGrad.jpeg' | relative_url }}" alt="Graduate" class="button-img-fixed">
-    <p class="card-sub">Equipped with expertise, poised to shape the foundation for tomorrow’s breakthroughs.</p>
+  <!-- ===== Ph.D. Students ===== -->
+  <h2 class="people-h2">Ph.D. Students</h2>
+  <div class="people-grid">
+    <a class="person-card" href="https://abhijit85.github.io/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/abhi_chakraborty.jpeg' | relative_url }}" alt="Abhi Chakraborty"></div>
+      <div class="person-meta"><div class="person-name">Abhi Chakraborty</div></div>
+    </a>
+
+    <a class="person-card" href="https://www.linkedin.com/in/manan-roy-choudhury-2b2093208/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/manan_choudhury.jpeg' | relative_url }}" alt="Manan Roy Choudhury"></div>
+      <div class="person-meta"><div class="person-name">Manan Roy Choudhury</div></div>
+    </a>
+
+    <a class="person-card" href="https://tejasanvekar.github.io/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/tejas_anvekar.jpeg' | relative_url }}" alt="Tejas Anvekar"></div>
+      <div class="person-meta"><div class="person-name">Tejas Anvekar</div></div>
+    </a>
+
+    <a class="person-card" href="http://eunwooim.github.io" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Eun Woo Im.jpeg' | relative_url }}" alt="Eun Woo Im"></div>
+      <div class="person-meta"><div class="person-name">Eun Woo Im</div></div>
+    </a>
+
+    <a class="person-card" href="https://www.linkedin.com/in/sandipande-301/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Sandipan.jpg' | relative_url }}" alt="Sandipan De"></div>
+      <div class="person-meta"><div class="person-name">Sandipan De</div></div>
+    </a>
+    <a class="person-card" href="https://www.linkedin.com/in/tampuravi/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Tampu.jpeg' | relative_url }}" alt="Tampu Ravi Kumar"></div>
+      <div class="person-meta"><div class="person-name">Tampu Ravi Kumar</div></div>
+    </a>
   </div>
 
-  <!-- Alumni -->
-  <div class="section-card" data-target="alumni-panel" role="button" tabindex="0">
-    <img src="{{ 'images/logo/Alumini.jpeg' | relative_url }}" alt="Alumni" class="button-img-fixed">
-    <p class="card-sub">Carrying our legacy into new horizons of impact.</p>
+  <!-- ===== Graduate (MS) Students ===== -->
+  <h2 class="people-h2">Graduate Students</h2>
+  <div class="people-grid">
+    <a class="person-card" href="https://www.linkedin.com/in/adarshsingh7647" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/adarsh_singh.jpeg' | relative_url }}" alt="Adarsh Singh"></div>
+      <div class="person-meta"><div class="person-name">Adarsh Singh</div></div>
+    </a>
+
+    <a class="person-card" href="https://personalportfolio-git-main-namans-projects-599c78da.vercel.app/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/naman.jpg' | relative_url }}" alt="Naman Ahuja"></div>
+      <div class="person-meta"><div class="person-name">Naman Ahuja</div></div>
+    </a>
+
+    <a class="person-card" href="http://linkedin.com/in/ashish-raj-shekhar-877ba9218" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/A R Shekhar.JPG' | relative_url }}" alt="A R Shekhar"></div>
+      <div class="person-meta"><div class="person-name">A R Shekhar</div></div>
+    </a>
+
+    <a class="person-card" href="https://www.linkedin.com/in/gauravnajpande/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/gaurav.JPG' | relative_url }}" alt="Gaurav Najpande"></div>
+      <div class="person-meta"><div class="person-name">Gaurav Najpande</div></div>
+    </a>
+
+    <a class="person-card" href="https://mayankvyas-git-main-mayank-glitch-cpus-projects.vercel.app/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Mayank.jpeg' | relative_url }}" alt="Mayank Vyas"></div>
+      <div class="person-meta"><div class="person-name">Mayank Vyas</div></div>
+    </a>
+
+    <a class="person-card" href="http://dhruvmadhwal.github.io" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Dhruv.jpeg' | relative_url }}" alt="Dhruv Madhwal"></div>
+      <div class="person-meta"><div class="person-name">Dhruv Madhwal</div></div>
+    </a>
+
+    <a class="person-card" href="https://vibhu-dixit.github.io/website/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Vibhu Dixit.jpg' | relative_url }}" alt="Vibhu Dixit"></div>
+      <div class="person-meta"><div class="person-name">Vibhu Dixit</div></div>
+    </a>
+
+    <a class="person-card" href="https://www.linkedin.com/in/nehavaleti" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Neha Photo.jpg' | relative_url }}" alt="Neha Valeti"></div>
+      <div class="person-meta"><div class="person-name">Neha Valeti</div></div>
+    </a>
+
+    <a class="person-card" href="https://www.linkedin.com/in/suparno-roy-chowdhury" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Suparno.jpg' | relative_url }}" alt="Suparno Roy Chowdhury"></div>
+      <div class="person-meta"><div class="person-name">Suparno Roy Chowdhury</div></div>
+    </a>
+
+    <a class="person-card" href="https://sanikac10.github.io/my-portfolio/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Sanika.JPG' | relative_url }}" alt="Sanika Chavan"></div>
+      <div class="person-meta"><div class="person-name">Sanika Chavan</div></div>
+    </a>
+    <a class="person-card" href="https://www.linkedin.com/in/rishabh-baral-5b9247141" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Rishabh.jpeg' | relative_url }}" alt="Rishabh Baral"></div>
+      <div class="person-meta"><div class="person-name">Rishabh Baral</div></div>
+    </a>
+    <a class="person-card" href="https://www.linkedin.com/in/prasham-titiya-99b686205/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/prasham_titiya.jpeg' | relative_url }}" alt="Prasham Titiya"></div>
+      <div class="person-meta"><div class="person-name">Prasham Titiya</div></div>
+    </a>
+    <a class="person-card" href="https://website-nihaarikas-projects.vercel.app/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Nihaarikaagarwal.jpg' | relative_url }}" alt="Nihaarika Agarwal"></div>
+      <div class="person-meta"><div class="person-name">Nihaarika Agarwal</div></div>
+    </a>
+    <a class="person-card" href="https://www.linkedin.com/in/inkita-tewari-26133a114/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/inkita.JPG' | relative_url }}" alt="Inkita Tewari"></div>
+      <div class="person-meta"><div class="person-name">Inkita Tewari</div></div>
+    </a>
   </div>
+
+  <!-- ===== Undergraduate Students ===== -->
+  <h2 class="people-h2">Undergraduate Students</h2>
+  <div class="people-grid single-center">
+    <a class="person-card" href="https://www.linkedin.com/in/junha-park-ab2b4b181/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Junha_park.jpeg' | relative_url }}" alt="Junha Park"></div>
+      <div class="person-meta"><div class="person-name">Junha Park</div></div>
+    </a>
+  </div>
+  <style>
+    .people-grid.single-center {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  </style>
+
+  <!-- ===================== Alumni Panel (text-only, list style) ===================== -->
+  <div id="alumni-panel" class="people-panel">
+    <section id="alumni" class="alumni-list-section">
+      <style>
+        #alumni.alumni-list-section { padding: .5rem 0 1rem; }
+        #alumni .alumni-title { font-size: clamp(1.6rem, 2vw, 2rem); font-weight: 800; margin: 0 0 .75rem; text-align:center; }
+        #alumni .alumni-sub { font-size: 1.05rem; color: #555; margin: 0 0 1rem; text-align:center; }
+
+        #alumni .alumni-group-title { margin: 1rem 0 .35rem; font-weight: 700; font-size: 1.1rem; color: #333; }
+        #alumni .alumni-ul { list-style: none; padding: 0; margin: 0 0 .75rem; }
+        #alumni .alumni-ul li { padding: .38rem 0; line-height: 1.35; border-bottom: 1px dashed #eee; }
+
+        #alumni .alumni-name { font-weight: 700; text-decoration: none; color: #8c1d40; }
+        #alumni .alumni-name:hover { text-decoration: underline; }
+
+        #alumni .alumni-degree { font-style: italic; color: #555; }
+        #alumni .alumni-arrow { opacity: .8; margin: 0 .35rem; }
+        #alumni .alumni-affil { color: #333; font-weight: 500; }
+
+        @media (max-width: 560px){ #alumni .alumni-ul li { padding: .3rem 0; } }
+      </style>
+
+      <h2 class="alumni-title">Alumni</h2>
+
+      <div class="alumni-group">
+        <ul class="alumni-ul">
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/devanshu0gupta/" target="_blank" rel="noopener">Devanshu Gupta</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Amazon</span></li>
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/kannak-sharma/" target="_blank" rel="noopener">Kannak Sharma</a>, <span class="alumni-degree">MS in Robotics and Autonomous Systems</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Amazon</span></li>
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/poojah-ganesan-8571251a1" target="_blank" rel="noopener">Poojah Ganesan</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Amazon</span></li>
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/rajat-aayush-jha-4596b616b/" target="_blank" rel="noopener">Rajat Aayush Jha</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Amazon</span></li>
+          <li><a class="alumni-name" href="https://fenil-b.github.io/" target="_blank" rel="noopener">Fenil Bardoliya</a>, <span class="alumni-degree">MS in Computer Science</span></li>
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/jainiltrivedi04/" target="_blank" rel="noopener">Jainil Trivedi</a>, <span class="alumni-degree">MS in Computer Science</span></li>
+          <li><a class="alumni-name" href="https://krish-oo7.github.io/portfolio.io" target="_blank" rel="noopener">Krishna Singh Rajput</a>, <span class="alumni-degree">MS in Data Science</span></li>
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/sebastian-j-martinez/" target="_blank" rel="noopener">Sebastian Martinez</a>, <span class="alumni-degree">BS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">MS Business Analytics at UT Austin
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/vihang-pancholi/" target="_blank" rel="noopener">Vihang Pancholi</a>, <span class="alumni-degree">MS in Computer Science</span></li>
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/rohit-khoja344/" target="_blank" rel="noopener">Rohit Khoja</a>, <span class="alumni-degree">MS in Computer Science</span></li>
+          <li><a class="alumni-name" href="https://anirudh6415.github.io/" target="_blank" rel="noopener">Anirudh Iyengar Kaniyar Narayana Iyengar</a>, <span class="alumni-degree">MS in Robotics and Autonomous Systems in Artificial Intelligence</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">EBay</span></li>
+          <li><a class="alumni-name" target="_blank" rel="noopener">Shikhar Singh</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Capital One</span></li>
+          
+  <!-- ===== EXTRAS: Past Collaborators (primary) + Pets (right, vertical) ===== -->
+<h2 class="people-h2">Our Pets</h2>
+<div class="pet-grid">
+  <figure class="pet-card">
+    <img src="{{ 'images/people/coco.jpeg' | relative_url }}" alt="Coco the cat">
+    <figcaption class="pet-name">Coco</figcaption>
+  </figure>
+
+  <figure class="pet-card">
+    <img src="{{ 'images/people/zoey.jpeg' | relative_url }}" alt="Zoey the dog">
+    <figcaption class="pet-name">Zoey</figcaption>
+  </figure>
+</div>
+
+<!-- ===== Past collaborators (under pets) ===== -->
+<h2 class="people-h2">Past Supporters and Collaborators</h2>
+<div class="collab-card">
+  <p class="collab-text">
+    Download the PDF
+    <a href="https://drive.google.com/file/d/10a1xLuJ5Q6iOPjchg42H5qcY-SPkOPwd/view" target="_blank" rel="noopener">here</a>.
+  </p>
 </div>
 
 <style>
-/* tighter tiles so all three fit above the fold */
-.button-img-fixed {
-  width: 100%;
-  height: 150px;        /* was 200px */
-  object-fit: contain;
-  background-color: #ffc627;
-  padding: 10px;
-  border-radius: 12px 12px 0 0;
+/* ===== Page shell ===== */
+.people-wrap{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
 }
-.card-sub {
-  font-style: italic;
-  font-size: 0.82rem;   /* was 0.9rem */
+.people-h2{
+  font-size: clamp(1.6rem, 2.2vw, 2rem);
+  font-weight: 800;
+  margin: 1.4rem 0 .9rem;
+  color:#222;
   text-align: center;
-  margin-top: 0.35rem;  /* was 0.5rem */
-  line-height: 1.35;
 }
-.section-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 0.6rem;   /* was 1rem */
+
+/* ===== Grid ===== */
+.people-grid{
+  display:grid;
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  gap: 1.25rem;
+  align-items:start;
+}
+.people-grid--faculty{
+  grid-template-columns: repeat(1, minmax(220px, 280px));
+  justify-content: center;
+  justify-items: center;
+}
+.people-grid--faculty .person-card{ width: 100%; max-width: 280px; }
+.people-grid--faculty .person-photo{ width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
+.people-grid--alumni .person-role{ color:#555; font-size:.9rem; }
+
+@media (max-width: 1080px){
+  .people-grid{ grid-template-columns: repeat(3, minmax(180px, 1fr)); }
+}
+@media (max-width: 780px){
+  .people-grid{ grid-template-columns: repeat(2, minmax(160px, 1fr)); }
+}
+@media (max-width: 520px){
+  .people-grid{ grid-template-columns: 1fr; }
+}
+
+/* ===== Card ===== */
+.person-card{
+  display:flex; flex-direction:column;
+  background:#fff;
+  border-radius:14px;
+  box-shadow:0 6px 18px rgba(0,0,0,.06);
+  text-decoration:none; color:inherit;
+  transition:transform .18s ease, box-shadow .18s ease;
+  overflow:hidden;
+}
+.person-card:hover{ transform: translateY(-3px); box-shadow:0 12px 26px rgba(0,0,0,.12); }
+.person-photo{ width:100%; aspect-ratio: 4 / 5; background:#f6f6f6; overflow:hidden; }
+.person-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+.person-meta{ padding:.7rem .9rem .85rem; display:flex; flex-direction:column; gap:.25rem; }
+.person-name{ font-weight:800; color:#ffc627; line-height:1.2; }
+.person-card:hover .person-name{ color:#8c1d40; }
+.person-role{ font-size:.92rem; color:#7a7a7a; }
+
+/* ===== EXTRAS (from Misc layout) ===== */
+.extras-section{ max-width:1180px; margin: 0 auto; padding: 0 1rem 2rem; }
+.extras-grid{
+  display: grid;
+  grid-template-columns: minmax(600px, 1fr) 280px; /* main | sidebar */
+  gap: 2rem;
+  align-items: start;
+}
+@media (max-width: 900px){
+  .extras-grid{ grid-template-columns: 1fr; }
+  .extras-aside{ order: 2; }
+  .extras-main{ order: 1; }
+}
+.extras-card{
+  background:#fff; border-radius:14px;
+  box-shadow:0 8px 22px rgba(0,0,0,.06);
+  padding:1.25rem 1.25rem;
+}
+.extras-text{ font-size:1.05rem; text-align:center; margin:0; }
+.extras-aside-title{ text-align:center; font-weight:800; font-size:1.15rem; margin:.5rem 0 1rem; }
+.extras-pets{ display:flex; flex-direction:column; gap:1rem; }
+
+.extras-pet-card{
+  margin:0; background:#fff; border-radius:12px;
+  box-shadow:0 6px 18px rgba(0,0,0,.06);
+  overflow:hidden; width:100%; max-width:240px; margin-left:auto; margin-right:auto;
+}
+.extras-pet-card img{ width:100%; aspect-ratio: 4 / 3; object-fit:cover; display:block; }
+.extras-pet-name{ text-align:center; font-size:1.05rem; padding:.55rem 0 .75rem; font-weight:600; }
+
+/* tighten spacing on very small screens */
+@media (max-width: 480px){
+  .extras-grid{ gap: 1.25rem; }
+  .extras-pet-name{ font-size: 1rem; }
+}
+/* ===== Pets & Collaborators ===== */
+.pet-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 1rem;
+  max-width: 640px;           /* keeps them nicely sized */
+  margin: 0 auto 1.5rem;      /* centered */
+}
+@media (max-width: 640px){
+  .pet-grid{ grid-template-columns: 1fr; }
+}
+
+.pet-card{
+  margin: 0;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 6px 16px rgba(0,0,0,.08);
-  cursor: pointer;
-}
-
-/* extra squeeze on shorter laptop screens */
-@media (max-height: 820px) {
-  .button-img-fixed { height: 140px; }
-}
-@media (max-height: 760px) {
-  .button-img-fixed { height: 130px; }
-  .card-sub { font-size: 0.78rem; }
-}
-</style>
-
-
-<!-- ===== Panels under the buttons ===== -->
-
-<!-- Ph.D. -->
-<div id="phd-panel" class="people-panel hidden">
-  <h2>Ph.D. Students</h2>
-  <div class="card-grid">
-    <a href="https://abhijit85.github.io/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/abhi_chakraborty.jpeg' | relative_url }}" alt="Abhi Chakraborty">
-        <p>Abhi Chakraborty</p>
-      </div>
-    </a>
-
-    <a href="https://www.linkedin.com/in/manan-roy-choudhury-2b2093208/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/manan_choudhury.jpeg' | relative_url }}" alt="Manan Roy Choudhury">
-        <p>Manan Roy Choudhury</p>
-      </div>
-    </a>
-
-    <a href="https://tejasanvekar.github.io/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/tejas_anvekar.jpeg' | relative_url }}" alt="Tejas Anvekar">
-        <p>Tejas Anvekar</p>
-      </div>
-    </a>
-        <a href="http://eunwooim.github.io" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Eun Woo Im.jpeg' | relative_url }}" alt="Eun Woo Im">
-        <p>Eun Woo Im</p>
-      </div>
-   
-    </a>
-        <a href="https://www.linkedin.com/in/sandipande-301/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Sandipan.jpg' | relative_url }}" alt="Sandipan De">
-        <p>Sandipan De</p>
-      </div>
-    </a>
-  </div>
-</div>
-
-<!-- Undergrad/Graduate -->
-<!-- Graduate -->
-<div id="grad-panel" class="people-panel hidden">
-  <h2>Graduate Students</h2>
-  <div class="card-grid">
-    <a href="https://www.linkedin.com/in/adarshsingh7647" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/adarsh_singh.jpeg' | relative_url }}" alt="Adarsh Singh">
-        <p>Adarsh Singh</p>
-      </div>
-    </a>
-
-    <a href="https://personalportfolio-git-main-namans-projects-599c78da.vercel.app/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/naman.jpg' | relative_url }}" alt="Naman Ahuja">
-        <p>Naman Ahuja</p>
-      </div>
-    </a>
-
-    <a href="https://www.linkedin.com/in/rohit-khoja344/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/rohit.jpg' | relative_url }}" alt="Rohit Khoja">
-        <p>Rohit Khoja</p>
-      </div>
-    </a>
-    <a href="http://linkedin.com/in/ashish-raj-shekhar-877ba9218" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/A R Shekhar.JPG' | relative_url }}" alt="A R Shekhar">
-        <p>A R Shekhar</p>
-      </div>
-    </a>
-        <a href="https://www.linkedin.com/in/gauravnajpande/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/gaurav.JPG' | relative_url }}" alt="Gaurav Najpande">
-        <p>Gaurav Najpande</p>
-      </div>
-    </a>
-        <a href="https://mayankvyas-git-main-mayank-glitch-cpus-projects.vercel.app/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Mayank Vyas.jpeg' | relative_url }}" alt="Mayank Vyas">
-        <p>Mayank Vyas</p>
-      </div>
-    </a>
-        <a href="http://dhruvmadhwal.github.io" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Dhruv.jpeg' | relative_url }}" alt="Dhruv Madhwal">
-        <p>Dhruv Madhwal</p>
-      </div>
-        </a>
-        <a href="https://anirudh6415.github.io/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Anirudh.png' | relative_url }}" alt="Anirudh Iyengar Kaniyar Narayana Iyengar">
-        <p>Anirudh Iyengar Kaniyar Narayana Iyengar</p>
-      </div>
-    </a>
-        <a href="https://vibhu-dixit.github.io/website/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Vibhu Dixit.jpg' | relative_url }}" alt="Vibhu Dixit">
-        <p>Vibhu Dixit</p>
-      </div>
-    </a>
-        <a href="https://www.linkedin.com/in/nehavaleti" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Neha Photo.jpg' | relative_url }}" alt="Neha Valeti">
-        <p>Neha Valeti</p>
-      </div>
-    </a>
-        <a href="https://www.linkedin.com/in/suparno-roy-chowdhury" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Suparno.jpg' | relative_url }}" alt="Suparno Roy Chowdhury">
-        <p>Suparno Roy Chowdhury</p>
-      </div>
-    </a>
-        <a href="https://sanikac10.github.io/my-portfolio/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Sanika.JPG' | relative_url }}" alt="Sanika Chavan">
-        <p>Sanika Chavan</p>
-      </div>
-    </a>
-        <a href="https://www.linkedin.com/in/tampuravi/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Tampu.jpeg' | relative_url }}" alt="Tampu Ravi Kumar">
-        <p>Tampu Ravi Kumar</p>
-      </div>
-    </a>
- <a href="https://www.linkedin.com/in/rishabh-baral-5b9247141" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Rishabh.jpeg' | relative_url }}" alt="Rishabh Baral">
-        <p>Rishabh Baral</p>
-      </div>
-    </a>
-  </div>
-
-  <h2>Undergraduate Students</h2>
-  <div class="card-grid single-center">
-    <a href="https://www.linkedin.com/in/junha-park-ab2b4b181/" target="_blank" class="person-link">
-      <div class="person-card">
-        <img src="{{ 'images/people/Junha park.jpeg' | relative_url | uri_escape }}" alt="Junha Park" loading="lazy">
-        <p>Junha Park</p>
-      </div>
-    </a>
-  </div>
-</div>
-
-
-<!-- ===================== Alumni Panel (wraps Alumni Section) ===================== -->
-<div id="alumni-panel" class="people-panel hidden">
-  <!-- ===================== Alumni Section (ASU colors, compact heights) ===================== -->
-  <section id="alumni" class="alumni-section">
-    <style>
-      /* ---- Scoped base ---- */
-      section#alumni.alumni-section { padding: 2rem 0; }
-      section#alumni .alumni-title { font-size: clamp(1.5rem, 2vw, 2rem); font-weight: 700; margin: 0 0 1rem; }
-      section#alumni .alumni-subtitle { margin: 0 0 1.5rem; color: #555; font-size: 0.95rem; }
-      section#alumni .alumni-container { max-width: 1100px; margin: 0 auto; padding: 0 1rem; }
-
-      /* 3 per row desktop, 2 tablet, 1 mobile; allow cards to keep natural height */
-      section#alumni .alumni-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-        align-items: start;              /* prevents tall cards from stretching shorter ones */
-      }
-      @media (max-width: 900px) {
-        section#alumni .alumni-grid { grid-template-columns: repeat(2, 1fr); }
-      }
-      @media (max-width: 600px) {
-        section#alumni .alumni-grid { grid-template-columns: 1fr; }
-      }
-
-      section#alumni .alumni-card {
-        display: flex; flex-direction: column;
-        border: 1px solid #e6e6e6; border-radius: 14px; background: #fff; overflow: hidden;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.04);
-        transition: transform .15s ease, box-shadow .15s ease;
-      }
-      section#alumni .alumni-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
-
-      /* ---- Photo: forced 1:1 square ---- */
-      section#alumni .alumni-photo-link { display:block; }
-      section#alumni .alumni-photo-wrap {
-        position: relative; width: 100%;
-        padding-top: 100%;
-        background: #f6f6f6; overflow: hidden;
-      }
-      section#alumni .alumni-photo {
-        position: absolute; inset: 0;
-        width: 100%; height: 100% !important;
-        object-fit: cover; display: block;
-      }
-
-      /* ---- Content ---- */
-      section#alumni .alumni-content {
-        padding: 0.9rem 1rem 1rem;
-        display: flex; flex-direction: column;
-        gap: 0.35rem;
-      }
-      section#alumni .alumni-name {
-        font-weight: 600;
-        text-decoration: none;
-        color: #ffc627;                  /* ASU Gold */
-        font-size: 0.92rem;
-        line-height: 1.2;
-      }
-      section#alumni .alumni-name:hover { text-decoration: underline; }
-      section#alumni .alumni-role {
-        font-size: 0.78rem;              /* smaller than name */
-        color: #8c1d40;                  /* ASU Maroon */
-      }
-
-      /* ---- Company row (no forced push to bottom) ---- */
-      section#alumni .alumni-company {
-        display: flex; align-items: center; gap: 0.5rem;
-        padding-top: 0.5rem; border-top: 1px solid #f0f0f0;
-      }
-      section#alumni .company-logo {
-        max-height: 22px; width: auto; object-fit: contain; display: block;
-        filter: saturate(0.9) contrast(1.05);
-      }
-      section#alumni .company-name {
-        font-size: 0.9rem; color: #333; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-      }
-    </style>
-
-    <div class="alumni-container">
-      <h2 class="alumni-title">Alumni</h2>
-      <p class="alumni-subtitle">Former members and their current affiliations.</p>
-
-      <div class="alumni-grid">
-        <!-- With company -->
-        <article class="alumni-card">
-          <a href="https://www.linkedin.com/in/devanshu0gupta/" target="_blank" class="alumni-photo-link" rel="noopener">
-            <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/devanshu_gupta.jpeg' | relative_url | uri_escape }}" alt="Portrait of Devanshu Gupta" class="alumni-photo" loading="lazy">
-            </div>
-          </a>
-          <div class="alumni-content">
-            <a href="https://www.linkedin.com/in/devanshu0gupta/" target="_blank" class="alumni-name" rel="noopener">Devanshu Gupta</a>
-            <div class="alumni-role">MS in Computer Science</div>
-            <div class="alumni-company">
-              <img src="{{ 'images/logo/Amazon logo.jpeg' | relative_url | uri_escape }}" alt="Amazon logo" class="company-logo" loading="lazy">
-              <div class="company-name">Amazon</div>
-            </div>
-          </div>
-        </article>
-
-        <!-- With company -->
-        <article class="alumni-card">
-          <a href="https://www.linkedin.com/in/kannak-sharma/">
-            <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/kannak_sharma.jpeg' | relative_url | uri_escape }}" alt="Portrait of Kanak Sharma" class="alumni-photo" loading="lazy">
-            </div>
-          </a>
-          <div class="alumni-content">
-            <a href="#" class="alumni-name">Kanak Sharma</a>
-            <div class="alumni-role">MS in Robotics and Autonomous Systems</div>
-            <div class="alumni-company">
-              <img src="{{ 'images/logo/Amazon logo.jpeg' | relative_url | uri_escape }}" alt="Amazon logo" class="company-logo" loading="lazy">
-              <div class="company-name">Amazon</div>
-            </div>
-          </div>
-        </article>
-
-        <!-- With company -->
-        <article class="alumni-card">
-          <a href="https://www.linkedin.com/in/poojah-ganesan-8571251a1">
-            <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/poojah_ganesan.jpeg' | relative_url | uri_escape }}" alt="Portrait of Poojah Ganesan" class="alumni-photo" loading="lazy">
-            </div>
-          </a>
-          <div class="alumni-content">
-            <a href="#" class="alumni-name">Poojah Ganesan</a>
-            <div class="alumni-role">MS in Computer Science</div>
-            <div class="alumni-company">
-              <img src="{{ 'images/logo/Amazon logo.jpeg' | relative_url | uri_escape }}" alt="Amazon logo" class="company-logo" loading="lazy">
-              <div class="company-name">Amazon</div>
-            </div>
-          </div>
-        </article>
-
-        <!-- With company -->
-        <article class="alumni-card">
-          <a href="https://www.linkedin.com/in/rajat-aayush-jha-4596b616b/">
-            <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/rajat.jpg' | relative_url | uri_escape }}" alt="Portrait of Rajat Aayush Jha" class="alumni-photo" loading="lazy">
-            </div>
-          </a>
-          <div class="alumni-content">
-            <a href="#" class="alumni-name">Rajat Aayush Jha</a>
-            <div class="alumni-role">MS in Computer Science</div>
-            <div class="alumni-company">
-              <img src="{{ 'images/logo/Amazon logo.jpeg' | relative_url | uri_escape }}" alt="Amazon logo" class="company-logo" loading="lazy">
-              <div class="company-name">Amazon</div>
-            </div>
-          </div>
-        </article>
-
-        <!-- No company (compact card, no extra bottom space) -->
-        <article class="alumni-card">
-          <a href="https://fenil-b.github.io/">
-            <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/fenil_bardoliya.jpeg' | relative_url | uri_escape }}" alt="Portrait of Fenil Bardoliya" class="alumni-photo" loading="lazy">
-            </div>
-          </a>
-          <div class="alumni-content">
-            <a href="#" class="alumni-name">Fenil Bardoliya</a>
-            <div class="alumni-role">MS in Computer Science</div>
-          </div>
-        </article>
-
-        <!-- No company -->
-        <article class="alumni-card">
-          <a href="https://www.linkedin.com/in/jainiltrivedi04/">
-            <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/jainil_trivedi.jpeg' | relative_url | uri_escape }}" alt="Portrait of Jainil Trivedi" class="alumni-photo" loading="lazy">
-            </div>
-          </a>
-          <div class="alumni-content">
-            <a href="#" class="alumni-name">Jainil Trivedi</a>
-            <div class="alumni-role">MS in Computer Science</div>
-          </div>
-        </article>
-
-        <!-- No company -->
-        <article class="alumni-card">
-          <a href="https://krish-oo7.github.io/portfolio.io">
-            <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/krishna_rajput.jpeg' | relative_url | uri_escape }}" alt="Portrait of Krishna Singh Rajput" class="alumni-photo" loading="lazy">
-            </div>
-          </a>
-          <div class="alumni-content">
-            <a href="#" class="alumni-name">Krishna Singh Rajput</a>
-            <div class="alumni-role">MS in Data Science</div>
-          </div>
-        </article>
-
-        <!-- No company -->
-        <article class="alumni-card">
-          <a href="https://www.linkedin.com/in/prasham-titiya-99b686205/">
-            <div class="alumni-photo-wrap">
-              <img src="{{ 'images/people/prasham_titiya.jpeg' | relative_url | uri_escape }}" alt="Portrait of Prasham Titiya" class="alumni-photo" loading="lazy">
-            </div>
-          </a>
-          <div class="alumni-content">
-            <a href="#" class="alumni-name">Prasham Titiya</a>
-            <div class="alumni-role">MS in Computer Science</div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-  <!-- =================== /Alumni Section =================== -->
-</div>
-<!-- =================== /Alumni Panel =================== -->
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const cards = document.querySelectorAll('.section-card');
-  const panels = document.querySelectorAll('.people-panel');
-
-  function togglePanel(el) {
-    const target = document.getElementById(el.dataset.target);
-    panels.forEach(p => { if (p !== target) p.classList.add('hidden'); });
-    target.classList.toggle('hidden');
-    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
-
-  cards.forEach(card => {
-    card.addEventListener('click', () => togglePanel(card));
-    card.addEventListener('keydown', e => {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); togglePanel(card); }
-    });
-  });
-});
-</script>
-
-<style>
-/* ===== PI hover ===== */
-.pi-card { display:inline-block; border-radius:14px; padding:8px; transition:all .25s ease; }
-.pi-inner { display:flex; flex-direction:column; align-items:center; text-align:center; }
-.pi-photo { width:260px; height:260px; object-fit:cover; border-radius:14px; transition:transform .25s ease, box-shadow .25s ease; }
-.pi-name { margin-top:1rem; font-size:1.35rem; color:#222; font-weight:600; transition:color .25s ease; }
-.pi-card:hover .pi-photo { transform:scale(1.05); box-shadow:0 10px 22px rgba(0,0,0,.18); }
-.pi-card:hover .pi-name { color:#8c1d40; }
-
-/* ===== Buttons row: image-only, responsive grid ===== */
-.people-sections {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);   /* 3 across desktop */
-  gap: 1rem;                               /* was 1.25rem */
-  margin: 0 auto 0.8rem;                   /* was 1.5rem */
-  max-width: 1100px;
-}
-@media (max-width: 900px) { .people-sections { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 580px) { .people-sections { grid-template-columns: 1fr; } }
-
-/* Image fills the whole card */
-.section-card {
-  background: transparent;
-  border: none;
-  border-radius: 12px;
-  padding: 0;
-  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
   overflow: hidden;
-  box-shadow: 0 6px 16px rgba(0,0,0,.08);
-  transition: transform .12s ease, box-shadow .12s ease;
 }
-.section-card:hover { transform: translateY(-3px); box-shadow: 0 10px 22px rgba(0,0,0,.12); }
-
-.button-img-full {
+.pet-card img{
   width: 100%;
-  height: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   display: block;
-  object-fit: cover;      /* switch to 'contain' if you prefer no cropping */
-  border-radius: 12px;
+}
+.pet-name{
+  text-align: center;
+  font-weight: 600;
+  padding: .6rem 0 .9rem;
 }
 
-/* ===== Panels under buttons ===== */
-.people-panel { background:#fff; border:1px solid rgba(0,0,0,.06); border-radius:12px; padding:1rem 1.25rem; box-shadow:0 6px 16px rgba(0,0,0,.06); margin-bottom:1rem; }
-.people-panel.hidden { display:none; }
-.placeholder { color:#666; margin:.5rem 0 0; }
+/* collaborators block */
+.collab-card{
+  max-width: 780px;
+  margin: 0 auto 2rem;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0,0,0,.06);
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+.collab-text{ margin: 0; font-size: 1.05rem; }
 
-/* ===== Person cards in panels ===== */
-.card-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:1.25rem; }
-.person-link { text-decoration:none; color:inherit; }
-.person-card { display:flex; flex-direction:column; align-items:center; border-radius:12px; padding:.5rem; transition:transform .2s ease, box-shadow .2s ease, background-color .2s ease; }
-.person-card img { width:180px; height:180px; object-fit:cover; border-radius:14px; transition:transform .2s ease, box-shadow .2s ease; }
-.person-card p { margin-top:.6rem; font-weight:600; color:#222; text-align:center; transition:color .2s ease; }
-.person-card:hover { transform:translateY(-4px); box-shadow:0 8px 18px rgba(0,0,0,.12); background-color:rgba(255,198,39,0.12); }
-.person-card:hover img { transform:scale(1.04); box-shadow:0 6px 14px rgba(0,0,0,.15); }
-.person-card:hover p { color:#8c1d40; }
 </style>
-
-<!-- ===== Fit-to-page & nicer focus (optional overrides) ===== -->
-<!-- Full-bleed buttons row: force the 3 tiles to fill the page width -->
-<!-- Make the three buttons taller (increase vertical "length") -->
-<style>
-  /* Increase the yellow image block height */
-  .button-img-fixed{
-    height: clamp(220px, 28vh, 300px) !important; /* try 220–300px range */
-  }
-
-  /* A smidge more breathing room below the image */
-  .section-card{
-    padding-bottom: 1rem !important;
-  }
-</style>
-
-
