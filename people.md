@@ -47,6 +47,10 @@ permalink: /people
       <div class="person-photo"><img src="{{ 'images/people/Sandipan.jpg' | relative_url }}" alt="Sandipan De"></div>
       <div class="person-meta"><div class="person-name">Sandipan De</div></div>
     </a>
+    <a class="person-card" href="https://www.linkedin.com/in/tampuravi/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Tampu.jpeg' | relative_url }}" alt="Tampu Ravi Kumar"></div>
+      <div class="person-meta"><div class="person-name">Tampu Ravi Kumar</div></div>
+    </a>
   </div>
 
   <!-- ===== Graduate (MS) Students ===== -->
@@ -62,11 +66,6 @@ permalink: /people
       <div class="person-meta"><div class="person-name">Naman Ahuja</div></div>
     </a>
 
-    <a class="person-card" href="https://www.linkedin.com/in/rohit-khoja344/" target="_blank" rel="noopener">
-      <div class="person-photo"><img src="{{ 'images/people/rohit.jpg' | relative_url }}" alt="Rohit Khoja"></div>
-      <div class="person-meta"><div class="person-name">Rohit Khoja</div></div>
-    </a>
-
     <a class="person-card" href="http://linkedin.com/in/ashish-raj-shekhar-877ba9218" target="_blank" rel="noopener">
       <div class="person-photo"><img src="{{ 'images/people/A R Shekhar.JPG' | relative_url }}" alt="A R Shekhar"></div>
       <div class="person-meta"><div class="person-name">A R Shekhar</div></div>
@@ -78,18 +77,13 @@ permalink: /people
     </a>
 
     <a class="person-card" href="https://mayankvyas-git-main-mayank-glitch-cpus-projects.vercel.app/" target="_blank" rel="noopener">
-      <div class="person-photo"><img src="{{ 'images/people/Mayank Vyas.jpeg' | relative_url }}" alt="Mayank Vyas"></div>
+      <div class="person-photo"><img src="{{ 'images/people/Mayank.jpeg' | relative_url }}" alt="Mayank Vyas"></div>
       <div class="person-meta"><div class="person-name">Mayank Vyas</div></div>
     </a>
 
     <a class="person-card" href="http://dhruvmadhwal.github.io" target="_blank" rel="noopener">
       <div class="person-photo"><img src="{{ 'images/people/Dhruv.jpeg' | relative_url }}" alt="Dhruv Madhwal"></div>
       <div class="person-meta"><div class="person-name">Dhruv Madhwal</div></div>
-    </a>
-
-    <a class="person-card" href="https://anirudh6415.github.io/" target="_blank" rel="noopener">
-      <div class="person-photo"><img src="{{ 'images/people/Anirudh.png' | relative_url }}" alt="Anirudh Iyengar Kaniyar Narayana Iyengar"></div>
-      <div class="person-meta"><div class="person-name">Anirudh Iyengar Kaniyar Narayana Iyengar</div></div>
     </a>
 
     <a class="person-card" href="https://vibhu-dixit.github.io/website/" target="_blank" rel="noopener">
@@ -111,12 +105,6 @@ permalink: /people
       <div class="person-photo"><img src="{{ 'images/people/Sanika.JPG' | relative_url }}" alt="Sanika Chavan"></div>
       <div class="person-meta"><div class="person-name">Sanika Chavan</div></div>
     </a>
-
-    <a class="person-card" href="https://www.linkedin.com/in/tampuravi/" target="_blank" rel="noopener">
-      <div class="person-photo"><img src="{{ 'images/people/Tampu.jpeg' | relative_url }}" alt="Tampu Ravi Kumar"></div>
-      <div class="person-meta"><div class="person-name">Tampu Ravi Kumar</div></div>
-    </a>
-
     <a class="person-card" href="https://www.linkedin.com/in/rishabh-baral-5b9247141" target="_blank" rel="noopener">
       <div class="person-photo"><img src="{{ 'images/people/Rishabh.jpeg' | relative_url }}" alt="Rishabh Baral"></div>
       <div class="person-meta"><div class="person-name">Rishabh Baral</div></div>
@@ -125,13 +113,21 @@ permalink: /people
       <div class="person-photo"><img src="{{ 'images/people/prasham_titiya.jpeg' | relative_url }}" alt="Prasham Titiya"></div>
       <div class="person-meta"><div class="person-name">Prasham Titiya</div></div>
     </a>
+    <a class="person-card" href="https://website-nihaarikas-projects.vercel.app/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/Nihaarikaagarwal.jpg' | relative_url }}" alt="Nihaarika Agarwal"></div>
+      <div class="person-meta"><div class="person-name">Nihaarika Agarwal</div></div>
+    </a>
+    <a class="person-card" href="https://www.linkedin.com/in/inkita-tewari-26133a114/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/inkita.JPG' | relative_url }}" alt="Inkita Tewari"></div>
+      <div class="person-meta"><div class="person-name">Inkita Tewari</div></div>
+    </a>
   </div>
 
   <!-- ===== Undergraduate Students ===== -->
   <h2 class="people-h2">Undergraduate Students</h2>
   <div class="people-grid single-center">
     <a class="person-card" href="https://www.linkedin.com/in/junha-park-ab2b4b181/" target="_blank" rel="noopener">
-      <div class="person-photo"><img src="{{ 'images/people/Junha Park.jpeg' | relative_url }}" alt="Junha Park"></div>
+      <div class="person-photo"><img src="{{ 'images/people/Junha_park.jpeg' | relative_url }}" alt="Junha Park"></div>
       <div class="person-meta"><div class="person-name">Junha Park</div></div>
     </a>
   </div>
@@ -178,7 +174,10 @@ permalink: /people
           <li><a class="alumni-name" href="https://krish-oo7.github.io/portfolio.io" target="_blank" rel="noopener">Krishna Singh Rajput</a>, <span class="alumni-degree">MS in Data Science</span></li>
           <li><a class="alumni-name" href="https://www.linkedin.com/in/sebastian-j-martinez/" target="_blank" rel="noopener">Sebastian Martinez</a>, <span class="alumni-degree">BS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">MS Business Analytics at UT Austin
           <li><a class="alumni-name" href="https://www.linkedin.com/in/vihang-pancholi/" target="_blank" rel="noopener">Vihang Pancholi</a>, <span class="alumni-degree">MS in Computer Science</span></li>
-
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/rohit-khoja344/" target="_blank" rel="noopener">Rohit Khoja</a>, <span class="alumni-degree">MS in Computer Science</span></li>
+          <li><a class="alumni-name" href="https://anirudh6415.github.io/" target="_blank" rel="noopener">Anirudh Iyengar Kaniyar Narayana Iyengar</a>, <span class="alumni-degree">MS in Robotics and Autonomous Systems in Artificial Intelligence</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">EBay</span></li>
+          <li><a class="alumni-name" target="_blank" rel="noopener">Shikhar Singh</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Capital One</span></li>
+          
   <!-- ===== EXTRAS: Past Collaborators (primary) + Pets (right, vertical) ===== -->
 <h2 class="people-h2">Our Pets</h2>
 <div class="pet-grid">
@@ -340,4 +339,3 @@ permalink: /people
 .collab-text{ margin: 0; font-size: 1.05rem; }
 
 </style>
-

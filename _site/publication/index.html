@@ -12,18 +12,18 @@
   <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-  <link href="http://0.0.0.0:4000/css/zoom.css" rel="stylesheet">
-  <script src="http://0.0.0.0:4000/js/zoom.js"></script>
-  <script src="http://0.0.0.0:4000/js/transition.js"></script>
+  <link href="http://localhost:4000/css/zoom.css" rel="stylesheet">
+  <script src="http://localhost:4000/js/zoom.js"></script>
+  <script src="http://localhost:4000/js/transition.js"></script>
 
   <link rel="stylesheet" href="/style.css">
   <!-- favicon -->
-  <link rel="shortcut icon" href="http://0.0.0.0:4000/favicon.ico">
-  <link rel="shortcut icon" href="http://0.0.0.0:4000/favicon.png">
-  <link rel="apple-touch-icon-precomposed" href="http://0.0.0.0:4000/images/logo/apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://0.0.0.0:4000/images/logo/apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://0.0.0.0:4000/images/logo/apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://0.0.0.0:4000/images/logo/apple-touch-icon-144x144-precomposed.png">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/logo/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/logo/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/logo/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/logo/apple-touch-icon-144x144-precomposed.png">
 
   <!-- open graph -->
 
@@ -31,10 +31,17 @@
   
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="http://0.0.0.0:4000/publication/">
+  <meta property="og:url" content="http://localhost:4000/publication/">
   <meta property="og:title" content="Publications">
   <meta property="og:site_name" content="CoRAL Lab at ASU">
   <meta property="og:description" content="
+
+  
+    View All Publications on Google Scholar
+  
+
+
+
 
   RECENT PUBLICATIONS
   Complex Data (Structured Data)
@@ -45,12 +52,8 @@
     
       
         
-      
-
-      
-        
-          MapIQ: Benchmarking Multi..." />
-  <meta property="og:image" content="http://0.0.0.0:4000/images/logo/logo_square.jpg">
+     ..." />
+  <meta property="og:image" content="http://localhost:4000/images/logo/logo_square.jpg">
 
 </head>
 
@@ -115,7 +118,14 @@ s.setAttribute('data-timestamp', +new Date());
     <!-- /.container-fluid -->
 </nav>
 
-    <!-- selected-publications.html -->
+    <!-- Google Scholar Link -->
+<div class="google-scholar-link">
+  <a href="https://scholar.google.com/citations?user=Bs5H0S4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">
+    View All Publications on Google Scholar
+  </a>
+</div>
+
+<!-- selected-publications.html -->
 <section class="selected-publications">
   <h2 class="section-title">RECENT PUBLICATIONS</h2>
   <h3 class="subsection-title">Complex Data (Structured Data)</h3>
@@ -164,7 +174,7 @@ s.setAttribute('data-timestamp', +new Date());
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="/poster_docs/TabXEval_poster_placeholder.png" alt="paper thumbnail" />
+        <img src="/poster_docs/TabXEval_Poster.png" alt="paper thumbnail" />
 
       </figure>
 
@@ -183,13 +193,11 @@ s.setAttribute('data-timestamp', +new Date());
         </div>
 
         <p class="pub-abstract">
- Evaluating tables qualitatively and quantita
-tively poses a significant challenge, as standard
+ Evaluating tables qualitatively and quantitatively poses a significant challenge, as standard
  metrics often overlook subtle structural and
  content-level discrepancies. To address this,
  we propose a rubric-based evaluation frame
-work that integrates multi-level structural de
-scriptors with fine-grained contextual signals,
+work that integrates multi-level structural descriptors with fine-grained contextual signals,
  enabling more precise and consistent table
  comparison. Building on this, we introduce
  TabXEval, an eXhaustive and eXplainable
@@ -330,15 +338,11 @@ scriptors with fine-grained contextual signals,
  this challenge, we introduce GETREASON(Geospatial Event Temporal Reasoning), a
  framework designed to go beyond surface
 level image descriptions and infer deeper con
-textual meaning. We hypothesize that ex
-tracting global event, temporal, and geospa
-tial information from an image enables a
- more accurate understanding of its contex
-tual significance. We also introduce a new
+textual meaning. We hypothesize that extracting global event, temporal, and geospatial information from an image enables a
+ more accurate understanding of its contextual significance. We also introduce a new
  metric GREAT (Geospatial, Reasoning and
  Event Accuracy with Temporal alignment) for
- a reasoning capturing evaluation. Our lay
-ered multi-agentic approach, evaluated...
+ a reasoning capturing evaluation. Our layered multi-agentic approach, evaluated...
         </p>
 
         <div class="pub-links">
@@ -372,16 +376,14 @@ ered multi-agentic approach, evaluated...
         <p class="pub-abstract">
             
              Vision-language models (VLMs) excel at tasks
- requiring joint understanding of visual and lin
-guistic information. A particularly promising
+ requiring joint understanding of visual and linguistic information. A particularly promising
  yet under-explored application for these models
  lies in answering questions based on various
  kinds of maps. This study investigates the
  efficacy of VLMs in answering questions based
  on choropleth maps, which are widely used for
  data analysis and representation. To facilitate
- and encourage research in this area, we intro
-duce a novel map-based question-answering
+ and encourage research in this area, we introduce a novel map-based question-answering
  benchmark, consisting of maps from three
  geographical regions (United States, India,
  China), each containing 1000 questions. Our
@@ -489,13 +491,13 @@ duce a novel map-based question-answering
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/abs/2407.05952" target="_blank" rel="noopener">H-STAR: LLM-driven Hybrid SQL-Text Adaptive Reasoning on Tables</a>
+          <a href="https://aclanthology.org/2025.naacl-long.445.pdf" target="_blank" rel="noopener">H-STAR: LLM-driven Hybrid SQL-Text Adaptive Reasoning on Tables</a>
         </h3>
 
         <div class="pub-meta">
           <span class="authors">Nikhil Abhyankar, Vivek Gupta, Dan Roth, Chandan Reddy</span>
           <span class="venue">
-              <a href="https://2025.naacl.org/">NAACL 2025</a><sup><b>*</b></sup>
+              <a href="https://2025.naacl.org/">NAACL 2025</a>
               </span>
         </div>
 
@@ -508,7 +510,7 @@ duce a novel map-based question-answering
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://arxiv.org/abs/2407.05952">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.445.pdf">paper</a>
           <a class="btn btn-site" href="https://hstar-llm.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/nikhilsab/H-STAR">code</a>
           
@@ -532,20 +534,17 @@ duce a novel map-based question-answering
           <span class="authors">Irwin Deng, Kushagra Dixit, Dan Roth, Vivek Gupta</span>
           
           <span class="venue">
-              <a href="https://2025.naacl.org/">NAACL 2025</a><sup><b>*</b></sup>
+              <a href="https://2025.naacl.org/">NAACL 2025</a> (Findings)
               </span>
         </div>
 
         <p class="pub-abstract">
            Temporal reasoning over tabular data presents
- substantial challenges for large language mod
-els (LLMs), as evidenced by recent research. In
- this study, we conduct a comprehensive analy
-sis of temporal datasets to pinpoint the specific
+ substantial challenges for large language models (LLMs), as evidenced by recent research. In
+ this study, we conduct a comprehensive analysis of temporal datasets to pinpoint the specific
  limitations of LLMs. Our investigation leads
  to enhancements in TempTabQA, a benchmark
- specifically designed for tabular temporal ques
-tion answering. We provide critical insights
+ specifically designed for tabular temporal question answering. We provide critical insights
  for enhancing LLM performance in temporal
  reasoning tasks with tabular data. Furthermore,
  we introduce a novel approach, C.L.E.A.R to
@@ -666,7 +665,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
   Srija Mukhopadhyay, Adnan Qidwai, Aparna Garimella, Pritika Ramu, <b>Vivek Gupta</b>, Dan Roth <br /></span>
           
           <span class="venue">
-          <a href="https://2024.emnlp.org/">EMNLP 2024</a><sup><b>*</b></sup>
+          <a href="https://2024.emnlp.org/">EMNLP 2024</a> (Findings)
           </span>
         </div>
 
@@ -697,13 +696,12 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
         <div class="pub-meta">
           <span class="authors">Suyash Vardhan Mathur, Jainit Sushil Bafna, Kunal Kartik, Harshita Khandelwal, Manish Shrivastava, <b>Vivek Gupta</b>, Mohit Bansal, Dan Roth</span>
           <span class="venue">
-              <a href="https://2024.emnlp.org/">EMNLP 2024</a><sup><b>*</b></sup>
+              <a href="https://2024.emnlp.org/">EMNLP 2024</a> (Findings)
            </span>  
         </div>
 
         <p class="pub-abstract">
-           Existing datasets for tabular question answer
-ing typically focus exclusively on text within
+           Existing datasets for tabular question answering typically focus exclusively on text within
  cells. However, real-world data is inherently
  multimodal, often blending images such as
  symbols, faces, icons, patterns, and charts
@@ -745,24 +743,19 @@ ing typically focus exclusively on text within
         <div class="pub-meta">
           <span class="authors">Shubhankar Singh, Purvi Chaurasia, Yerram Varun, Pranshu Pandya, Vatsal Gupta, <b>Vivek Gupta</b>, Dan Roth</span>
           <span class="venue">
-              <a href="https://2024.aclweb.org/">ACL 2024</a><sup><b>*</b></sup>
+              <a href="https://2024.aclweb.org/">ACL 2024</a> (Findings)
            </span>  
         </div>
 
         <p class="pub-abstract">
-            Existing benchmarks for visual question an
-swering lack in visual grounding and complex
-ity, particularly in evaluating spatial reasoning
- skills. We introduce FlowVQA, a novel bench
-mark aimed at assessing the capabilities of vi
-sual question-answering multimodal language
+            Existing benchmarks for visual question answering lack in visual grounding and complexity, particularly in evaluating spatial reasoning
+ skills. We introduce FlowVQA, a novel benchmark aimed at assessing the capabilities of visual question-answering multimodal language
  models in reasoning with flowcharts as visual
  contexts. FlowVQA comprises 2,272 carefully
  generated and human-verified flowchart images
  from three distinct content sources, along with
  22,413 diverse question-answer pairs, to test a
- spectrum of reasoning tasks, including informa
-tion localization, decision-making, and logical
+ spectrum of reasoning tasks, including information localization, decision-making, and logical
  progression. We conduct a thorough baseline
  evaluation on a suite of both open-source and
  proprietary multimodal language models using
@@ -795,15 +788,14 @@ tion localization, decision-making, and logical
         <div class="pub-meta">
           <span class="authors">Pragya Srivastava, Manuj Malik, <b>Vivek Gupta</b>, Tanuja Ganu, Dan Roth</span>
           <span class="venue">
-              <a href="https://2024.aclweb.org/">ACL 2024</a><sup><b>*</b></sup>
+              <a href="https://2024.aclweb.org/">ACL 2024</a> (Findings)
            </span>  
         </div>
 
         <p class="pub-abstract">
             Large Language Models (LLMs), excel in
  natural language understanding, but their capability for complex mathematical reasoning
- with a hybrid of structured tables and unstructured text remain uncertain. This study ex
-plores LLMs’ mathematical reasoning on four
+ with a hybrid of structured tables and unstructured text remain uncertain. This study explores LLMs’ mathematical reasoning on four
  financial tabular question-answering datasets:
  TATQA, FinQA, ConvFinQA, and Multihiertt.
  Through extensive experiments with various
@@ -836,18 +828,16 @@ plores LLMs’ mathematical reasoning on four
         <div class="pub-meta">
           <span class="authors">Mubashara Akhtar, Nikesh Subedi, <b>Vivek Gupta</b>, Sahar Tahmasebi, Oana Cocarascu, Elena Simperl</span>
           <span class="venue">
-              <a href="https://2024.aclweb.org/">ACL 2024</a><sup><b>*</b></sup>
+              <a href="https://2024.aclweb.org/">ACL 2024</a> (Findings)
            </span>  
         </div>
 
         <p class="pub-abstract">
-           Whilst fact verification has attracted substan
-tial interest in the natural language processing
+           Whilst fact verification has attracted substantial interest in the natural language processing
  community, verifying misinforming statements
  against data visualizations such as charts has
  so far been overlooked. Charts are commonly
- used in the real-world to summarize and com
-municate key information, but they can also
+ used in the real-world to summarize and communicate key information, but they can also
  be easily misused to spread misinformation
  and promote certain agendas. In this paper,
  we introduce ChartCheck, a novel, large-scale
@@ -882,7 +872,7 @@ municate key information, but they can also
         <div class="pub-meta">
           <span class="authors">Ashim Gupta, <b>Vivek Gupta</b>, Shuo Zhang, Yujie He, Ning Zhang, Shalin Shah </span>
           <span class="venue">
-              <a href="https://blackboxnlp.github.io/">BlackboxNLP 2024</a><sup><b>*</b></sup>
+              <a href="https://blackboxnlp.github.io/">BlackboxNLP 2024</a> (Findings)
               
            </span>  
         </div>
@@ -894,14 +884,8 @@ standing visual cues, such as layouts and charts,
  is also required. While the current state-of
 the-art approaches for document understanding
  (both OCR-based and OCR-free) work well,
- we have not found any other works conduct
-ing a thorough analysis of their capabilities and
- limitations. Therefore, in this work, we ad
-dress the limitation of current VisualQA mod
-els when applied to charts and plots. To in
-vestigate shortcomings of the state-of-the-art
- models, we conduct a comprehensive behav
-ioral analysis, using ChartQA as a case study.
+ we have not found any other works conducting a thorough analysis of their capabilities and
+ limitations. Therefore, in this work, we address the limitation of current VisualQA models when applied to charts and plots. To investigate shortcomings of the state-of-the-art models, we conduct a comprehensive behavioral analysis, using ChartQA as a case study.
  Our findings ...
         </p>
 
@@ -912,18 +896,11 @@ ioral analysis, using ChartQA as a case study.
       </div>
     </article>
 <hr />
-<p style="margin:0; padding:0; line-height:1; vertical-align:baseline;">
-  <sup style="line-height:1; vertical-align:baseline;"><b>*</b></sup> Findings
-</p>
 
 <section class="past-publications">
 
      <h2 class="section-title">PAST PUBLICATIONS</h2>
-     <h3 class="subsection-title">Semi-structured Data (Tabular Reasoning)</h3>
-<ul>
-
-
-  
+   
   <li><b>TempTabQA: Temporal Question Answering for Semi-Structured Tables</b><br />
   <b>Vivek Gupta</b>, Pranshu Kandoi, Mahek Bhavesh Vora, Shuo Zhang, Yujie He, Ridho Reinanda, Vivek Srikumar <br />
   Published at <a href="https://2023.emnlp.org/">EMNLP 2023</a>, <a href="https://aclanthology.org/2023.emnlp-main.149.pdf">Paper</a>, 
@@ -986,10 +963,6 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
 <li><b>InfoTabS: Inference on Tables as Semi-structured Data</b>, <br /> <b>Vivek Gupta</b>, Maitrey Mehta, Pegah Nokhiz, Vivek Srikumar <br /> Published at <a href="https://acl2020.org">ACL 2020</a> [<a href="https://www.aclweb.org/anthology/2020.acl-main.210/">Paper</a>] [<a href="https://infotabs.github.io">Project Page</a>] [<a href="https://www.youtube.com/watch?v=YhfU1BON8EI">Video</a>] [<a href="https://github.com/infotabs/infotabs">Data</a>] [<a href="https://github.com/utahnlp/infotabs-code">Code</a>]
 </li>
 
-</ul>
-
-<h3>Logic Consistency / Low-resource Applications</h3>
-<ul>
   <li><b>IndicSemParse: Evaluating Inter-Bilingual Semantic Parsing for Indian Languages</b><br />
   Divyanshu Aggarwal*, <b>Vivek Gupta</b>*, Anoop Kunchukuttan <br />
   To appear at <a href="https://sites.google.com/view/5thnlp4convai/">NLP4ConvAI 2023</a> <a href="https://iesemparse.github.io/">Project Page</a>, <a href="https://arxiv.org/pdf/2304.13005.pdf">Preprint</a>
@@ -1009,10 +982,7 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   Tao Li, <b>Vivek Gupta</b>, Maitrey Mehta, and Vivek Srikumar <br />
   Published at EMNLP-IJCNLP 2019 <a href="https://www.aclweb.org/anthology/D19-1405.pdf">Paper</a>
   </li>
-</ul>
 
-<h3>Fairness and Bias</h3>
-<ul>
   <li><b>Unbiasing Review Ratings with Tendency-based Collaborative Filtering</b><br />
   Pranshi Yadav*, Priya Yadav*, Pegah Nokhiz, <b>Vivek Gupta</b><br />
   Published at <a href="https://aacl2020-srw.github.io">AACL-IJCNLP SRW 2020</a> <a href="https://www.aclweb.org/anthology/2020.aacl-srw.8.pdf">Paper</a>
@@ -1031,12 +1001,6 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   <li><b>Efficient Estimation of Generalization Error and Bias-Variance Components of Ensembles</b> <br /> Dhruv Mahajan, <b>Vivek Gupta</b>, Satya Keerthi, Sundararjan Sellamanickam <br /> Technical Report. [<a href="https://arxiv.org/abs/1711.05482">Preprint</a>]
 </li>
 
-</ul>
-
-<h3>Long-length Document Classification</h3>
-
-<ul>
-  
 <li><b>Unsupervised Contextualized Document Representation</b>, <br /> Ankur Gupta, <b>Vivek Gupta</b> <br /> Published at <a href="https://sites.google.com/view/sustainlp2021/call-for-papers">SustaiNLP 2021</a> at <a href="https://2021.emnlp.org/">EMNLP 2021</a> workshop. [<a href="https://aclanthology.org/2021.sustainlp-1.17.pdf">Paper</a>] [<a href="https://arxiv.org/pdf/2109.10509.pdf">Preprint</a>] [<a href="docs/sustainlp21_ppt.pdf">PPT</a>] [<a href="docs/sustainlp21_poster.pdf">Poster</a>] [<a href="https://www.youtube.com/watch?v=xp576-9fZGw&amp;ab_channel=VivekGupta">Video</a>] [<a href="https://github.com/vgupta123/contextualize_scdv">Code</a>]
 </li>
   
@@ -1052,21 +1016,12 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
 <li><b>Sparse Composite Document Vectors using soft clustering over distributional representations</b> <br /> Dheeraj Mekala*, <b>Vivek Gupta</b>*, Bhargavi Paranjape , Harish Karnick <br /> Published at <a href="https://www.aclweb.org/anthology/events/emnlp-2017/">EMNLP 2017</a>. [<a href="http://aclweb.org/anthology/D17-1069">Paper</a>] [<a href="https://www.slideshare.net/vivekgupta3150/sparse-composite-document-vector-emnlp-2017">PPT</a>] [<a href="https://vimeo.com/238235553">Video</a>] [<a href="https://github.com/dheeraj7596/SCDV">Code</a>]
 </li>
   
-</ul>
-
-<h3>Effective Dimentional Properties</h3>
-<ul>
-  
 <li><b>On Dimensional Linguistic Properties of the Word Embedding Space</b> <br /> Vikas Raunak*, Vaibhav Kumar*, <b>Vivek Gupta</b> and Florian Metze <br /> Presented at <a href="https://sites.google.com/view/acl19studentresearchworkshop/">ACL-SRW 2019</a> (non-archival), Published at <a href="https://sites.google.com/view/repl4nlp2020/home">RepL4NLP 2020</a> [<a href="https://www.aclweb.org/anthology/2020.repl4nlp-1.19.pdf">Paper</a>] [<a href="https://www.aclweb.org/anthology/2020.repl4nlp-1.19/">Paper</a>] [<a href="https://github.com/vyraun/dlp">Code</a>] <br />
 </li>
   
 <li><b>Effective Dimensionality Reduction for Word Embeddings</b> <br /> Vikas Raunak, <b>Vivek Gupta</b> and Florian Metze <br /> Published at <a href="https://sites.google.com/view/repl4nlp2019/home">RepL4NLP 2019</a>. [<a href="https://www.aclweb.org/anthology/W19-4328">Paper</a>] [<a href="docs/RepL4NLP_Poster.pdf">Poster</a>] [<a href="https://github.com/vyraun/Half-Size">Code</a>]
 </li>
   
-</ul>
-
-<h3>Summarization</h3>
-<ul>
   <li><b>SumPubMed: Summarization Dataset of PubMed Scientific Articles</b><br />
   <b>Vivek Gupta</b>, Prerna Bharti, Pegah Nokhiz, Harish Karnick <br />
   Accepted to appear in ACL-IJCNLP SRW 2021 <a href="docs/121_paper.pdf">Preprint</a> <a href="https://github.com/vgupta123/sumpubmed">Dataset</a> <a href="https://docs.google.com/presentation/d/12zNpBw02DXjwQYTop5LQHwXe_HCLR8dg6D4bYYMYS7E/edit?usp=sharing">PPT</a>
@@ -1076,10 +1031,7 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   Shibhansh Dohare, <b>Vivek Gupta</b>, Harish Karnick <br />
   Published at ACL-SRW 2018 <a href="https://arxiv.org/pdf/1706.01678.pdf">Preprint</a> <a href="http://aclweb.org/anthology/P18-3011">Paper</a>
   </li>
-</ul>
 
-<h3>eXtreme Learning (Capturing Tail)</h3>
-<ul>
   <li><b>Distributional Semantics meet Multi-Label Learning</b><br />
   <b>Vivek Gupta</b>, Rahul Wadbude, Nagararjan Natararjan, Harish Karnick, Prateek Jain, Piyush Rai <br />
   Published at AAAI 2019 <a href="https://aaai.org/ojs/index.php/AAAI/article/view/4260">Paper</a>
@@ -1090,13 +1042,9 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   Technical Report. <a href="https://arxiv.org/pdf/1802.06771.pdf">Report</a>
   </li>
 
-  <li><b>On Long-Tailed Phenomena in Neural Machine Translation</b>, <br /> Vikas Raunak, Siddharth Dalmia, <b>Vivek Gupta</b>, and Florian Metze <br /> Published at <a href="https://2020.emnlp.org">EMNLP 2020</a> (findings), Presented at <a href="http://structuredprediction.github.io/SPNLP20">SPNLP2020</a> [<a href="https://www.aclweb.org/anthology/2020.findings-emnlp.276.pdf">Paper</a>] [<a href="https://github.com/vyraun/long-tailed">Code</a>]
+  <li><b>On Long-Tailed Phenomena in Neural Machine Translation</b>, <br /> Vikas Raunak, Siddharth Dalmia, <b>Vivek Gupta</b>, and Florian Metze <br /> Published at <a href="https://2020.emnlp.org">EMNLP 2020</a> (Findings), Presented at <a href="http://structuredprediction.github.io/SPNLP20">SPNLP2020</a> [<a href="https://www.aclweb.org/anthology/2020.findings-emnlp.276.pdf">Paper</a>] [<a href="https://github.com/vyraun/long-tailed">Code</a>]
 </li>
 
-</ul>
-
-<h3>Applications</h3>
-<ul>
   <li><b>Product Classification in E-Commerce using Distributional Semantics</b><br />
   <b>Vivek Gupta</b>, Harish Karnick, Ashendra Bansal, Pradhuman Jhala <br />
   Published at COLING 2016 <a href="https://aclweb.org/anthology/C/C16/C16-1052.pdf">Paper</a>
@@ -1106,8 +1054,6 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   <b>Vivek Gupta</b>*, Siddhant Mittal*, Sandip Bhaumik, Raj Roy <br />
   Published at BIBM 2016 <a href="http://ieeexplore.ieee.org/document/7822635/">Paper</a>
   </li>
-</ul>
-
 
 <style>
 /* Basic styling — tweak to match fonts/colors of your site */
@@ -1120,7 +1066,7 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
 
   .past-publications {
   max-width: 980px;
-  margin: 2rem auto;
+  margin: 0.8rem auto;
   padding: 0 1rem;
   font-family: "Helvetica Neue", Arial, sans-serif;
 
@@ -1228,6 +1174,27 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
   color: #000000;
   border-color: rgba(110,42,168,0.08);
 }
+
+.google-scholar-link {
+  text-align: center;
+  margin: 0.5rem 0 0rem;
+}
+
+.google-scholar-link a {
+  display: inline-block;
+  background-color: #FFC627; /* ASU Gold */
+  color: #000000;
+  text-decoration: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+  font-weight: normal;
+  transition: background-color 0.3s ease;
+}
+
+.google-scholar-link a:hover {
+  background-color: #FFC627;
+}
+
 /* Responsive fallback */
 @media (max-width: 740px) {
   .pub-item { grid-template-columns: 1fr; }
