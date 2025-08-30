@@ -26,7 +26,7 @@ permalink: /publication/
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="Follow_the_flow_placeholder" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Follow_the_flow_placeholder.png" alt="paper thumbnail">
 
       </figure>
 
@@ -67,7 +67,7 @@ Flowcharts are a critical tool for visualizing decision-making processes. Howeve
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="Weaver_placeholder" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Weaver_placeholder.png" alt="paper thumbnail">
 
       </figure>
 
@@ -112,7 +112,7 @@ flows, limiting their adaptability to complex
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="TABARD_placeholder" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/TABARD_placeholder.png" alt="paper thumbnail">
 
       </figure>
 
@@ -150,7 +150,7 @@ We study the capabilities of large language models (LLMs) in detecting fine-grai
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="Federated_placeholder" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Federated_placeholder.png" alt="paper thumbnail">
 
       </figure>
 
@@ -188,7 +188,7 @@ Federated Retrieval-Augmented Generation (Federated RAG) combines Federated Lear
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="M_Help_placeholder" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/M_Help_placeholder.png" alt="paper thumbnail">
 
       </figure>
 
