@@ -203,7 +203,7 @@ permalink: /people
   <div class="card-grid single-center">
     <a href="https://www.linkedin.com/in/junha-park-ab2b4b181/" target="_blank" class="person-link">
       <div class="person-card">
-        <img src="{{ 'images/people/ug2.jpeg' | relative_url }}" alt="Junha Park">
+        <img src="{{ 'images/people/Junha park.jpeg' | relative_url | uri_escape }}" alt="Junha Park" loading="lazy">
         <p>Junha Park</p>
       </div>
     </a>

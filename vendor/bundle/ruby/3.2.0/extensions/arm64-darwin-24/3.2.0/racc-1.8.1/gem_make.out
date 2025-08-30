@@ -1,0 +1,19 @@
+current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby@3.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250811-40553-nhxjvy sitelibdir\=./.gem.20250811-40553-nhxjvy clean
+
+current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250811-40553-nhxjvy sitelibdir\=./.gem.20250811-40553-nhxjvy
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250811-40553-nhxjvy sitelibdir\=./.gem.20250811-40553-nhxjvy install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250811-40553-nhxjvy/racc
+
+current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250811-40553-nhxjvy sitelibdir\=./.gem.20250811-40553-nhxjvy clean
