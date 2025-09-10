@@ -408,6 +408,7 @@ work that integrates multi-level structural descriptors with fine-grained contex
           <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-acl.1022.pdf">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/llm_symbolic/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/TEMPTABQA-C">code</a>
+          <a class="btn btn-data" href="https://github.com/CoRAL-ASU/TEMPTABQA-C">data</a>
           <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/LLM-Symbolic_presentation.pdf" target="_blank">slides</a>
         </div>
       </div>
@@ -496,6 +497,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
           <a class="btn btn-paper" href="https://arxiv.org/abs/2409.00255">paper</a>
           <a class="btn btn-site" href="https://map-wise.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/abhishekrajgaria/Mapwise">code</a>
+          <a class="btn btn-data" href="https://github.com/abhishekrajgaria/Mapwise/tree/main/dataset">data</a>
           
         </div>
       </div>
@@ -701,6 +703,7 @@ proves evidence-based reasoning across various
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2407.10380">paper</a>
           <a class="btn btn-site" href="https://ntsebench.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/NTSEBench/NTSEBench">code</a>
+          <a class="btn btn-data" href="https://github.com/NTSEBench/NTSEBench">data</a>
           
         </div>
       </div>
@@ -820,6 +823,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
           <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-emnlp.822.pdf">paper</a>
           <a class="btn btn-site" href="https://mmtabqa.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/MMTabQA/mmtabqa">code</a>
+          <a class="btn btn-data" href="https://github.com/MMTabQA/mmtabqa">data</a>
           <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/mmtabqa_slides.pdf" target="_blank">slides</a>
         </div>
       </div>
@@ -867,6 +871,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
           <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-acl.78.pdf">paper</a>
           <a class="btn btn-site" href="https://flowvqa.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/flowvqa">code</a>
+          <a class="btn btn-data" href="https://github.com/flowvqa/flowvqa">data</a>
         </div>
       </div>
       </article>
@@ -1265,6 +1270,11 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
 }
 
 .btn-code {
+  background: #FFC627;
+  color: #000000;
+  border-color: rgba(110,42,168,0.08);
+}
+.btn-data {
   background: #FFC627;
   color: #000000;
   border-color: rgba(110,42,168,0.08);
