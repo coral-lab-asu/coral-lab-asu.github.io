@@ -118,18 +118,18 @@ flows, limiting their adaptability to complex
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://openreview.net/pdf?id=8Y1G4XD3vR" target="_blank" rel="noopener">TABARD:A Novel Benchmark for Tabular Anomaly Analysis, Reasoning and Detection
+          <a href="https://tabard-emnlp-2025.github.io" target="_blank" rel="noopener">TABARD: A Novel Benchmark for Tabular Anomaly Analysis, Reasoning and Detection
 </a>
         </h3>
 
         <div class="pub-meta">
           <span class="authors"></span>
-            Manan Roy Choudhury, Shikhhar Siingh, Anirudh Iyengar, Sugeeth Puranam, Vivek Gupta
+            Manan Roy Choudhury, Anirudh Iyengar, Shikhhar Siingh, Sugeeth Puranam, Vivek Gupta
           <span class="venue"> 
-          <a href="https://2025.emnlp.org/">EMNLP 2025</a> (Findings)
+          <a href="https://2025.emnlp.org/">EMNLP 2025</a>
           </span>
          
-        </div>
+        </div> 
 
         <p class="pub-abstract">
 We study the capabilities of large language models (LLMs) in detecting fine-grained anomalies in tabular data. Specifically, we examine: (1) how well LLMs can identify diverse anomaly types—including factual, logical, temporal, and value-based errors; (2) the impact of prompt design and prompting strategies; and (3) the effect of table structure and anomaly type on detection accuracy. To this end, we introduce TABARD, a new benchmark constructed by perturbing tables from WikiTQ, FeTaQA, Spider, and BEAVER. The dataset spans multiple domains and eight anomaly categories, including paired clean and corrupted tables. We evaluate LLMs using direct, indirect, and Chain-of-Thought (CoT) prompting. Our results reveal notable limitations in standard prompting, especially for complex reasoning tasks and longer tables. To overcome these issues, we propose a unified framework combining multi-step prompting, self-verification, and constraint-based rule execution. Our approach...
@@ -138,8 +138,12 @@ We study the capabilities of large language models (LLMs) in detecting fine-grai
 
         <div class="pub-links">
             
-          <a class="btn btn-paper" href="https://openreview.net/pdf?id=8Y1G4XD3vR">paper</a>
-        
+          <a class="btn btn-paper"
+   href="{{ '/paper/Instructions_for_EMNLP_2023_Proceedings.pdf' | relative_url }}"
+   target="_blank">Paper</a>
+          <a class="btn btn-paper" href="https://tabard-emnlp-2025.github.io">website</a> 
+          <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-dataset.git">dataset</a>
+          <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-code.git">code</a>  
 
         </div>
       </div>
