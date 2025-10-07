@@ -70,7 +70,10 @@ permalink: /people
       <div class="person-photo"><img src="{{ 'images/people/A R Shekhar.JPG' | relative_url }}" alt="A R Shekhar"></div>
       <div class="person-meta"><div class="person-name">A R Shekhar</div></div>
     </a>
-
+    <a class="person-card" href="https://fearless-writers-028990.framer.app/" target="_blank" rel="noopener">
+    <div class="person-photo"><img src="{{ 'images/people/ritam_upadhyay.jpg' | relative_url }}" alt="Ritam Upadhyay"></div>
+    <div class="person-meta"><div class="person-name">Ritam Upadhyay</div></div>
+    </a>
     <a class="person-card" href="https://www.linkedin.com/in/gauravnajpande/" target="_blank" rel="noopener">
       <div class="person-photo"><img src="{{ 'images/people/gaurav.JPG' | relative_url }}" alt="Gaurav Najpande"></div>
       <div class="person-meta"><div class="person-name">Gaurav Najpande</div></div>
@@ -120,6 +123,10 @@ permalink: /people
     <a class="person-card" href="https://www.linkedin.com/in/inkita-tewari-26133a114/" target="_blank" rel="noopener">
       <div class="person-photo"><img src="{{ 'images/people/inkita.JPG' | relative_url }}" alt="Inkita Tewari"></div>
       <div class="person-meta"><div class="person-name">Inkita Tewari</div></div>
+    </a>
+    <a class="person-card" href="http://in.linkedin.com/in/yash-shah-472033302" target="_blank" rel="noopener">
+    <div class="person-photo"><img src="{{ 'images/people/yash.jpeg' | relative_url }}" alt="Yash Shah"></div>
+    <div class="person-meta"><div class="person-name">Yash Shah</div></div>
     </a>
   </div>
 
