@@ -48,11 +48,16 @@
 
   
 
+
+
+
+
     
     
       
         
-     ..." />
+
+..." />
   <meta property="og:image" content="http://localhost:4000/images/logo/logo_square.jpg">
 
 </head>
@@ -110,6 +115,8 @@ s.setAttribute('data-timestamp', +new Date());
                   
                   <li><a class='name' href="/people">people</a></li>
                   
+                  <li><a class='name' href="/resources">resources</a></li>
+                  
                 </ul>
             </ul>
         </div>
@@ -131,6 +138,221 @@ s.setAttribute('data-timestamp', +new Date());
   <h3 class="subsection-title">Complex Data (Structured Data)</h3>
 
   <div class="pub-list">
+
+
+
+<!-- /Publication item -->
+
+    <!-- Repeat other pub-items as needed -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="/poster_docs/Follow_the_flow_placeholder.png" alt="paper thumbnail" />
+
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2506.01344" target="_blank" rel="noopener">Follow the Flow: Fine-grained Flowchart Attribution with Neurosymbolic Agents
+</a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors"></span>
+           Manan Suri, Puneet Mathur, Nedim Lipka, Franck Dernoncourt, Ryan A. Rossi, Vivek Gupta, Dinesh Manocha
+          <span class="venue"> 
+          <a href="https://2025.emnlp.org/">EMNLP 2025</a>
+          </span>
+         
+        </div>
+
+        <p class="pub-abstract">
+Flowcharts are a critical tool for visualizing decision-making processes. However, their non-linear structure and complex visual-textual relationships make it challenging to interpret them using LLMs, as vision-language models frequently hallucinate nonexistent connections and decision paths when analyzing these diagrams. This leads to compromised reliability for automated flowchart processing in critical domains such as logistics, health, and engineering. We introduce the task of Fine-grained Flowchart Attribution, which traces specific components grounding a flowchart referring LLM response. Flowchart Attribution ensures the verifiability of LLM predictions and improves explainability by linking generated responses to the flowchart's structure. We propose FlowPathAgent, a neurosymbolic agent that performs fine-grained post hoc attribution through graph-based reasoning. It first segments...
+          
+        </p>
+
+        <div class="pub-links">
+            
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2506.01344">paper</a>
+        
+
+        </div>
+      </div>
+    </article>
+
+
+
+
+<!-- /Publication item -->
+
+    <!-- Repeat other pub-items as needed -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="/poster_docs/Weaver_placeholder.png" alt="paper thumbnail" />
+
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2505.18961" target="_blank" rel="noopener">Weaver: Interweaving SQL and LLM for Table Reasoning</a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors"></span>
+          Rohit Khoja, Devanshu Gupta, Yanjie Fu, Dan Roth, Vivek Gupta
+          <span class="venue"> 
+          <a href="https://2025.emnlp.org/">EMNLP 2025</a>
+          </span>
+         
+        </div>
+
+        <p class="pub-abstract">
+Querying tables with unstructured data is challenging due to the presence of text (or image), either embedded in the table or in external paragraphs, which traditional SQL struggles to process, especially for tasks requiring
+ semantic reasoning. While Large Language
+ Models (LLMs) excel at understanding context,
+ they face limitations with long input sequences.
+ Existing approaches that combine SQL and
+ LLMs typically rely on rigid, predefined work
+flows, limiting their adaptability to complex
+ queries. To address these issues, we introduce
+ Weaver , a modular pipeline that dynamically
+ integrates SQL and LLMs for table-based question answering (TableQA). Weaver generates...
+          
+        </p>
+
+        <div class="pub-links">
+            
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.18961">paper</a>
+
+        </div>
+      </div>
+    </article>
+
+<!-- /Publication item -->
+
+    <!-- Repeat other pub-items as needed -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="/poster_docs/TABARD_placeholder.png" alt="paper thumbnail" />
+
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://tabard-emnlp-2025.github.io" target="_blank" rel="noopener">TABARD: A Novel Benchmark for Tabular Anomaly Analysis, Reasoning and Detection
+</a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors"></span>
+            Manan Roy Choudhury, Anirudh Iyengar, Shikhhar Siingh, Sugeeth Puranam, Vivek Gupta
+          <span class="venue"> 
+          <a href="https://2025.emnlp.org/">EMNLP 2025</a>
+          </span>
+         
+        </div> 
+
+        <p class="pub-abstract">
+We study the capabilities of large language models (LLMs) in detecting fine-grained anomalies in tabular data. Specifically, we examine: (1) how well LLMs can identify diverse anomaly types—including factual, logical, temporal, and value-based errors; (2) the impact of prompt design and prompting strategies; and (3) the effect of table structure and anomaly type on detection accuracy. To this end, we introduce TABARD, a new benchmark constructed by perturbing tables from WikiTQ, FeTaQA, Spider, and BEAVER. The dataset spans multiple domains and eight anomaly categories, including paired clean and corrupted tables. We evaluate LLMs using direct, indirect, and Chain-of-Thought (CoT) prompting. Our results reveal notable limitations in standard prompting, especially for complex reasoning tasks and longer tables. To overcome these issues, we propose a unified framework combining multi-step prompting, self-verification, and constraint-based rule execution. Our approach...
+          
+        </p>
+
+        <div class="pub-links">
+            
+          <a class="btn btn-paper" href="/paper/Instructions_for_EMNLP_2023_Proceedings.pdf" target="_blank">Paper</a>
+          <a class="btn btn-paper" href="https://tabard-emnlp-2025.github.io">website</a> 
+          <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-dataset.git">dataset</a>
+          <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-code.git">code</a>  
+
+        </div>
+      </div>
+    </article>
+
+<!-- /Publication item -->
+
+    <!-- Repeat other pub-items as needed -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="/poster_docs/Federated_placeholder.png" alt="paper thumbnail" />
+
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2505.18906v1" target="_blank" rel="noopener">Federated Retrieval-Augmented Generation: A Systematic Mapping Study
+</a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors"></span>
+            Abhijit Chakraborty, Chahana Dahal, Vivek Gupta
+          <span class="venue"> 
+          <a href="https://2025.emnlp.org/">EMNLP 2025</a> (Findings)
+          </span>
+         
+        </div>
+
+        <p class="pub-abstract">
+Federated Retrieval-Augmented Generation (Federated RAG) combines Federated Learning (FL),which enables distributed model training without exposing raw data, with Retrieval-Augmented Generation (RAG), which improves the factual accuracy of language models by grounding outputs in external knowledge. As large language models are increasingly deployed in privacy-sensitive domains such as healthcare, finance, and personalized assistance, Federated RAG offers a promising framework for secure, knowledge-intensive natural language processing (NLP). To the best of our knowledge, this paper presents the first systematic mapping study of Federated RAG, covering literature published between 2020 and 2025. Following Kitchenham’s...
+          
+        </p>
+
+        <div class="pub-links">
+            
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.18906v1">paper</a>
+        
+
+        </div>
+      </div>
+    </article>
+
+<!-- /Publication item -->
+
+    <!-- Repeat other pub-items as needed -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="/poster_docs/M_Help_placeholder.png" alt="paper thumbnail" />
+
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2508.15440" target="_blank" rel="noopener">M-HELP: Using Social Media Data to Detect Mental Health Help-Seeking Signals
+</a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors"></span>
+            MSVPJ Sathvik, Zuhair Hasan Shaik, Vivek Gupta
+          <span class="venue"> 
+          <a href="https://2025.emnlp.org/">EMNLP 2025</a> (Findings)
+          </span>
+         
+        </div>
+
+        <p class="pub-abstract">
+Mental health disorders are a global crisis.
+ While various datasets exist for detecting such
+ disorders, there remains a critical gap in identifying individuals actively seeking help. This
+ paper introduces a novel dataset, M-HELP,
+ specifically designed to detect help-seeking
+ behavior on social media. The dataset goes
+ beyond traditional labels by identifying not
+ only help-seeking activity but also specific
+ mental health disorders and their underlying
+ causes, such as relationship challenges or financial stressors. AI models...
+          
+        </p>
+
+        <div class="pub-links">
+            
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.15440">paper</a>
+        
+
+        </div>
+      </div>
+    </article>
+
+
 
     <!-- Publication item -->
     <article class="pub-item">
@@ -308,6 +530,7 @@ work that integrates multi-level structural descriptors with fine-grained contex
           <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-acl.1022.pdf">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/llm_symbolic/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/TEMPTABQA-C">code</a>
+          <a class="btn btn-data" href="https://github.com/CoRAL-ASU/TEMPTABQA-C">data</a>
           <a class="btn btn-slides" href="/presentation_docs/LLM-Symbolic_presentation.pdf" target="_blank">slides</a>
         </div>
       </div>
@@ -396,6 +619,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
           <a class="btn btn-paper" href="https://arxiv.org/abs/2409.00255">paper</a>
           <a class="btn btn-site" href="https://map-wise.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/abhishekrajgaria/Mapwise">code</a>
+          <a class="btn btn-data" href="https://github.com/abhishekrajgaria/Mapwise/tree/main/dataset">data</a>
           
         </div>
       </div>
@@ -601,6 +825,7 @@ proves evidence-based reasoning across various
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2407.10380">paper</a>
           <a class="btn btn-site" href="https://ntsebench.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/NTSEBench/NTSEBench">code</a>
+          <a class="btn btn-data" href="https://github.com/NTSEBench/NTSEBench">data</a>
           
         </div>
       </div>
@@ -720,6 +945,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
           <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-emnlp.822.pdf">paper</a>
           <a class="btn btn-site" href="https://mmtabqa.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/MMTabQA/mmtabqa">code</a>
+          <a class="btn btn-data" href="https://github.com/MMTabQA/mmtabqa">data</a>
           <a class="btn btn-slides" href="/presentation_docs/mmtabqa_slides.pdf" target="_blank">slides</a>
         </div>
       </div>
@@ -767,6 +993,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
           <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-acl.78.pdf">paper</a>
           <a class="btn btn-site" href="https://flowvqa.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/flowvqa">code</a>
+          <a class="btn btn-data" href="https://github.com/flowvqa/flowvqa">data</a>
         </div>
       </div>
       </article>
@@ -1165,6 +1392,11 @@ Aashna Jena*,  <b>Vivek Gupta</b>*, Manish Shrivastava, Julian Martin Eisenschlo
 }
 
 .btn-code {
+  background: #FFC627;
+  color: #000000;
+  border-color: rgba(110,42,168,0.08);
+}
+.btn-data {
   background: #FFC627;
   color: #000000;
   border-color: rgba(110,42,168,0.08);
