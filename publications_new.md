@@ -20,6 +20,41 @@ permalink: /publication/
   <div class="pub-list">
 
 
+<!-- Publication item -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="{{ site.baseurl }}/poster_docs/interchart_poster_placeholder.png" alt="paper thumbnail">
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2508.07630" target="_blank" rel="noopener">InterChart: Benchmarking Visual Reasoning Across Decomposed and Distributed Chart Information</a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors">
+           Anirudh Iyengar Kaniyar Narayana Iyengar, Srija Mukhopadhyay, Adnan Qidwai, Shubhankar Singh, Dan Roth, Vivek Gupta
+          </span>
+          <span class="venue">
+              Published at <a href="https://2025.aaclnet.org/" target="_blank" rel="noopener">AACL 2025</a>
+          </span>
+        </div>
+
+        <p class="pub-abstract">
+          We introduce InterChart, a diagnostic benchmark that evaluates how well vision-language models (VLMs) reason across multiple related charts, a task central to real-world applications such as scientific reporting, financial analysis, and public policy dashboards. Unlike prior benchmarks focusing on isolated, visually uniform charts, InterChart challenges models with diverse question types ranging from entity inference and trend correlation to numerical estimation and abstract multi-step reasoning grounded in 2-3 thematically or structurally related charts. We organize the benchmark into three tiers of increasing difficulty: (1) factual reasoning over individual charts, (2) integrative analysis across synthetically aligned chart sets, and (3) semantic inference over visually complex, real-world chart pairs. Our evaluation...
+        </p>
+
+        <div class="pub-links">
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.07630" target="_blank" rel="noopener">paper</a>
+          <a class="btn btn-site" href="https://interchart.github.io/">website</a>
+          <a class="btn btn-code" href="https://huggingface.co/datasets/interchart/Interchart">dataset</a>
+          
+        </div>
+      </div>
+    </article>
+
+
+
 
 <!-- /Publication item -->
 
