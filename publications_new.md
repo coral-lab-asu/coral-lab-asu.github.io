@@ -36,7 +36,7 @@ permalink: /publication/
            Anirudh Iyengar Kaniyar Narayana Iyengar, Srija Mukhopadhyay, Adnan Qidwai, Shubhankar Singh, Dan Roth, Vivek Gupta
           </span>
           <span class="venue">
-              Published at <a href="https://2025.aaclnet.org/" target="_blank" rel="noopener">AACL 2025</a>
+              <a href="https://2025.aaclnet.org/" target="_blank" rel="noopener">AACL 2025</a>
           </span>
         </div>
 
