@@ -19,6 +19,98 @@ permalink: /publication/
 
   <div class="pub-list">
 
+   
+<!-- Publication item -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="{{ site.baseurl }}/poster_docs/mammqa_poster_placeholder.png" alt="paper thumbnail">
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2505.20816" target="_blank" rel="noopener">Rethinking Information Synthesis in Multimodal Question Answering
+A Multi-Agent Perspective
+
+ </a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors">
+           Krishna Singh Rajput, Tejas Anvekar, Chitta Baral, Vivek Gupta
+
+          </span>
+          <span class="venue">
+              <a href="https://2025.aaclnet.org/" target="_blank" rel="noopener">AACL 2025</a>
+          </span>
+        </div>
+
+        <p class="pub-abstract">
+         Recent advances in multimodal question answering have primarily focused on combining
+heterogeneous modalities or fine-tuning multimodal large language models. While these
+approaches have shown strong performance,
+they often rely on a single, generalized reasoning strategy, overlooking the unique characteristics of each modality ultimately limiting
+both accuracy and interpretability. To address
+these limitations, we propose MAMMQA , a
+multi-agent QA framework for multimodal inputs spanning text, tables, and images. Our
+system includes...
+        </p>
+
+        <div class="pub-links">
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.20816" target="_blank" rel="noopener">paper</a>
+          <a class="btn btn-site" href="https://coral-lab-asu.github.io/MAMMQA/">website</a>
+          <a class="btn btn-code" href="https://github.com/CoRAL-ASU/MAMMQA">dataset</a>
+          
+       
+          
+        </div>
+      </div>
+    </article>
+    
+<!-- Publication item -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="{{ site.baseurl }}/poster_docs/sportsql_poster_placeholder.png" alt="paper thumbnail">
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2508.17157" target="_blank" rel="noopener">SPORTSQL: An Interactive System for Real-Time Sports Reasoning and
+Visualization
+ </a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors">
+           Sebastian Martinez, Naman Ahuja, Fenil Bardoliya, Chris Bryan, Vivek Gupta
+          </span>
+          <span class="venue">
+              <a href="https://2025.aaclnet.org/" target="_blank" rel="noopener">AACL 2025</a>
+          </span>
+        </div>
+
+        <p class="pub-abstract">
+          We present a modular, interactive system
+SPORTSQL for natural language querying and
+visualization of dynamic sports data, with a
+focus on the English Premier League (EPL).
+The system translates user questions into executable SQL over a live, temporally indexed
+database constructed from real-time Fantasy
+Premier League (FPL) data. It supports both
+tabular and visual outputs, leveraging symbolic reasoning capabilities of Large Language
+Models (LLMs) for query parsing, schema
+linking, and visualization selection. To evaluate...
+        </p>
+
+        <div class="pub-links">
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.17157" target="_blank" rel="noopener">paper</a>
+          <a class="btn btn-site" href="https://coral-lab-asu.github.io/SportsSQL/">website</a>
+          <a class="btn btn-code" href="https://github.com/coral-lab-asu/SportSQL">dataset</a>
+       
+          
+        </div>
+      </div>
+    </article>
+
 
 <!-- Publication item -->
     <article class="pub-item">
