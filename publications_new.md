@@ -309,7 +309,7 @@ We study the capabilities of large language models (LLMs) in detecting fine-grai
             
           <a class="btn btn-paper"
    href="{{ '/paper/Instructions_for_EMNLP_2023_Proceedings.pdf' | relative_url }}"
-   target="_blank">Paper</a>
+   target="_blank">paper</a>
           <a class="btn btn-paper" href="https://tabard-emnlp-2025.github.io">website</a> 
           <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-dataset.git">dataset</a>
           <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-code.git">code</a>  
