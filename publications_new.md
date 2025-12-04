@@ -19,6 +19,46 @@ permalink: /publication/
 
   <div class="pub-list">
 
+
+
+<!-- Publication item -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="{{ site.baseurl }}/poster_docs/sear_poster_placeholder.png" alt="paper thumbnail">
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2505.20816" target="_blank" rel="noopener">No Universal Prompt: Unifying Reasoning through Adaptive Prompting for Temporal Table Reasoning
+
+ </a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors">
+           Abhishek Rajgaria,Kushagra Dixit, Mayank Vyas, Harshavardhan Kalalbandi, Dan Roth, Vivek Gupta
+
+          </span>
+          <span class="venue">
+              <a href="https://2025.aaclnet.org/" target="_blank" rel="noopener">AACL 2025</a>
+          </span>
+        </div>
+
+        <p class="pub-abstract">
+         Temporal Table Reasoning poses a significant challenge for Large Language Models (LLMs), requiring effective reasoning to extract relevant insights. Despite existence of multiple prompting methods, their impact on table reasoning remains largely unexplored. Furthermore, model performance varies drastically across different table and context structures, making it difficult to determine an optimal approach. This work investigates multiple prompting technique on diverse table types to determine that performance depends on factors such as entity type, table structure, requirement of additional context and question complexity, with "NO" single method consistently outperforming others. To address this, we introduce SEAR, an adaptive prompting framework inspired by human reasoning that dynamically adjusts to context and integrates structured reasoning. SEAR_Unified, its cost-efficient variant. We also demonstrate that optional table refactoring (preprocessing) enhances both approaches when tables lack structural consistency. Our results demonstrate that SEAR prompts achieve superior performance across all table types compared to baseline prompting techniques...
+        </p>
+
+        <div class="pub-links">
+          <a class="btn btn-paper" href="https://openreview.net/forum?id=fSm7yihZAp" target="_blank" rel="noopener">paper</a>
+          <a class="btn btn-site" href="https://coral-lab-asu.github.io/SEAR/">website</a>
+          <a class="btn btn-code" href="https://github.com/coral-lab-asu/SEAR/blob/main/dataset/">dataset</a>
+          
+       
+          
+        </div>
+      </div>
+    </article>  
+
    
 <!-- Publication item -->
     <article class="pub-item">
