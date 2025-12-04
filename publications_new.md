@@ -269,6 +269,9 @@ flows, limiting their adaptability to complex
         <div class="pub-links">
             
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.18961">paper</a>
+          <a class="btn btn-paper" href="https://coral-lab-asu.github.io/weaver/">website</a> 
+          <a class="btn btn-paper" href="https://github.com/CoRAL-ASU/weaver">code</a> 
+          <a class="btn btn-slides" href="https://coral-lab-asu.github.io/weaver/presentation.pdf" target="_blank">slides</a>
 
         </div>
       </div>
@@ -280,7 +283,6 @@ flows, limiting their adaptability to complex
     <article class="pub-item">
       <figure class="thumb">
         <img src="{{ site.baseurl }}/poster_docs/TABARD_placeholder.png" alt="paper thumbnail">
-
       </figure>
 
       <div class="pub-body">
