@@ -51,7 +51,7 @@ permalink: /publication/
         <div class="pub-links">
           <a class="btn btn-paper" href="https://openreview.net/forum?id=fSm7yihZAp" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/SEAR/">website</a>
-          <a class="btn btn-code" href="https://github.com/coral-lab-asu/SEAR/blob/main/dataset/">dataset</a>
+          <a class="btn btn-code" href="https://github.com/coral-lab-asu/SEAR/blob/main/dataset/">data</a>
           
        
           
@@ -98,7 +98,7 @@ system includes...
         <div class="pub-links">
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.20816" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/MAMMQA/">website</a>
-          <a class="btn btn-code" href="https://github.com/CoRAL-ASU/MAMMQA">dataset</a>
+          <a class="btn btn-code" href="https://github.com/CoRAL-ASU/MAMMQA">data</a>
           
        
           
@@ -144,7 +144,7 @@ linking, and visualization selection. To evaluate...
         <div class="pub-links">
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.17157" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/SportsSQL/">website</a>
-          <a class="btn btn-code" href="https://github.com/coral-lab-asu/SportSQL">dataset</a>
+          <a class="btn btn-code" href="https://github.com/coral-lab-asu/SportSQL">data</a>
        
           
         </div>
@@ -179,7 +179,7 @@ linking, and visualization selection. To evaluate...
         <div class="pub-links">
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.07630" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/interchart/">website</a>
-          <a class="btn btn-code" href="https://huggingface.co/datasets/interchart/Interchart">dataset</a>
+          <a class="btn btn-code" href="https://huggingface.co/datasets/interchart/Interchart">code</a>
           
         </div>
       </div>
@@ -311,7 +311,7 @@ We study the capabilities of large language models (LLMs) in detecting fine-grai
    href="{{ '/paper/Instructions_for_EMNLP_2023_Proceedings.pdf' | relative_url }}"
    target="_blank">paper</a>
           <a class="btn btn-paper" href="https://tabard-emnlp-2025.github.io">website</a> 
-          <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-dataset.git">dataset</a>
+          <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-dataset.git">data</a>
           <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-code.git">code</a>  
 
         </div>
