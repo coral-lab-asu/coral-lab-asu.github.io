@@ -1,0 +1,6 @@
+# Prerequisites for running the Jekyll site locally (GitHub Pages-compatible)
+# Install a Ruby runtime (>=2.7) and Bundler (>=2.2) on your system.
+# Then run `bundle install` to pull the exact gem versions defined in the Gemfile:
+#   github-pages (~> 232), minima (~> 2.5), jekyll-feed (~> 0.12), webrick (~> 1.8)
+ruby>=2.7
+bundler>=2.2

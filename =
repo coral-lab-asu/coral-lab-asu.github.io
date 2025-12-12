@@ -1,0 +1,18 @@
+==> Searching for similarly named formulae and casks...
+==> Formulae
+autoconf@2.72
+bison@2.7
+erlang@27
+isl@0.27
+x3270
+
+To install autoconf@2.72, run:
+  brew install autoconf@2.72
+
+==> Casks
+font-3270
+font-3270-nerd-font
+font-slabo-27px
+
+To install font-3270, run:
+  brew install --cask font-3270
