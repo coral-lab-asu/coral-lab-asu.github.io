@@ -49,12 +49,11 @@ permalink: /publication/
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://openreview.net/forum?id=fSm7yihZAp" target="_blank" rel="noopener">paper</a>
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2506.11246" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/SEAR/">website</a>
           <a class="btn btn-code" href="https://github.com/coral-lab-asu/SEAR/blob/main/dataset/">data</a>
           
        
-          
         </div>
       </div>
     </article>  
@@ -98,7 +97,7 @@ system includes...
         <div class="pub-links">
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.20816" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/MAMMQA/">website</a>
-          <a class="btn btn-code" href="https://github.com/CoRAL-ASU/MAMMQA">data</a>
+          <a class="btn btn-code" href="https://github.com/CoRAL-ASU/MAMMQA">code</a>
           
        
           
@@ -144,7 +143,7 @@ linking, and visualization selection. To evaluate...
         <div class="pub-links">
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.17157" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/SportsSQL/">website</a>
-          <a class="btn btn-code" href="https://github.com/coral-lab-asu/SportSQL">data</a>
+          <a class="btn btn-code" href="https://github.com/coral-lab-asu/SportSQL">code</a>
        
           
         </div>
@@ -282,7 +281,7 @@ flows, limiting their adaptability to complex
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/TABARD_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/TABARD_POSTER.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -313,6 +312,7 @@ We study the capabilities of large language models (LLMs) in detecting fine-grai
           <a class="btn btn-paper" href="https://tabard-emnlp-2025.github.io">website</a> 
           <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-dataset.git">data</a>
           <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-code.git">code</a>  
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/TABARD_presentation.pdf" target="_blank">slides</a>
 
         </div>
       </div>
@@ -550,6 +550,7 @@ work that integrates multi-level structural descriptors with fine-grained contex
           <a class="btn btn-paper" href="https://aclanthology.org/2025.acl-demo.62.pdf">paper</a>
           <a class="btn btn-site" href="https://project-praise.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/project-PRAISE/system-demo/">code</a>
+
         </div>
       </div>
     </article>
@@ -580,7 +581,7 @@ work that integrates multi-level structural descriptors with fine-grained contex
         <div class="pub-links">
           <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-acl.1022.pdf">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/llm_symbolic/">website</a>
-          <a class="btn btn-code" href="https://github.com/CoRAL-ASU/TEMPTABQA-C">code</a>
+          <a class="btn btn-code" href="https://github.com/CoRAL-ASU/TEMPTABQA-C/tree/main/Dataset_Creation">code</a>
           <a class="btn btn-data" href="https://github.com/CoRAL-ASU/TEMPTABQA-C">data</a>
           <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/LLM-Symbolic_presentation.pdf" target="_blank">slides</a>
         </div>
@@ -670,7 +671,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
           <a class="btn btn-paper" href="https://arxiv.org/abs/2409.00255">paper</a>
           <a class="btn btn-site" href="https://map-wise.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/abhishekrajgaria/Mapwise">code</a>
-          <a class="btn btn-data" href="https://github.com/abhishekrajgaria/Mapwise/tree/main/dataset">data</a>
+          <a class="btn btn-data" href="https://github.com/map-wise/mapwise-dataset">data</a>
           
         </div>
       </div>
