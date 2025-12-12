@@ -143,7 +143,6 @@ linking, and visualization selection. To evaluate...
 
         <div class="pub-links">
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.17157" target="_blank" rel="noopener">paper</a>
-          https://aclanthology.org/2025.emnlp-main.1436.pdf
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/SportsSQL/">website</a>
           <a class="btn btn-code" href="https://github.com/coral-lab-asu/SportSQL">code</a>
        
