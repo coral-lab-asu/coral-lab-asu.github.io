@@ -234,7 +234,7 @@ Flowcharts are a critical tool for visualizing decision-making processes. Howeve
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Weaver_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/weaver_poster.png" alt="paper thumbnail">
 
       </figure>
 
