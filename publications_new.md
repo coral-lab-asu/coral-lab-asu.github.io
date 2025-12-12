@@ -98,9 +98,9 @@ system includes...
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.20816" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/MAMMQA/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/MAMMQA">code</a>
-          <a class="btn btn-slides" href="https://coral-lab-asu.github.io/weaver/MAMMQA_Presentation.pdf" target="_blank">slides</a>
+          <a class="btn btn-slides" href="<a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/MAMMQA_Presentation.pdf" target="_blank">slides</a>" target="_blank">slides</a>
           
-       
+        
           
         </div>
       </div>
