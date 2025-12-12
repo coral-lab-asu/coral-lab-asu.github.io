@@ -143,6 +143,7 @@ linking, and visualization selection. To evaluate...
 
         <div class="pub-links">
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.17157" target="_blank" rel="noopener">paper</a>
+          https://aclanthology.org/2025.emnlp-main.1436.pdf
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/SportsSQL/">website</a>
           <a class="btn btn-code" href="https://github.com/coral-lab-asu/SportSQL">code</a>
        
@@ -179,7 +180,9 @@ linking, and visualization selection. To evaluate...
         <div class="pub-links">
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.07630" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/interchart/">website</a>
-          <a class="btn btn-code" href="https://huggingface.co/datasets/interchart/Interchart">code</a>
+          <a class="btn btn-code" href="https://github.com/CoRAL-ASU/interchart">code</a>
+          <a class="btn btn-code" href="https://huggingface.co/datasets/interchart/Interchart">data</a>
+          
           
         </div>
       </div>
@@ -219,7 +222,8 @@ Flowcharts are a critical tool for visualizing decision-making processes. Howeve
 
         <div class="pub-links">
             
-          <a class="btn btn-paper" href="https://arxiv.org/pdf/2506.01344">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.emnlp-main.1144.pdf">paper</a>
+          
         
 
         </div>
@@ -268,7 +272,8 @@ flows, limiting their adaptability to complex
 
         <div class="pub-links">
             
-          <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.18961">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.emnlp-main.1436.pdf">paper</a>
+         
           <a class="btn btn-paper" href="https://coral-lab-asu.github.io/weaver/">website</a> 
           <a class="btn btn-paper" href="https://github.com/CoRAL-ASU/weaver">code</a> 
           <a class="btn btn-slides" href="https://coral-lab-asu.github.io/weaver/presentation.pdf" target="_blank">slides</a>
@@ -307,9 +312,8 @@ We study the capabilities of large language models (LLMs) in detecting fine-grai
 
         <div class="pub-links">
             
-          <a class="btn btn-paper"
-   href="{{ '/paper/Instructions_for_EMNLP_2023_Proceedings.pdf' | relative_url }}"
-   target="_blank">paper</a>
+
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-emnlp.1189.pdf">paper</a> 
           <a class="btn btn-paper" href="https://tabard-emnlp-2025.github.io">website</a> 
           <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-dataset.git">data</a>
           <a class="btn btn-paper" href="https://github.com/TABARD-emnlp-2025/TABARD-code.git">code</a>  
@@ -339,6 +343,7 @@ We study the capabilities of large language models (LLMs) in detecting fine-grai
             Abhijit Chakraborty, Chahana Dahal, Vivek Gupta
           <span class="venue"> 
           <a href="https://2025.emnlp.org/">EMNLP 2025</a> (Findings)
+          
           </span>
          
         </div>
@@ -350,7 +355,8 @@ Federated Retrieval-Augmented Generation (Federated RAG) combines Federated Lear
 
         <div class="pub-links">
             
-          <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.18906v1">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-emnlp.388.pdf">paper</a>
+          
         
 
         </div>
@@ -397,7 +403,8 @@ Mental health disorders are a global crisis.
 
         <div class="pub-links">
             
-          <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.15440">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-emnlp.1225.pdf">paper</a>
+          
         
 
         </div>
@@ -539,7 +546,7 @@ work that integrates multi-level structural descriptors with fine-grained contex
         <div class="pub-meta">
           <span class="authors">Adnan Qidwai, Srija Mukhopadhyay, Prerana Khatiwada, Dan Roth, Vivek Gupta</span>
           <span class="venue">
-              <a href="https://2025.aclweb.org/">ACL 2025</a>
+              <a href="https://2025.aclweb.org/">ACL 2025</a>(Demo)
               </span>
         </div>
 
@@ -669,7 +676,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://arxiv.org/abs/2409.00255">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.473.pdf">paper</a>
           <a class="btn btn-site" href="https://map-wise.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/abhishekrajgaria/Mapwise">code</a>
           <a class="btn btn-data" href="https://github.com/map-wise/mapwise-dataset">data</a>
@@ -702,7 +709,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.329/">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.329.pdf">paper</a>
           <a class="btn btn-site" href="https://zero-shot-llm-infosync.github.io/zero-shot-llm-infosync/">website</a>
           
 
@@ -875,7 +882,7 @@ proves evidence-based reasoning across various
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://arxiv.org/pdf/2407.10380">paper</a>
+          <a class="btn btn-paper" href="https://aclanthology.org/2025.findings-naacl.204.pdf">paper</a>
           <a class="btn btn-site" href="https://ntsebench.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/NTSEBench/NTSEBench">code</a>
           <a class="btn btn-data" href="https://github.com/NTSEBench/NTSEBench">data</a>
