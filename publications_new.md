@@ -62,7 +62,7 @@ permalink: /publication/
 <!-- Publication item -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/mammqa_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/mammqa_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -98,6 +98,7 @@ system includes...
           <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.20816" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/MAMMQA/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/MAMMQA">code</a>
+          <a class="btn btn-slides" href="https://coral-lab-asu.github.io/weaver/MAMMQA_Presentation.pdf" target="_blank">slides</a>
           
        
           
