@@ -1018,7 +1018,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/flowqa_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/FlowVQA_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -1055,6 +1055,8 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
           <a class="btn btn-site" href="https://flowvqa.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/flowvqa">code</a>
           <a class="btn btn-data" href="https://github.com/flowvqa/flowvqa">data</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/FlowVQA_slides.pdf" target="_blank">slides</a>
+          
         </div>
       </div>
       </article>
