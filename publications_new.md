@@ -894,7 +894,7 @@ proves evidence-based reasoning across various
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Infotabs_poster.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/msin_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -927,6 +927,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
           <a class="btn btn-paper" href="https://aclanthology.org/2024.emnlp-main.1237.pdf">paper</a>
           <a class="btn btn-site" href="https://msin-infotabs.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/msin-infotabs/Evaluating-Concurrent-Robustness-of-Language-Models-Across-Diverse-Challenge-Sets">code</a>
+           <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/msin_slides.pdf" target="_blank">slides</a>
           
         </div>
       </div>
