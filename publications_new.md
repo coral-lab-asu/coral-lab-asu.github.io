@@ -971,7 +971,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/MMTabQA_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/MMTabQA_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
