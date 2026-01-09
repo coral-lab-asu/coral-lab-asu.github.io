@@ -802,7 +802,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
           <a class="btn btn-site" href="https://hstar-llm.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/nikhilsab/H-STAR">code</a>
           <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/HStar_slides.pdf" target="_blank">slides</a>
-          HStar_slides
+         
           
         </div>
       </div>
