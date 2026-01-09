@@ -108,10 +108,6 @@ permalink: /people
       <div class="person-photo"><img src="{{ 'images/people/Sanika.JPG' | relative_url }}" alt="Sanika Chavan"></div>
       <div class="person-meta"><div class="person-name">Sanika Chavan</div></div>
     </a>
-    <a class="person-card" href="https://www.linkedin.com/in/rishabh-baral-5b9247141" target="_blank" rel="noopener">
-      <div class="person-photo"><img src="{{ 'images/people/Rishabh.jpeg' | relative_url }}" alt="Rishabh Baral"></div>
-      <div class="person-meta"><div class="person-name">Rishabh Baral</div></div>
-    </a>
     <a class="person-card" href="https://www.linkedin.com/in/prasham-titiya-99b686205/" target="_blank" rel="noopener">
       <div class="person-photo"><img src="{{ 'images/people/prasham_titiya.jpeg' | relative_url }}" alt="Prasham Titiya"></div>
       <div class="person-meta"><div class="person-name">Prasham Titiya</div></div>
@@ -177,12 +173,13 @@ permalink: /people
           <li><a class="alumni-name" href="https://www.linkedin.com/in/poojah-ganesan-8571251a1" target="_blank" rel="noopener">Poojah Ganesan</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Amazon</span></li>
           <li><a class="alumni-name" href="https://www.linkedin.com/in/rajat-aayush-jha-4596b616b/" target="_blank" rel="noopener">Rajat Aayush Jha</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Amazon</span></li>
           <li><a class="alumni-name" href="https://fenil-b.github.io/" target="_blank" rel="noopener">Fenil Bardoliya</a>, <span class="alumni-degree">MS in Computer Science</span></li>
-          <li><a class="alumni-name" href="https://www.linkedin.com/in/jainiltrivedi04/" target="_blank" rel="noopener">Jainil Trivedi</a>, <span class="alumni-degree">MS in Computer Science</span></li>
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/jainiltrivedi04/" target="_blank" rel="noopener">Jainil Trivedi</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Peak Technologies</span></li>
           <li><a class="alumni-name" href="https://krish-oo7.github.io/portfolio.io" target="_blank" rel="noopener">Krishna Singh Rajput</a>, <span class="alumni-degree">MS in Data Science</span></li>
           <li><a class="alumni-name" href="https://www.linkedin.com/in/sebastian-j-martinez/" target="_blank" rel="noopener">Sebastian Martinez</a>, <span class="alumni-degree">BS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">MS Business Analytics at UT Austin
-          <li><a class="alumni-name" href="https://www.linkedin.com/in/vihang-pancholi/" target="_blank" rel="noopener">Vihang Pancholi</a>, <span class="alumni-degree">MS in Computer Science</span></li>
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/vihang-pancholi/" target="_blank" rel="noopener">Vihang Pancholi</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Amazon</span></li>
           <li><a class="alumni-name" href="https://www.linkedin.com/in/rohit-khoja344/" target="_blank" rel="noopener">Rohit Khoja</a>, <span class="alumni-degree">MS in Computer Science</span></li>
           <li><a class="alumni-name" href="https://anirudh6415.github.io/" target="_blank" rel="noopener">Anirudh Iyengar Kaniyar Narayana Iyengar</a>, <span class="alumni-degree">MS in Robotics and Autonomous Systems in Artificial Intelligence</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">EBay</span></li>
+          <li><a class="alumni-name" href="https://www.linkedin.com/in/rishabh-baral-5b9247141" target="_blank" rel="noopener">Rishabh Baral</a>, <span class="alumni-degree">MS in Computer Science</span></li>
           <li><a class="alumni-name" target="_blank" rel="noopener">Shikhar Singh</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Capital One</span></li>
           
   <!-- ===== EXTRAS: Past Collaborators (primary) + Pets (right, vertical) ===== -->

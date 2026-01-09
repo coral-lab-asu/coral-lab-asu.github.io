@@ -17,7 +17,11 @@ permalink: /resources
       {% for item in data_items %}
         {% assign image_file = item.image | default: "" %}
         {% if image_file != "" %}
-          {% assign image_path = "/images/paper snap/" | append: image_file %}
+          {% if image_file contains "/" %}
+            {% assign image_path = "/" | append: image_file %}
+          {% else %}
+            {% assign image_path = "/images/paper snap/" | append: image_file %}
+          {% endif %}
         {% else %}
           {% assign image_path = "/images/paper snap/placeholder.png" %}
         {% endif %}
@@ -90,7 +94,11 @@ permalink: /resources
       {% for item in demo_items %}
         {% assign image_file = item.image | default: "" %}
         {% if image_file != "" %}
-          {% assign image_path = "/images/paper snap/" | append: image_file %}
+          {% if image_file contains "/" %}
+            {% assign image_path = "/" | append: image_file %}
+          {% else %}
+            {% assign image_path = "/images/paper snap/" | append: image_file %}
+          {% endif %}
         {% else %}
           {% assign image_path = "/images/paper snap/placeholder.png" %}
         {% endif %}
