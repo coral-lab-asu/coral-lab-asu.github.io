@@ -807,7 +807,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Enhancing_temporal_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/CLEAR_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
