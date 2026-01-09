@@ -503,7 +503,7 @@ work that integrates multi-level structural descriptors with fine-grained contex
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/M&M_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Map&Make-Poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
