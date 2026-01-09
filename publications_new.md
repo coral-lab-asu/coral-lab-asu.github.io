@@ -642,7 +642,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -681,6 +681,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
           <a class="btn btn-site" href="https://map-wise.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/abhishekrajgaria/Mapwise">code</a>
           <a class="btn btn-data" href="https://github.com/map-wise/mapwise-dataset">data</a>
+           <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/MapWise_slides.pdf" target="_blank">slides</a>
           
         </div>
       </div>
