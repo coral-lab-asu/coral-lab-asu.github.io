@@ -7,14 +7,46 @@ permalink: /supporter
 <section class="supporter-wrap">
   <h1 class="supporter-title">Supporter</h1>
   <p class="supporter-lede">
-    Highlight the organizations or partners that support CoRAL. Replace the placeholder
-    cards below with real supporters and links.
+    We are grateful to our partners and supporters who enable our research in natural language processing, 
+    AI, and machine learning. Their collaboration and support help us advance the frontiers of knowledge 
+    and make meaningful contributions to the field.
   </p>
 
   <div class="supporter-grid">
-    <article class="supporter-card placeholder">
-      <div class="supporter-name">Supporter Name</div>
-      <div class="supporter-note">Add logo, link, and a short blurb here.</div>
+    <!-- ASU -->
+    <article class="supporter-card">
+      <a href="https://www.asu.edu/" target="_blank" rel="noopener" class="supporter-link" title="Arizona State University">
+        <div class="supporter-logo-wrapper">
+          <img src="{{ 'images/logo/ASU-logo.png' | relative_url }}" alt="Arizona State University logo" class="supporter-logo" loading="lazy">
+        </div>
+      </a>
+    </article>
+
+    <!-- Adobe -->
+    <article class="supporter-card">
+      <a href="https://www.adobe.com/" target="_blank" rel="noopener" class="supporter-link" title="Adobe">
+        <div class="supporter-logo-wrapper">
+          <img src="{{ 'images/logo/adobe.png' | relative_url }}" alt="Adobe logo" class="supporter-logo" loading="lazy">
+        </div>
+      </a>
+    </article>
+
+    <!-- Turing -->
+    <article class="supporter-card">
+      <a href="https://www.turing.com/" target="_blank" rel="noopener" class="supporter-link" title="Turing">
+        <div class="supporter-logo-wrapper">
+          <img src="{{ 'images/logo/turing-logo.webp' | relative_url }}" alt="Turing logo" class="supporter-logo" loading="lazy">
+        </div>
+      </a>
+    </article>
+
+    <!-- Mayo Clinic -->
+    <article class="supporter-card">
+      <a href="https://www.mayoclinic.org/" target="_blank" rel="noopener" class="supporter-link" title="Mayo Clinic">
+        <div class="supporter-logo-wrapper">
+          <img src="{{ 'images/logo/Mayo-Clinic-Symbol.png' | relative_url }}" alt="Mayo Clinic logo" class="supporter-logo" loading="lazy">
+        </div>
+      </a>
     </article>
   </div>
 </section>
@@ -50,20 +82,76 @@ permalink: /supporter
   background: #fff6e0;
   border: 1px solid #f0dba6;
   border-radius: 10px;
-  padding: 1rem 1.2rem;
+  padding: 1.5rem 1.2rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: visible;
 }
 
-.supporter-card .supporter-name {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #8C1D40;
-  margin-bottom: 0.35rem;
+.supporter-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.supporter-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.supporter-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.supporter-logo {
+  max-width: 100%;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.supporter-link::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, bottom 0.2s ease;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.supporter-link:hover::after {
+  opacity: 1;
+  bottom: -45px;
 }
 
 .supporter-card .supporter-note {
   color: #333;
   margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .supporter-card.placeholder {
