@@ -1,0 +1,74 @@
+---
+layout: page
+title: Supporter
+permalink: /supporter
+---
+
+<section class="supporter-wrap">
+  <h1 class="supporter-title">Supporter</h1>
+  <p class="supporter-lede">
+    Highlight the organizations or partners that support CoRAL. Replace the placeholder
+    cards below with real supporters and links.
+  </p>
+
+  <div class="supporter-grid">
+    <article class="supporter-card placeholder">
+      <div class="supporter-name">Supporter Name</div>
+      <div class="supporter-note">Add logo, link, and a short blurb here.</div>
+    </article>
+  </div>
+</section>
+
+<style>
+.supporter-wrap {
+  max-width: 980px;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.supporter-title {
+  font-size: clamp(1.8rem, 2.6vw, 2.2rem);
+  font-weight: 800;
+  color: #8C1D40;
+  margin-bottom: 0.25rem;
+}
+
+.supporter-lede {
+  font-size: 1.05rem;
+  color: #444;
+  margin: 0 0 1.5rem;
+}
+
+.supporter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.supporter-card {
+  background: #fff6e0;
+  border: 1px solid #f0dba6;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.supporter-card .supporter-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #8C1D40;
+  margin-bottom: 0.35rem;
+}
+
+.supporter-card .supporter-note {
+  color: #333;
+  margin: 0;
+}
+
+.supporter-card.placeholder {
+  color: #555;
+  border-style: dashed;
+  background: #fffdf6;
+}
+</style>
