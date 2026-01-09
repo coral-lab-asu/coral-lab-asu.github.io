@@ -155,7 +155,7 @@ linking, and visualization selection. To evaluate...
 <!-- Publication item -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/interchart_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/interchart_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -181,6 +181,8 @@ linking, and visualization selection. To evaluate...
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/interchart/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/interchart">code</a>
           <a class="btn btn-code" href="https://huggingface.co/datasets/interchart/Interchart">data</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/interchart_slides.pdf" target="_blank">slides</a>
+          
           
           
         </div>
@@ -327,7 +329,7 @@ We study the capabilities of large language models (LLMs) in detecting fine-grai
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Federated_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Federated_RAG_Poster.png" alt="paper thumbnail">
 
       </figure>
 
@@ -501,7 +503,7 @@ work that integrates multi-level structural descriptors with fine-grained contex
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/M&M_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Map&Make-Poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -534,7 +536,7 @@ work that integrates multi-level structural descriptors with fine-grained contex
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Praise_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/PRAISE_Poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -640,7 +642,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/MapWise_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -679,6 +681,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
           <a class="btn btn-site" href="https://map-wise.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/abhishekrajgaria/Mapwise">code</a>
           <a class="btn btn-data" href="https://github.com/map-wise/mapwise-dataset">data</a>
+           <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/MapWise_slides.pdf" target="_blank">slides</a>
           
         </div>
       </div>
@@ -710,6 +713,8 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
         <div class="pub-links">
           <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.329.pdf">paper</a>
           <a class="btn btn-site" href="https://zero-shot-llm-infosync.github.io/zero-shot-llm-infosync/">website</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/InfoSync_slides.pdf" target="_blank">slides</a>
+          
           
 
           
@@ -769,7 +774,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/H-Star_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/HStar_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -796,6 +801,8 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
           <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.445.pdf">paper</a>
           <a class="btn btn-site" href="https://hstar-llm.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/nikhilsab/H-STAR">code</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/HStar_slides.pdf" target="_blank">slides</a>
+         
           
         </div>
       </div>
@@ -805,7 +812,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Enhancing_temporal_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/CLEAR_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -894,7 +901,7 @@ proves evidence-based reasoning across various
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Infotabs_poster.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/msin_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -927,6 +934,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
           <a class="btn btn-paper" href="https://aclanthology.org/2024.emnlp-main.1237.pdf">paper</a>
           <a class="btn btn-site" href="https://msin-infotabs.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/msin-infotabs/Evaluating-Concurrent-Robustness-of-Language-Models-Across-Diverse-Challenge-Sets">code</a>
+           <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/msin_slides.pdf" target="_blank">slides</a>
           
         </div>
       </div>
@@ -936,7 +944,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Unravelling_truth_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Unravelling_truth_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -961,6 +969,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
           <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-emnlp.973.pdf">paper</a>
           <a class="btn btn-site" href="https://robustcqa.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/RobustCQA/Robust-CQA">code</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/unravelling_truth_slides.pdf" target="_blank">slides</a>
         </div>
       </div>
     </article>
@@ -969,7 +978,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/MMTabQA_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/MMTabQA_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -1016,7 +1025,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/flowqa_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/FlowVQA_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -1053,6 +1062,8 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
           <a class="btn btn-site" href="https://flowvqa.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/flowvqa">code</a>
           <a class="btn btn-data" href="https://github.com/flowvqa/flowvqa">data</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/FlowVQA_slides.pdf" target="_blank">slides</a>
+          
         </div>
       </div>
       </article>
