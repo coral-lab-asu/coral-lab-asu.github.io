@@ -774,7 +774,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/H-Star_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/HStar_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -801,6 +801,8 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
           <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.445.pdf">paper</a>
           <a class="btn btn-site" href="https://hstar-llm.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/nikhilsab/H-STAR">code</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/HStar_slides.pdf" target="_blank">slides</a>
+          HStar_slides
           
         </div>
       </div>
