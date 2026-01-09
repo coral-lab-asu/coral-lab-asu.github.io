@@ -155,7 +155,7 @@ linking, and visualization selection. To evaluate...
 <!-- Publication item -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/interchart_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/interchart_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -181,6 +181,8 @@ linking, and visualization selection. To evaluate...
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/interchart/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/interchart">code</a>
           <a class="btn btn-code" href="https://huggingface.co/datasets/interchart/Interchart">data</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/interchart_slides.pdf" target="_blank">slides</a>
+          
           
           
         </div>
@@ -327,7 +329,7 @@ We study the capabilities of large language models (LLMs) in detecting fine-grai
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Federated_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Federated_RAG_Poster.png" alt="paper thumbnail">
 
       </figure>
 
