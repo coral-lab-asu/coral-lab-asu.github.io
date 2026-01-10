@@ -197,7 +197,7 @@ linking, and visualization selection. To evaluate...
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/FollowTheFlow_poster.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Flowchart_Poster.png" alt="paper thumbnail">
 
       </figure>
 
