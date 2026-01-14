@@ -49,6 +49,13 @@ permalink: /supporter
       </a>
     </article>
   </div>
+
+  <section class="past-supporters">
+    <h2 class="supporter-subtitle">Past Supporters</h2>
+    <div class="past-supporters-media">
+      <img src="{{ 'images/logo/Past_Supporters.png' | relative_url }}" alt="Past supporters" loading="lazy">
+    </div>
+  </section>
 </section>
 
 <style>
@@ -73,6 +80,16 @@ permalink: /supporter
   .supporter-title {
     font-size: 2rem;
   }
+}
+
+.supporter-subtitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  margin: 2.5rem 0 1rem;
+  line-height: 1.2;
+  letter-spacing: -0.015rem;
+  font-family: "Open Sans", "Source Sans Pro";
 }
 
 .supporter-lede {
@@ -189,5 +206,21 @@ permalink: /supporter
   color: #555;
   border-style: dashed;
   background: #fffdf6;
+}
+
+.past-supporters-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f6f6f6;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.past-supporters-media img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 </style>
