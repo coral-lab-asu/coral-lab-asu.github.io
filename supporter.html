@@ -53,45 +53,75 @@ permalink: /supporter
 
 <style>
 .supporter-wrap {
-  max-width: 980px;
-  margin: 0 auto 3rem;
-  padding: 0 1rem;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+  font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .supporter-title {
-  font-size: clamp(1.8rem, 2.6vw, 2.2rem);
-  font-weight: 800;
-  color: #8C1D40;
-  margin-bottom: 0.25rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 0.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.025rem;
+  font-family: "Open Sans", "Source Sans Pro";
+}
+
+@media (min-width: 38em) {
+  .supporter-title {
+    font-size: 2rem;
+  }
 }
 
 .supporter-lede {
-  font-size: 1.05rem;
-  color: #444;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #515151;
   margin: 0 0 1.5rem;
+  line-height: 1.6;
 }
 
 .supporter-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1rem;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1080px) {
+  .supporter-grid {
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 780px) {
+  .supporter-grid {
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .supporter-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .supporter-card {
-  background: #fff6e0;
-  border: 1px solid #f0dba6;
-  border-radius: 10px;
+  background: #fff;
+  border: none;
+  border-radius: 14px;
   padding: 1.5rem 1.2rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
   position: relative;
   overflow: visible;
 }
 
 .supporter-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
 }
 
 .supporter-link {
@@ -108,7 +138,7 @@ permalink: /supporter
   align-items: center;
   justify-content: center;
   height: 140px;
-  background: #fff;
+  background: #f6f6f6;
   border-radius: 8px;
   padding: 1rem;
 }
@@ -131,8 +161,9 @@ permalink: /supporter
   color: #fff;
   padding: 8px 14px;
   border-radius: 6px;
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
