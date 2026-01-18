@@ -212,9 +212,17 @@ permalink: /supporter
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f6f6f6;
+  background: #fff;
   border-radius: 10px;
   padding: 1.5rem;
+  border: 1px solid #f6f6f6;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.past-supporters-media:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
 }
 
 .past-supporters-media img {

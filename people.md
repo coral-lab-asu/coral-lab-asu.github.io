@@ -9,7 +9,7 @@ permalink: /people
   <!-- ===== Faculty ===== -->
   <h2 class="people-h2">Faculty</h2>
   <div class="people-grid people-grid--faculty">
-    <a class="person-card" href="https://vgupta123.github.io/" target="_blank" rel="noopener">
+    <a class="person-card" href="https://scholar.google.com/citations?user=Bs5H0S4AAAAJ&hl=en" target="_blank" rel="noopener">
       <div class="person-photo">
         <img src="{{ 'images/people/Prof_photo.jpg' | relative_url }}" alt="Prof. Vivek Gupta">
       </div>
