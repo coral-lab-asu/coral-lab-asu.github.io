@@ -976,7 +976,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
           <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-emnlp.973.pdf">paper</a>
           <a class="btn btn-site" href="https://robustcqa.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/RobustCQA/Robust-CQA">code</a>
-          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/unravelling_truth_slides.pdf" target="_blank">slides</a>
+          
         </div>
       </div>
     </article>
