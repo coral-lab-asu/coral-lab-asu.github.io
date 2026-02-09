@@ -1106,6 +1106,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
 
         <div class="pub-links">
           <a class="btn btn-paper" href="https://aclanthology.org/2024.findings-acl.231.pdf">paper</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/EEDP_presentation.pdf" target="_blank">slides</a>
           
         </div>
       </div>
