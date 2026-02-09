@@ -859,7 +859,7 @@ proves evidence-based reasoning across various
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/NTSEBench_poster_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/ntsebench_poster.png" alt="paper thumbnail">
       </figure>
 
       <div class="pub-body">
@@ -894,6 +894,7 @@ proves evidence-based reasoning across various
           <a class="btn btn-site" href="https://ntsebench.github.io/">website</a>
           <a class="btn btn-code" href="https://github.com/NTSEBench/NTSEBench">code</a>
           <a class="btn btn-data" href="https://github.com/NTSEBench/NTSEBench">data</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/ntsebench_slides.pdf" target="_blank">slides</a>
           
         </div>
       </div>
