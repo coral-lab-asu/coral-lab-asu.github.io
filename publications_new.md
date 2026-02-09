@@ -716,7 +716,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
         <div class="pub-links">
           <a class="btn btn-paper" href="https://aclanthology.org/2025.naacl-long.329.pdf">paper</a>
           <a class="btn btn-site" href="https://zero-shot-llm-infosync.github.io/zero-shot-llm-infosync/">website</a>
-          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/InfoSync_slides.pdf" target="_blank">slides</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/LLM_infosync_slides.pdf" target="_blank">slides</a>
           
           
 
