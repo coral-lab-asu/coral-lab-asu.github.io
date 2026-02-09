@@ -197,7 +197,7 @@ linking, and visualization selection. To evaluate...
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/Flowchart_Poster.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/Flowchart_poster.png" alt="paper thumbnail">
 
       </figure>
 
@@ -225,7 +225,8 @@ Flowcharts are a critical tool for visualizing decision-making processes. Howeve
             
           <a class="btn btn-paper" href="https://aclanthology.org/2025.emnlp-main.1144.pdf">paper</a>
           <a class="btn btn-paper" href="https://github.com/MananSuri27/FollowTheFlow">code</a>
-          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/FollowTheFlow_slides.pdf" target="_blank">slides</a>
+          <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/Flowchart_presentation.pdf" target="_blank">slides</a>
+          
           
         
 
