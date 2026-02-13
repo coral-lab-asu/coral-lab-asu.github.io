@@ -89,11 +89,6 @@ permalink: /people
       <div class="person-meta"><div class="person-name">Dhruv Madhwal</div></div>
     </a>
 
-    <a class="person-card" href="https://vibhu-dixit.github.io/website/" target="_blank" rel="noopener">
-      <div class="person-photo"><img src="{{ 'images/people/Vibhu Dixit.jpg' | relative_url }}" alt="Vibhu Dixit"></div>
-      <div class="person-meta"><div class="person-name">Vibhu Dixit</div></div>
-    </a>
-
     <a class="person-card" href="https://www.linkedin.com/in/nehavaleti" target="_blank" rel="noopener">
       <div class="person-photo"><img src="{{ 'images/people/Neha Photo.jpg' | relative_url }}" alt="Neha Valeti"></div>
       <div class="person-meta"><div class="person-name">Neha Valeti</div></div>
@@ -104,13 +99,13 @@ permalink: /people
       <div class="person-meta"><div class="person-name">Suparno Roy Chowdhury</div></div>
     </a>
 
-    <a class="person-card" href="https://sanikac10.github.io/my-portfolio/" target="_blank" rel="noopener">
-      <div class="person-photo"><img src="{{ 'images/people/Sanika.JPG' | relative_url }}" alt="Sanika Chavan"></div>
-      <div class="person-meta"><div class="person-name">Sanika Chavan</div></div>
-    </a>
     <a class="person-card" href="https://www.linkedin.com/in/prasham-titiya-99b686205/" target="_blank" rel="noopener">
       <div class="person-photo"><img src="{{ 'images/people/prasham_titiya.jpeg' | relative_url }}" alt="Prasham Titiya"></div>
       <div class="person-meta"><div class="person-name">Prasham Titiya</div></div>
+    </a>
+    <a class="person-card" href="https://www.linkedin.com/in/priyanujb/" target="_blank" rel="noopener">
+      <div class="person-photo"><img src="{{ 'images/people/priyanuj.jpg' | relative_url }}" alt="Priyanuj B"></div>
+      <div class="person-meta"><div class="person-name">Priyanuj B</div></div>
     </a>
     <a class="person-card" href="https://website-nihaarikas-projects.vercel.app/" target="_blank" rel="noopener">
       <div class="person-photo"><img src="{{ 'images/people/Nihaarikaagarwal.jpg' | relative_url }}" alt="Nihaarika Agarwal"></div>
@@ -180,6 +175,8 @@ permalink: /people
           <li><a class="alumni-name" href="https://www.linkedin.com/in/rohit-khoja344/" target="_blank" rel="noopener">Rohit Khoja</a>, <span class="alumni-degree">MS in Computer Science</span></li>
           <li><a class="alumni-name" href="https://anirudh6415.github.io/" target="_blank" rel="noopener">Anirudh Iyengar Kaniyar Narayana Iyengar</a>, <span class="alumni-degree">MS in Robotics and Autonomous Systems in Artificial Intelligence</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">EBay</span></li>
           <li><a class="alumni-name" href="https://www.linkedin.com/in/rishabh-baral-5b9247141" target="_blank" rel="noopener">Rishabh Baral</a>, <span class="alumni-degree">MS in Computer Science</span></li>
+          <li><a class="alumni-name" href="https://vibhu-dixit.github.io/website/" target="_blank" rel="noopener">Vibhu Dixit</a>, <span class="alumni-degree">MS in Compueter Science</span></li>
+          <li><a class="alumni-name" href="https://sanikac10.github.io/my-portfolio/" target="_blank" rel="noopener">Sanika Chavan</a>, <span class="alumni-degree">MS in Compueter Science</span></li>
           <li><a class="alumni-name" target="_blank" rel="noopener">Shikhar Singh</a>, <span class="alumni-degree">MS in Computer Science</span> <span class="alumni-arrow">→</span> <span class="alumni-affil">Capital One</span></li>
           
   <!-- ===== EXTRAS: Past Collaborators (primary) + Pets (right, vertical) ===== -->

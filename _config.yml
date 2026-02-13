@@ -33,6 +33,8 @@ nav:
     href: "/resources" 
   - name: "supporter"
     href: "/supporter"
+  - name: "publication info form"
+    href: "/publication-info-form"
 
 # Sass
 sass:
