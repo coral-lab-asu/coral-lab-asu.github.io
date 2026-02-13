@@ -5,14 +5,92 @@ permalink: /resources
 ---
 
 {% assign resources = site.data.resources | default: [] %}
-{% assign data_items = resources | where: "section", "data" %}
+{% assign repo_items = resources | where: "title", "CORAL Repository" %}
+{% assign data_items = resources | where: "section", "data" | where_exp: "item", "item.title != 'CORAL Repository'" %}
 {% assign demo_items = resources | where: "section", "demo" %}
+
+{% if repo_items.size > 0 %}
+<section id="repository" style="margin-top: 4rem;">
+  <h2></h2>
+  <section class="selected-publications">
+    <div class="pub-list">
+      {% for item in repo_items %}
+        {% assign image_file = item.image | default: "" %}
+        {% if image_file != "" %}
+          {% if image_file contains "/" %}
+            {% assign image_path = "/" | append: image_file %}
+          {% else %}
+            {% assign image_path = "/images/paper snap/" | append: image_file %}
+          {% endif %}
+        {% else %}
+          {% assign image_path = "/images/paper snap/placeholder.png" %}
+        {% endif %}
+
+        {% assign paper_href = item.paper_url %}
+        {% if paper_href and paper_href contains "://" %}
+          {% assign paper_href = paper_href %}
+        {% elsif paper_href %}
+          {% assign paper_href = paper_href | relative_url %}
+        {% endif %}
+
+        {% assign data_href = item.data_url %}
+        {% if data_href and data_href contains "://" %}
+          {% assign data_href = data_href %}
+        {% elsif data_href %}
+          {% assign data_href = data_href | relative_url %}
+        {% endif %}
+
+        {% assign code_href = item.code_url %}
+        {% if code_href and code_href contains "://" %}
+          {% assign code_href = code_href %}
+        {% elsif code_href %}
+          {% assign code_href = code_href | relative_url %}
+        {% endif %}
+
+        <article class="pub-item">
+          <figure class="thumb">
+            <img src="{{ image_path | uri_escape }}" alt="{{ item.title | escape }} thumbnail">
+          </figure>
+          <div class="pub-body">
+            <h3 class="pub-title">
+              {% if paper_href %}
+                <a href="{{ paper_href }}" target="_blank" rel="noopener">{{ item.title }}</a>
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+            </h3>
+            <div class="pub-meta">
+              <span class="authors">{{ item.authors }}</span>
+              {% if item.venue_url %}
+                <span class="venue"> <a href="{{ item.venue_url }}">{{ item.venue_name }}</a></span>
+              {% elsif item.venue_name %}
+                <span class="venue">{{ item.venue_name }}</span>
+              {% endif %}
+            </div>
+            <p class="pub-abstract">
+              {{ item.description }}
+            </p>
+            <div class="pub-links">
+              {% if data_href %}
+                <a class="btn btn-paper" href="{{ data_href }}" target="_blank" rel="noopener">data</a>
+              {% endif %}
+              {% if code_href %}
+                <a class="btn btn-code" href="{{ code_href }}" target="_blank" rel="noopener">code</a>
+              {% endif %}
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+</section>
+{% endif %}
 
 <!-- Data Section -->
 <section id="data" style="margin-top: 4rem;">
   <h2>Data</h2>
   <section class="selected-publications">
-    <h2 class="section-title">Datasets</h2>
+    <h2 class="section-title">Benchmarks</h2>
     <div class="pub-list">
       {% for item in data_items %}
         {% assign image_file = item.image | default: "" %}
