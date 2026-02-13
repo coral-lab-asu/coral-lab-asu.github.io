@@ -203,7 +203,7 @@ linking, and visualization selection. To evaluate...
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/pdf/2506.01344" target="_blank" rel="noopener">Follow the Flow: Fine-grained Flowchart Attribution with Neurosymbolic Agents
+          <a href="https://aclanthology.org/2025.emnlp-main.1144.pdf" target="_blank" rel="noopener">Follow the Flow: Fine-grained Flowchart Attribution with Neurosymbolic Agents
 </a>
         </h3>
 
@@ -248,7 +248,7 @@ Flowcharts are a critical tool for visualizing decision-making processes. Howeve
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/pdf/2505.18961" target="_blank" rel="noopener">Weaver: Interweaving SQL and LLM for Table Reasoning</a>
+          <a href="https://aclanthology.org/2025.emnlp-main.1436.pdf" target="_blank" rel="noopener">Weaver: Interweaving SQL and LLM for Table Reasoning</a>
         </h3>
 
         <div class="pub-meta">
@@ -296,7 +296,7 @@ flows, limiting their adaptability to complex
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://tabard-emnlp-2025.github.io" target="_blank" rel="noopener">TABARD: A Novel Benchmark for Tabular Anomaly Analysis, Reasoning and Detection
+          <a href="https://aclanthology.org/2025.findings-emnlp.1189.pdf" target="_blank" rel="noopener">TABARD: A Novel Benchmark for Tabular Anomaly Analysis, Reasoning and Detection
 </a>
         </h3>
 
@@ -338,7 +338,7 @@ We study the capabilities of large language models (LLMs) in detecting fine-grai
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/pdf/2505.18906v1" target="_blank" rel="noopener">Federated Retrieval-Augmented Generation: A Systematic Mapping Study
+          <a href="https://aclanthology.org/2025.findings-emnlp.388.pdf" target="_blank" rel="noopener">Federated Retrieval-Augmented Generation: A Systematic Mapping Study
 </a>
         </h3>
 
@@ -378,7 +378,7 @@ Federated Retrieval-Augmented Generation (Federated RAG) combines Federated Lear
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/pdf/2508.15440" target="_blank" rel="noopener">M-HELP: Using Social Media Data to Detect Mental Health Help-Seeking Signals
+          <a href="https://aclanthology.org/2025.findings-emnlp.1225.pdf" target="_blank" rel="noopener">M-HELP: Using Social Media Data to Detect Mental Health Help-Seeking Signals
 </a>
         </h3>
 
@@ -468,7 +468,7 @@ Mental health disorders are a global crisis.
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://coral-lab-asu.github.io/tabxeval/" target="_blank" rel="noopener">TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation</a>
+          <a href="https://aclanthology.org/2025.findings-acl.1176.pdf" target="_blank" rel="noopener">TabXEval: Why this is a Bad Table? An eXhaustive Rubric for Table Evaluation</a>
         </h3>
 
         <div class="pub-meta">
@@ -653,7 +653,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/abs/2409.00255" target="_blank" rel="noopener">MAPWise: Evaluating Vision-Language Models for Advanced Map Queries</a>
+          <a href="https://aclanthology.org/2025.naacl-long.473.pdf" target="_blank" rel="noopener">MAPWise: Evaluating Vision-Language Models for Advanced Map Queries</a>
         </h3>
 
         <div class="pub-meta">
@@ -702,7 +702,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://example.com/paper2" target="_blank" rel="noopener">Leveraging LLM for Synchronizing Information Across Multilingual Tables</a>
+          <a href="https://aclanthology.org/2025.naacl-long.329.pdf" target="_blank" rel="noopener">Leveraging LLM for Synchronizing Information Across Multilingual Tables</a>
         </h3>
 
         <div class="pub-meta">
@@ -868,7 +868,7 @@ proves evidence-based reasoning across various
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/pdf/2407.10380" target="_blank" rel="noopener">NTSEBENCH: Cognitive Reasoning Benchmark for Vision Language Models</a>
+          <a href="https://aclanthology.org/2025.findings-naacl.204.pdf" target="_blank" rel="noopener">NTSEBENCH: Cognitive Reasoning Benchmark for Vision Language Models</a>
         </h3>
 
         <div class="pub-meta">
@@ -1171,7 +1171,7 @@ box nature, often hallucinate and display sensitivity to input perturbations, ca
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://aclanthology.org/2024.findings-emnlp.822.pdf" target="_blank" rel="noopener">Enhancing Question Answering on Charts Through Effective Pre-training Tasks</a>
+          <a href="https://aclanthology.org/2024.blackboxnlp-1.11.pdf" target="_blank" rel="noopener">Enhancing Question Answering on Charts Through Effective Pre-training Tasks</a>
         </h3>
 
         <div class="pub-meta">
