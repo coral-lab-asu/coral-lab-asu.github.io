@@ -29,7 +29,7 @@ permalink: /publication/
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/pdf/2505.20816" target="_blank" rel="noopener">No Universal Prompt: Unifying Reasoning through Adaptive Prompting for Temporal Table Reasoning
+          <a href="https://arxiv.org/pdf/2506.11246" target="_blank" rel="noopener">No Universal Prompt: Unifying Reasoning through Adaptive Prompting for Temporal Table Reasoning
 
  </a>
         </h3>
