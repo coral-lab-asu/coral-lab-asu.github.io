@@ -637,7 +637,7 @@ textual meaning. We hypothesize that extracting global event, temporal, and geos
 
         <div class="pub-links">
           <a class="btn btn-paper" href="https://aclanthology.org/2025.acl-long.1439.pdf">paper</a>
-          <a class="btn btn-site" href="https://coral-asu.github.io/getreason/">website</a>
+          <a class="btn btn-site" href="https://coral-lab-asu.github.io/getreason/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/getreason">code</a>
           <a class="btn btn-slides" href="{{ site.baseurl }}/presentation_docs/Getreason_presentation.pdf" target="_blank">slides</a>
         </div>
