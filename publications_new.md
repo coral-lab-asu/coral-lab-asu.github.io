@@ -29,8 +29,7 @@ permalink: /publication/
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/pdf/2512.15949" target="_blank" rel="noopener">The Perceptual Observatory
-Characterizing Robustness and Grounding in MLLMs
+          <a href="https://arxiv.org/pdf/2512.15949" target="_blank" rel="noopener">The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs
 
  </a>
         </h3>
@@ -45,22 +44,11 @@ Characterizing Robustness and Grounding in MLLMs
           </span>
         </div>
 
-        <p class="pub-abstract">We present The Perceptual Observatory ,
-a framework that characterizes MLLMs across verticals
-like: (i) simple vision tasks, such as face matching and
-text-in-vision comprehension capabilities; (ii) local-to-
-global understanding, encompassing image matching,
-grid pointing game, and attribute localization, which
-tests general visual grounding. Each vertical is instan-
-tiated with ground-truth datasets of faces and words,
-systematically perturbed through pixel-based augmenta-
-tions and diffusion-based stylized illusions. The Per-
-ceptual Observatory moves beyond leaderboard ac-
-curacy to...
+        <p class="pub-abstract">We present The Perceptual Observatory, a framework that characterizes MLLMs across verticals like: (i) simple vision tasks, such as face matching and text-in-vision comprehension capabilities; (ii) local-to-global understanding, encompassing image matching, grid pointing game, and attribute localization, which tests general visual grounding. Each vertical is instantiated with ground-truth datasets of faces and words,systematically perturbed through pixel-based augmentations and diffusion-based stylized illusions. The Perceptual Observatory moves beyond leaderboard accuracy to...
         </p>
 
         <div class="pub-links">
-          <a class="btn btn-paper" href="https://arxiv.org/pdf/2512.15949" target="_blank" rel="noopener">paper</a>The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2512.15949" target="_blank" rel="noopener">paper</a>
           <a class="btn btn-site" href="https://coral-lab-asu.github.io/PerceptualObservatory/">website</a>
           <a class="btn btn-code" href="https://github.com/CoRAL-ASU/PerceptualObservatory">code</a>
           
