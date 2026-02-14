@@ -1,12 +1,12 @@
-current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
+current directory: /Users/abhijit.chakraborty/Documents/GitHub/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
 /opt/homebrew/opt/ruby@3.2/bin/ruby extconf.rb
 creating Makefile
 
-current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20250811-40553-plymou sitelibdir\=./.gem.20250811-40553-plymou clean
+current directory: /Users/abhijit.chakraborty/Documents/GitHub/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
+make DESTDIR\= sitearchdir\=./.gem.20260213-55013-2pfcn0 sitelibdir\=./.gem.20260213-55013-2pfcn0 clean
 
-current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20250811-40553-plymou sitelibdir\=./.gem.20250811-40553-plymou
+current directory: /Users/abhijit.chakraborty/Documents/GitHub/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
+make DESTDIR\= sitearchdir\=./.gem.20260213-55013-2pfcn0 sitelibdir\=./.gem.20260213-55013-2pfcn0
 compiling arena.c
 compiling autolink.c
 compiling blocks.c
@@ -24,13 +24,13 @@ In file included from ./houdini.h:9:
 ./config.h:8:9: warning: 'HAVE_STDBOOL_H' macro redefined [-Wmacro-redefined]
     8 | #define HAVE_STDBOOL_H
       |         ^
-/opt/homebrew/Cellar/ruby@3.2/3.2.9/include/ruby-3.2.0/arm64-darwin24/ruby/config.h:45:9: note: previous definition is here
+/opt/homebrew/Cellar/ruby@3.2/3.2.9_1/include/ruby-3.2.0/arm64-darwin24/ruby/config.h:45:9: note: previous definition is here
    45 | #define HAVE_STDBOOL_H 1
       |         ^
 commonmarker.c:565:20: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
   565 |   extensions_len = RARRAY_LEN(rb_extensions);
       |                  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~
-/opt/homebrew/Cellar/ruby@3.2/3.2.9/include/ruby-3.2.0/ruby/internal/core/rarray.h:68:36: note: expanded from macro 'RARRAY_LEN'
+/opt/homebrew/Cellar/ruby@3.2/3.2.9_1/include/ruby-3.2.0/ruby/internal/core/rarray.h:68:36: note: expanded from macro 'RARRAY_LEN'
    68 | #define RARRAY_LEN                 rb_array_len                 /**< @alias{rb_array_len} */
       |                                    ^
 commonmarker.c:1179:27: warning: implicit conversion loses integer precision: 'long' to 'bufsize_t' (aka 'int') [-Wshorten-64-to-32]
@@ -38,7 +38,7 @@ commonmarker.c:1179:27: warning: implicit conversion loses integer precision: 'l
       |       ~~~~~~~~~~~~~~~~~~~
  1179 |                           RSTRING_LEN(rb_text))) {
       |                           ^~~~~~~~~~~~~~~~~~~~
-/opt/homebrew/Cellar/ruby@3.2/3.2.9/include/ruby-3.2.0/ruby/internal/core/rstring.h:52:27: note: expanded from macro 'RSTRING_LEN'
+/opt/homebrew/Cellar/ruby@3.2/3.2.9_1/include/ruby-3.2.0/ruby/internal/core/rstring.h:52:27: note: expanded from macro 'RSTRING_LEN'
    52 | #define RSTRING_LEN       RSTRING_LEN
       |                           ^
 commonmarker.c:1200:28: warning: implicit conversion loses integer precision: 'long' to 'bufsize_t' (aka 'int') [-Wshorten-64-to-32]
@@ -46,7 +46,7 @@ commonmarker.c:1200:28: warning: implicit conversion loses integer precision: 'l
       |       ~~~~~~~~~~~~~~~~~~~~
  1200 |                            RSTRING_LEN(rb_text), 0)) {
       |                            ^~~~~~~~~~~~~~~~~~~~
-/opt/homebrew/Cellar/ruby@3.2/3.2.9/include/ruby-3.2.0/ruby/internal/core/rstring.h:52:27: note: expanded from macro 'RSTRING_LEN'
+/opt/homebrew/Cellar/ruby@3.2/3.2.9_1/include/ruby-3.2.0/ruby/internal/core/rstring.h:52:27: note: expanded from macro 'RSTRING_LEN'
    52 | #define RSTRING_LEN       RSTRING_LEN
       |                           ^
 4 warnings generated.
@@ -80,9 +80,9 @@ compiling xml.c
 linking shared-object commonmarker/commonmarker.bundle
 ld: warning: ignoring duplicate libraries: '-lruby.3.2'
 
-current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20250811-40553-plymou sitelibdir\=./.gem.20250811-40553-plymou install
-/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20250811-40553-plymou/commonmarker
+current directory: /Users/abhijit.chakraborty/Documents/GitHub/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
+make DESTDIR\= sitearchdir\=./.gem.20260213-55013-2pfcn0 sitelibdir\=./.gem.20260213-55013-2pfcn0 install
+/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20260213-55013-2pfcn0/commonmarker
 
-current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20250811-40553-plymou sitelibdir\=./.gem.20250811-40553-plymou clean
+current directory: /Users/abhijit.chakraborty/Documents/GitHub/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
+make DESTDIR\= sitearchdir\=./.gem.20260213-55013-2pfcn0 sitelibdir\=./.gem.20260213-55013-2pfcn0 clean

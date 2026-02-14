@@ -5,7 +5,7 @@
 # Basic
 name: "CoRAL"
 title: "CoRAL Lab at ASU"
-description: "The CORAL Lab is an natural language processing research group at Arizona State University."
+description: "The CoRAL Lab is an natural language processing research group at Arizona State University."
 
 # URL
 url: ""
@@ -33,8 +33,6 @@ nav:
     href: "/resources" 
   - name: "supporter"
     href: "/supporter"
-  - name: "publication info form"
-    href: "/publication-info-form"
 
 # Sass
 sass:
@@ -62,3 +60,9 @@ collections:
   people:
     output: true
     permalink: /people/:title/index.html
+
+# Backend endpoint for poster upload pipeline (GitHub App-backed)
+upload_api_url: ""
+
+# Backend endpoint for form metadata submission to _data/resources.csv
+resource_submit_api_url: ""

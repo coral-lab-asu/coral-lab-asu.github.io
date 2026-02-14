@@ -5,8 +5,8 @@ permalink: /resources
 ---
 
 {% assign resources = site.data.resources | default: [] %}
-{% assign repo_items = resources | where: "title", "CORAL Repository" %}
-{% assign data_items = resources | where: "section", "data" | where_exp: "item", "item.title != 'CORAL Repository'" %}
+{% assign repo_items = resources | where: "title", "CoRAL Repository" %}
+{% assign data_items = resources | where: "section", "data" | where_exp: "item", "item.title != 'CoRAL Repository'" %}
 {% assign demo_items = resources | where: "section", "demo" %}
 
 {% if repo_items.size > 0 %}

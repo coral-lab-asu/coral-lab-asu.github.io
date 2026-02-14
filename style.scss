@@ -516,12 +516,15 @@ tbody tr:nth-child(odd) th {
 }
 
 // change font for navbar
-.navbar, .navbar-nav>li>a {
+.navbar {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
   font-weight: 400;
   font-size: 80%;
+}
+
+.navbar-nav>li>a {
+  text-transform: uppercase;
 }
 
 // fix menu bar spacing for mobile

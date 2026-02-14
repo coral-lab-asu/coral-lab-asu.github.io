@@ -4,71 +4,394 @@ title: Publication Info Form
 permalink: /publication-info-form
 ---
 
-<section class="join-form-wrap">
-  <h1 class="join-form-title">Publication Info Form</h1>
-  <p class="join-form-lede">
-    Please fill out the form below. If the embedded form does not load, use the direct link.
+<section class="resource-form-wrap">
+  <h1 class="resource-form-title">Publication Info Form</h1>
+  <p class="resource-form-lede">
+    Please fill in this form within 48 hours of submisison to review
   </p>
 
-  <p class="join-form-link">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1HBri-TLo4ONCsYBgUFdTKCdzDalL-qmoXKUaVSOyc-W6Vg/viewform" target="_blank" rel="noopener">
-      Open form in a new tab
-    </a>
-  </p>
+  <form id="resource-form" class="resource-form" novalidate>
+    <div class="resource-grid">
+      <label class="resource-field">
+        <span>Section *</span>
+        <select id="section" required>
+          <option value="data">data</option>
+          <option value="demo">demo</option>
+        </select>
+      </label>
 
-  <div class="join-form-embed" aria-label="CoRAL Join Form">
-    <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSe1HBri-TLo4ONCsYBgUFdTKCdzDalL-qmoXKUaVSOyc-W6Vg/viewform?embedded=true"
-      title="CoRAL Join Form"
-      loading="lazy"
-      frameborder="0"
-      marginheight="0"
-      marginwidth="0"
-    >
-      Loading...
-    </iframe>
-  </div>
+      <label class="resource-field">
+        <span>Title *</span>
+        <input type="text" id="title" required>
+      </label>
+
+      <label class="resource-field">
+        <span>Paper URL *</span>
+        <input type="url" id="paper_url" placeholder="https://..." required>
+      </label>
+
+      <label class="resource-field">
+        <span>Data URL</span>
+        <input type="url" id="data_url" placeholder="https://...">
+      </label>
+
+      <label class="resource-field">
+        <span>Code URL</span>
+        <input type="url" id="code_url" placeholder="https://...">
+      </label>
+
+      <label class="resource-field">
+        <span>Demo URL</span>
+        <input type="url" id="demo_url" placeholder="https://...">
+      </label>
+
+      <input type="hidden" id="image" value="" required>
+
+      <label class="resource-field">
+        <span>Authors *</span>
+        <input type="text" id="authors" placeholder="Author 1, Author 2" required>
+      </label>
+
+      <label class="resource-field">
+        <span>Venue Name *</span>
+        <input type="text" id="venue_name" placeholder="ACL 2026" required>
+      </label>
+
+      <label class="resource-field">
+        <span>Venue URL</span>
+        <input type="url" id="venue_url" placeholder="https://...">
+      </label>
+    </div>
+
+    <label class="resource-field">
+      <span>Description *</span>
+      <textarea id="description" rows="5" required></textarea>
+    </label>
+
+    <div class="resource-field resource-field--full upload-panel">
+      <span>Upload Poster*</span>
+      <div id="image-dropzone" class="image-dropzone">
+        <input type="file" id="image_upload" accept="image/*">
+        <p class="image-dropzone-text">Drag/drop poster here or click to choose</p>
+      </div>
+      <img id="image_preview" class="image-preview" alt="Image preview" style="display:none;">
+      <p id="upload_status" class="upload-status"></p>
+    </div>
+
+    <div class="resource-field resource-field--full submit-panel">
+      <button type="button" id="submit_resource_btn" class="submit-btn">Submit</button>
+      <p id="submit_status" class="submit-status"></p>
+    </div>
+  </form>
 </section>
 
 <style>
-.join-form-wrap {
-  max-width: 900px;
+.resource-form-wrap {
+  max-width: 980px;
   margin: 0 auto;
   padding: 0 1rem 2rem;
 }
 
-.join-form-title {
+.resource-form-title {
   color: #8c1d40;
   margin-bottom: 0.4rem;
 }
 
-.join-form-lede {
+.resource-form-lede {
+  margin-bottom: 1rem;
+}
+
+.resource-form {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.resource-field--full {
+  grid-column: 1 / -1;
+}
+
+.resource-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
   margin-bottom: 0.75rem;
 }
 
-.join-form-link {
-  margin-bottom: 1rem;
-  font-size: 0.82rem;
+.resource-field span {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #333;
 }
 
-.join-form-embed {
-  background: #f8f8f8;
-  border: 1px solid #e7e7e7;
-  border-radius: 10px;
-  padding: 0.5rem;
-}
-
-.join-form-embed iframe {
-  display: block;
+.resource-field input,
+.resource-field textarea,
+.resource-field select {
   width: 100%;
-  min-height: 1680px;
-  border: 0;
+  border: 1px solid #d4d4d4;
   border-radius: 8px;
+  padding: 0.52rem 0.65rem;
+  font-size: 0.8rem;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
-@media (max-width: 768px) {
-  .join-form-embed iframe {
-    min-height: 1920px;
+.resource-field textarea {
+  resize: vertical;
+}
+
+.image-dropzone {
+  position: relative;
+  border: 1px dashed #c9b8bf;
+  border-radius: 10px;
+  background: #fff9fb;
+  padding: 0.9rem;
+  text-align: center;
+}
+
+.image-dropzone input[type="file"] {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-dropzone.is-dragover {
+  border-color: #8c1d40;
+  background: #fff3f7;
+}
+
+.image-dropzone-text {
+  margin: 0;
+  font-size: 0.78rem;
+  color: #333;
+}
+
+.image-preview {
+  margin-top: 0.55rem;
+  max-width: 220px;
+  max-height: 220px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.upload-panel {
+  border-top: 1px solid #eee;
+  margin-top: 0.2rem;
+  padding-top: 0.8rem;
+}
+
+.upload-status {
+  font-size: 0.76rem;
+  margin: 0.35rem 0 0;
+  color: #444;
+  word-break: break-word;
+}
+
+.submit-panel {
+  border-top: 1px solid #eee;
+  margin-top: 0.1rem;
+  padding-top: 0.8rem;
+}
+
+.submit-btn {
+  width: fit-content;
+  border: 0;
+  border-radius: 999px;
+  background: #8c1d40;
+  color: #fff;
+  font-size: 0.78rem;
+  padding: 0.5rem 0.95rem;
+}
+
+.submit-btn:hover {
+  background: #6f1732;
+}
+
+.submit-status {
+  font-size: 0.76rem;
+  margin: 0.4rem 0 0;
+  color: #444;
+  word-break: break-word;
+}
+
+@media (max-width: 800px) {
+  .resource-grid {
+    grid-template-columns: 1fr;
   }
 }
 </style>
+
+<script>
+(function () {
+  var uploadApiUrl = '{{ site.upload_api_url }}';
+  var submitApiUrl = '{{ site.resource_submit_api_url }}';
+
+  var form = document.getElementById('resource-form');
+  var imageField = document.getElementById('image');
+  var imageUpload = document.getElementById('image_upload');
+  var imagePreview = document.getElementById('image_preview');
+  var imageDropzone = document.getElementById('image-dropzone');
+  var uploadStatus = document.getElementById('upload_status');
+  var submitBtn = document.getElementById('submit_resource_btn');
+  var submitStatus = document.getElementById('submit_status');
+  var selectedFile = null;
+
+  function readFileBase64(file) {
+    return new Promise(function (resolve, reject) {
+      var reader = new FileReader();
+      reader.onload = function () {
+        var data = String(reader.result || '');
+        var base64 = data.split(',')[1] || '';
+        resolve(base64);
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  function sanitizeFilename(name) {
+    var base = String(name || '').split('/').pop().split('\\\\').pop();
+    base = base.replace(/[^a-zA-Z0-9._-]/g, '_');
+    if (!base) return '';
+    if (!/\.(png|jpe?g|webp|gif)$/i.test(base)) {
+      base += '.png';
+    }
+    return base;
+  }
+
+  function applyImageFile(file) {
+    if (!file) return;
+    selectedFile = file;
+    var cleaned = sanitizeFilename(file.name);
+    imageField.value = 'poster_docs/' + cleaned;
+    imagePreview.src = URL.createObjectURL(file);
+    imagePreview.style.display = 'block';
+  }
+
+  async function uploadSelectedFile() {
+    if (!uploadApiUrl) {
+      uploadStatus.textContent = 'Upload backend is not configured yet (set upload_api_url in _config.yml).';
+      return;
+    }
+    if (!selectedFile) {
+      uploadStatus.textContent = 'Choose a poster first.';
+      return;
+    }
+
+    uploadStatus.textContent = 'Uploading poster...';
+
+    var filename = sanitizeFilename(selectedFile.name);
+    var contentBase64 = await readFileBase64(selectedFile);
+
+    var res = await fetch(uploadApiUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ filename: filename, contentBase64: contentBase64 })
+    });
+
+    var data = await res.json().catch(function () { return {}; });
+    if (!res.ok) {
+      throw new Error(data.error || ('Upload failed with status ' + res.status));
+    }
+
+    imageField.value = data.imageFieldValue || ('poster_docs/' + filename);
+    uploadStatus.textContent = 'Uploaded copies: /' + (data.primaryPath || ('poster_docs/' + filename)) + ' and /' + (data.secondaryPath || ('images/paper snap/' + filename));
+  }
+
+  imageUpload.addEventListener('change', function (e) {
+    var file = e.target.files && e.target.files[0];
+    applyImageFile(file);
+    uploadSelectedFile().catch(function (err) {
+      uploadStatus.textContent = 'Upload failed: ' + (err && err.message ? err.message : err);
+    });
+  });
+
+  imageDropzone.addEventListener('dragover', function (e) {
+    e.preventDefault();
+    imageDropzone.classList.add('is-dragover');
+  });
+
+  imageDropzone.addEventListener('dragleave', function () {
+    imageDropzone.classList.remove('is-dragover');
+  });
+
+  imageDropzone.addEventListener('drop', function (e) {
+    e.preventDefault();
+    imageDropzone.classList.remove('is-dragover');
+    var file = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+    applyImageFile(file);
+    uploadSelectedFile().catch(function (err) {
+      uploadStatus.textContent = 'Upload failed: ' + (err && err.message ? err.message : err);
+    });
+  });
+
+  function readValue(id) {
+    var el = document.getElementById(id);
+    return el ? String(el.value || '').trim() : '';
+  }
+
+  submitBtn.addEventListener('click', async function () {
+    if (!submitApiUrl) {
+      submitStatus.textContent = 'Submission backend is not configured yet (set resource_submit_api_url in _config.yml).';
+      return;
+    }
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    var payload = {
+      section: readValue('section'),
+      title: readValue('title'),
+      paper_url: readValue('paper_url'),
+      data_url: readValue('data_url'),
+      code_url: readValue('code_url'),
+      demo_url: readValue('demo_url'),
+      image: readValue('image'),
+      authors: readValue('authors'),
+      venue_name: readValue('venue_name'),
+      venue_url: readValue('venue_url'),
+      description: readValue('description')
+    };
+
+    if (!payload.image) {
+      submitStatus.textContent = 'Upload poster first so image path is available.';
+      return;
+    }
+
+    try {
+      submitBtn.disabled = true;
+      submitStatus.textContent = 'Submitting metadata to resources backend...';
+      var res = await fetch(submitApiUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      var data = await res.json().catch(function () { return {}; });
+      if (!res.ok) {
+        throw new Error(data.error || ('Submit failed with status ' + res.status));
+      }
+
+      var action = data.action || 'updated';
+      if (action === 'no_change') {
+        submitStatus.textContent = 'Submission successful: resource already up-to-date.';
+      } else {
+        submitStatus.textContent = 'Submission successful: resources backend ' + action + ' for "' + payload.title + '".';
+      }
+    } catch (err) {
+      submitStatus.textContent = 'Submission failed: ' + (err && err.message ? err.message : err);
+    } finally {
+      submitBtn.disabled = false;
+    }
+  });
+})();
+</script>

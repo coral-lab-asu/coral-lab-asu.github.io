@@ -1,4 +1,4 @@
-current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
+current directory: /Users/abhijit.chakraborty/Documents/GitHub/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
 /opt/homebrew/opt/ruby@3.2/bin/ruby extconf.rb
 checking for __builtin_clz()... yes
 checking for __builtin_clzl()... yes
@@ -31,19 +31,19 @@ checking for rb_category_warn() in ruby.h... yes
 checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
-current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250811-40553-fed99h sitelibdir\=./.gem.20250811-40553-fed99h clean
+current directory: /Users/abhijit.chakraborty/Documents/GitHub/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20260213-55013-moiici sitelibdir\=./.gem.20260213-55013-moiici clean
 
-current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250811-40553-fed99h sitelibdir\=./.gem.20250811-40553-fed99h
+current directory: /Users/abhijit.chakraborty/Documents/GitHub/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20260213-55013-moiici sitelibdir\=./.gem.20260213-55013-moiici
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 ld: warning: ignoring duplicate libraries: '-lruby.3.2'
 
-current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250811-40553-fed99h sitelibdir\=./.gem.20250811-40553-fed99h install
-/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20250811-40553-fed99h
+current directory: /Users/abhijit.chakraborty/Documents/GitHub/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20260213-55013-moiici sitelibdir\=./.gem.20260213-55013-moiici install
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20260213-55013-moiici
 
-current directory: /Users/gauravnajpande/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250811-40553-fed99h sitelibdir\=./.gem.20250811-40553-fed99h clean
+current directory: /Users/abhijit.chakraborty/Documents/GitHub/coral-lab-asu.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20260213-55013-moiici sitelibdir\=./.gem.20260213-55013-moiici clean
