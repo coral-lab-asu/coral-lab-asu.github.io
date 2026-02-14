@@ -24,6 +24,57 @@ permalink: /publication/
 <!-- Publication item -->
     <article class="pub-item">
       <figure class="thumb">
+        <img src="{{ site.baseurl }}/poster_docs/PerceptualObs_poster_placeholder.png" alt="paper thumbnail">
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2512.15949" target="_blank" rel="noopener">The Perceptual Observatory
+Characterizing Robustness and Grounding in MLLMs
+
+ </a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors">
+           Tejas Anvekar, Fenil Bardoliya, Pavan Turaga, Chitta Baral, Vivek Gupta
+
+          </span>
+          <span class="venue">
+              <a href="https://wacv.thecvf.com/" target="_blank" rel="noopener">WACV 2026</a>
+          </span>
+        </div>
+
+        <p class="pub-abstract">We present The Perceptual Observatory ,
+a framework that characterizes MLLMs across verticals
+like: (i) simple vision tasks, such as face matching and
+text-in-vision comprehension capabilities; (ii) local-to-
+global understanding, encompassing image matching,
+grid pointing game, and attribute localization, which
+tests general visual grounding. Each vertical is instan-
+tiated with ground-truth datasets of faces and words,
+systematically perturbed through pixel-based augmenta-
+tions and diffusion-based stylized illusions. The Per-
+ceptual Observatory moves beyond leaderboard ac-
+curacy to...
+        </p>
+
+        <div class="pub-links">
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2512.15949" target="_blank" rel="noopener">paper</a>The Perceptual Observatory Characterizing Robustness and Grounding in MLLMs
+          <a class="btn btn-site" href="https://coral-lab-asu.github.io/PerceptualObservatory/">website</a>
+          <a class="btn btn-code" href="https://github.com/CoRAL-ASU/PerceptualObservatory">code</a>
+          
+       
+        </div>
+      </div>
+    </article>  
+  
+
+
+
+<!-- Publication item -->
+    <article class="pub-item">
+      <figure class="thumb">
         <img src="{{ site.baseurl }}/poster_docs/sear_poster_placeholder.png" alt="paper thumbnail">
       </figure>
 
