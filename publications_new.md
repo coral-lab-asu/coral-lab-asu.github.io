@@ -106,7 +106,61 @@ world maps. It comprises...
       </div>
     </article>  
   
+ <!-- /Publication item -->
 
+    <!-- Repeat other pub-items as needed -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="{{ site.baseurl }}/poster_docs/Integrity_Shield_poster_placeholder.png" alt="paper thumbnail">
+
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2601.11093" target="_blank" rel="noopener">Integrity Shield A System for Ethical AI Use & Authorship Transparency in Assessments</a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors"></span>
+          Ashish Raj Shekhar,  Shiven Agarwal, Priyanuj Bordoloi, Yash Shah, Tejas Anvekar, Vivek Gupta
+          <span class="venue"> 
+          <a href="https://2026.eacl.org/">EACL 2026</a> (Demo)
+          </span>
+         
+        </div>
+
+        <p class="pub-abstract">
+ Large Language Models (LLMs) can now solve
+entire exams directly from uploaded PDF as-
+sessments, raising urgent concerns about aca-
+demic integrity and the reliability of grades
+and credentials. Existing watermarking tech-
+niques either operate at the token level or
+assume control over the model’s decoding
+process, making them ineffective when stu-
+dents query proprietary black-box systems with
+instructor-provided documents. We present IN-
+TEGRITY SHIELD, a document-layer wa-
+termarking system that embeds schema-aware,
+item-level watermarks into assessment PDFs
+while keeping their human-visible appearance
+unchanged. These watermarks consistently pre-
+vent MLLMs from answering shielded exam
+PDFs and encode stable, item-level signatures
+that can be reliably recovered from model or
+student responses. Across 30 exams...
+          
+        </p>
+
+        <div class="pub-links">
+            
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2601.11093">paper</a>
+          <a class="btn btn-site" href="https://shivena99.github.io/IntegrityShield/">website</a>
+          <a class="btn btn-code" href="https://github.com/ShivenA99/IntegrityShield">code</a>
+          
+        </div>
+      </div>
+    </article>
 
 
 <!-- Publication item -->
