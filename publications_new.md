@@ -19,6 +19,55 @@ permalink: /publication/
 
   <div class="pub-list">
 
+<!-- Publication item -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="{{ site.baseurl }}/poster_docs/MapVerse_poster_placeholder.png" alt="paper thumbnail">
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2602.10518" target="_blank" rel="noopener">MAPVERSE: A Benchmark for Geospatial Question Answering on Diverse
+Real-World Maps
+ </a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors">
+           Sharat Bhat, Harshita Khandelwal, Tushar Kataria, Vivek Gupta
+
+          </span>
+          <span class="venue">
+              <a href="https://wacv.thecvf.com/" target="_blank" rel="noopener">WACV 2026</a>
+          </span>
+        </div>
+
+        <p class="pub-abstract">Maps are powerful carriers of structured and contextual
+knowledge, encompassing geography, demographics, in-
+frastructure, and environmental patterns. Reasoning over
+such knowledge requires models to integrate spatial re-
+lationships, visual cues, real-world context, and domain-
+specific expertise-capabilities that current large language
+models (LLMs) and vision–language models (VLMs) still
+struggle to exhibit consistently. Yet, datasets used to bench-
+mark VLMs on map-based reasoning remain narrow in
+scope, restricted to specific domains, and heavily reliant
+on artificially generated content (outputs from LLMs or
+pipeline-based methods), offering limited depth for evaluat-
+ing genuine geospatial reasoning. To address this gap, we
+present MAPVERSE, a large-scale benchmark built on real-
+world maps. It comprises...
+        </p>
+
+        <div class="pub-links">
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2602.10518" target="_blank" rel="noopener">paper</a>
+         
+          
+       
+        </div>
+      </div>
+    </article>  
+  
 
 
 <!-- Publication item -->
