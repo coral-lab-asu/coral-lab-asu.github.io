@@ -117,7 +117,7 @@ world maps. It comprises...
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://arxiv.org/pdf/2601.11093" target="_blank" rel="noopener">Integrity Shield A System for Ethical AI Use & Authorship Transparency in Assessments</a>
+          <a href="https://arxiv.org/pdf/2601.11093" target="_blank" rel="noopener">Integrity Shield: A System for Ethical AI Use & Authorship Transparency in Assessments</a>
         </h3>
 
         <div class="pub-meta">
