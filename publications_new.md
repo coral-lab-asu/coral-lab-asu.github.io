@@ -114,7 +114,7 @@ A Multi-Agent Perspective
 
         <div class="pub-meta">
           <span class="authors">
-           Krishna Singh Rajput, Tejas Anvekar, Chitta Baral, Vivek Gupta
+           Tejas Anvekar, Krishna Singh Rajput, Chitta Baral, Vivek Gupta
 
           </span>
           <span class="venue">
