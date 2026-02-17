@@ -1,35 +1,28 @@
 ---
-layout: default
+layout: page
 title: MAPVERSE
 permalink: /mapverse/
 ---
 
-<section class="selected-publications">
-  <h2 class="section-title">MAPVERSE</h2>
+<h1>MAPVERSE</h1>
 
-  <article class="pub-item">
-    <figure class="thumb">
-      <img src="{{ site.baseurl }}/poster_docs/MapVerse_poster_placeholder.png" alt="MAPVERSE poster thumbnail">
-    </figure>
+<p>
+  MAPVERSE is a benchmark for geospatial question answering on diverse real-world maps.
+</p>
 
-    <div class="pub-body">
-      <h3 class="pub-title">
-        MAPVERSE: A Benchmark for Geospatial Question Answering on Diverse Real-World Maps
-      </h3>
+<p>
+  <img src="{{ site.baseurl }}/poster_docs/MapVerse_poster_placeholder.png" alt="MAPVERSE poster thumbnail">
+</p>
 
-      <div class="pub-meta">
-        <span class="authors">Sharat Bhat, Harshita Khandelwal, Tushar Kataria, Vivek Gupta</span>
-        <span class="venue"><a href="https://wacv.thecvf.com/" target="_blank" rel="noopener">WACV 2026</a></span>
-      </div>
+<h3>Paper</h3>
+<p>
+  <a href="https://arxiv.org/pdf/2602.10518" target="_blank" rel="noopener">
+    MAPVERSE: A Benchmark for Geospatial Question Answering on Diverse Real-World Maps
+  </a>
+</p>
 
-      <p class="pub-abstract">
-        MAPVERSE is a benchmark for geospatial question answering over diverse real-world maps.
-        This page is the canonical route for the project website.
-      </p>
+<h3>Authors</h3>
+<p>Sharat Bhat, Harshita Khandelwal, Tushar Kataria, Vivek Gupta</p>
 
-      <div class="pub-links">
-        <a class="btn btn-paper" href="https://arxiv.org/pdf/2602.10518" target="_blank" rel="noopener">paper</a>
-      </div>
-    </div>
-  </article>
-</section>
+<h3>Venue</h3>
+<p><a href="https://wacv.thecvf.com/" target="_blank" rel="noopener">WACV 2026</a></p>
