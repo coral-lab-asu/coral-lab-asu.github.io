@@ -47,6 +47,13 @@ permalink: /resources
           {% assign code_href = code_href | relative_url %}
         {% endif %}
 
+        {% assign demo_href = item.demo_url %}
+        {% if demo_href and demo_href contains "://" %}
+          {% assign demo_href = demo_href %}
+        {% elsif demo_href %}
+          {% assign demo_href = demo_href | relative_url %}
+        {% endif %}
+
         <article class="pub-item">
           <figure class="thumb">
             <img src="{{ image_path | uri_escape }}" alt="{{ item.title | escape }} thumbnail">
@@ -73,6 +80,9 @@ permalink: /resources
             <div class="pub-links">
               {% if data_href %}
                 <a class="btn btn-paper" href="{{ data_href }}" target="_blank" rel="noopener">data</a>
+              {% endif %}
+              {% if demo_href %}
+                <a class="btn btn-site" href="{{ demo_href }}" target="_blank" rel="noopener">website</a>
               {% endif %}
               {% if code_href %}
                 <a class="btn btn-code" href="{{ code_href }}" target="_blank" rel="noopener">code</a>

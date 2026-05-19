@@ -1,0 +1,170 @@
+---
+layout: page
+title: SCoPE
+permalink: /SCoPE/
+---
+
+<section class="scope-page">
+  <p class="scope-kicker">Accepted to BioNLP 2026</p>
+  <h1>SCoPE: Planning for Hybrid Querying over Clinical Trial Data</h1>
+  <p class="scope-subtitle">Structured Clinical hybrid Planning for Evidence retrieval in clinical trials</p>
+
+  <p class="scope-authors">
+    Suparno Roy Chowdhury, Manan Roy Choudhury, Tejas Anvekar, Muhammad Ali Khan,
+    Kaneez Zahra Rubab Khakwani, Mohamad Bassam Sonbol, Irbaz Bin Riaz, Vivek Gupta
+  </p>
+  <p class="scope-affils">Arizona State University, Mayo Clinic</p>
+
+  <div class="pub-links scope-links">
+    <a class="btn btn-code" href="https://github.com/CoRAL-ASU/SCoPE" target="_blank" rel="noopener">code</a>
+  </div>
+
+  <div class="scope-stats">
+    <span>1,500 questions</span>
+    <span>31 target fields</span>
+    <span>159 x 32 table</span>
+  </div>
+
+  <h2>Abstract</h2>
+  <p>
+    We study clinical trial table reasoning, where answers are not directly stored in visible cells and must be inferred from semantic understanding through normalization, classification, extraction, and lightweight domain reasoning. We introduce SCoPE, a multi-LLM planner-based framework that decomposes the problem into row selection, structured planning, and execution. Across 1,500 hybrid reasoning questions over oncology clinical-trial tables, explicit planning improves grounded row-level reasoning accuracy over direct prompting and stronger tabular baselines, while maintaining a favorable accuracy-efficiency tradeoff.
+  </p>
+
+  <h2>Method</h2>
+  <ol>
+    <li><strong>Executor row selection:</strong> identify candidate relevant rows from the visible table.</li>
+    <li><strong>Planner structured reasoning:</strong> predict source field, relevant columns, reasoning rules, and output constraints.</li>
+    <li><strong>Executor final generation:</strong> apply the plan and return row-aligned predictions.</li>
+  </ol>
+
+  <h2>Dataset</h2>
+  <p>
+    The benchmark contains 1,500 programmatically augmented hybrid reasoning questions constructed from an expert-authored seed set of 500 questions over oncology clinical-trial data.
+  </p>
+
+  <div class="scope-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Statistic</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Rows</td><td>159</td></tr>
+        <tr><td>Columns</td><td>32</td></tr>
+        <tr><td>Unique trials</td><td>105</td></tr>
+        <tr><td>Cancer types</td><td>19</td></tr>
+        <tr><td>Total questions</td><td>1,500</td></tr>
+        <tr><td>Target fields</td><td>31</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Main Results</h2>
+  <p>
+    SCoPE improves grounded row-level reasoning over direct prompting and tabular baselines. In the reported results, it is strongest overall on GPT-OSS and Qwen3, and ties Table F1 while improving grounding metrics on Llama-3.3.
+  </p>
+
+  <div class="scope-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Method</th>
+          <th>Qwen3 F1</th>
+          <th>Llama-3.3 F1</th>
+          <th>GPT-OSS F1</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Zero Shot</td><td>56.32</td><td>66.96</td><td>73.50</td></tr>
+        <tr><td>CoT</td><td>55.37</td><td>70.87</td><td>74.17</td></tr>
+        <tr><td>Few-Shot</td><td>54.74</td><td>69.38</td><td>73.99</td></tr>
+        <tr><td>EHRAgent</td><td>32.99</td><td>30.99</td><td>34.85</td></tr>
+        <tr class="scope-best"><td>SCoPE</td><td>63.19</td><td>70.87</td><td>74.31</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Acknowledgment</h2>
+  <p>
+    Supported by the Mayo Clinic and Arizona State University Alliance for Health Care Collaborative Research Seed Grant Program.
+  </p>
+</section>
+
+<style>
+  .scope-page {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .scope-kicker {
+    color: #8c1d40;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .scope-page h1 {
+    line-height: 1.12;
+    margin-bottom: 0.75rem;
+  }
+
+  .scope-subtitle {
+    color: #4b5563;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .scope-authors,
+  .scope-affils {
+    color: #374151;
+    margin-bottom: 0.75rem;
+  }
+
+  .scope-links {
+    margin: 1.25rem 0;
+  }
+
+  .scope-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0 2rem;
+  }
+
+  .scope-stats span {
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 999px;
+    color: #111827;
+    font-weight: 600;
+    padding: 0.45rem 0.8rem;
+  }
+
+  .scope-table-wrap {
+    overflow-x: auto;
+    margin: 1rem 0 2rem;
+  }
+
+  .scope-page table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .scope-page th,
+  .scope-page td {
+    border: 1px solid #e5e7eb;
+    padding: 0.7rem 0.85rem;
+    text-align: left;
+  }
+
+  .scope-page th {
+    background: #f9fafb;
+  }
+
+  .scope-best {
+    background: #fff7ed;
+    font-weight: 700;
+  }
+</style>
