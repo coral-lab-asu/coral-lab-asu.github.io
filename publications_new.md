@@ -511,7 +511,7 @@ rates...
 
         <div class="pub-links">
             
-          <a class="btn btn-paper" href="https://arxiv.org/pdf/2605.00905">paper</a>
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2604.15646">paper</a>
          
           <a class="btn btn-paper" href="https://tejasanvekar.github.io/FD-NL2SQL/">website</a> 
           <a class="btn btn-paper" href="https://github.com/TejasAnvekar/FD-NL2SQL">code</a> 
