@@ -610,60 +610,6 @@ stage...
       </div>
     </article>     
 
-  
-
-<!-- /Publication item -->
-
-    <!-- Repeat other pub-items as needed -->
-    <article class="pub-item">
-      <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/sacvd_placeholder.png" alt="paper thumbnail">
-
-      </figure>
-
-      <div class="pub-body">
-        <h3 class="pub-title">
-          <a href="https://openreview.net/pdf?id=Z1zHgGGG3B" target="_blank" rel="noopener">Self-Aug: Query and Entropy Adaptive Decoding for Large Vision-Language Models</a>
-        </h3>
-
-        <div class="pub-meta">
-          <span class="authors"></span>
-
-         
-
-           <span class="venue">
-              <a href="https://iclr.cc" target="_blank" rel="noopener">ICLR 2026</a>
-          </span>
-         
-        </div>
-
-        <p class="pub-abstract">
-        
-Large Vision-Language Models (LVLMs) have demonstrated remarkable multi-modal capabilities, 
-but they inherit the tendency to hallucinate from their underlying
-language models. While visual contrastive decoding has been proposed to mitigate
-this issue, existing methods often apply generic visual augmentations that disregard the specific context provided by the text query, limiting their effectiveness.
-This study introduces a novel training-free decoding strategy that addresses these
-limitations, featuring two key contributions. First, a self-augmentation prompting
-strategy that leverages the intrinsic knowledge of the model to dynamically align
-semantics between the query and the visual augmentation. Second, an adaptive
-thresholding algorithm that adaptively adjusts next token candidate size based
-on the output sparsity, utilizing full information from the logit distribution. Extensive experiments...
-
-          
-        </p>
-
-        <div class="pub-links">
-            
-          <a class="btn btn-paper" href="https://openreview.net/pdf?id=Z1zHgGGG3B">paper</a>
-         
-          <a class="btn btn-paper" href="https://eunwooim.github.io/selfaug">website</a> 
-          <a class="btn btn-paper" href="https://github.com/eunwooim/selfaug">code</a> 
-
-        </div>
-      </div>
-    </article>
-  
 
 
 <!-- /Publication item -->
@@ -704,6 +650,62 @@ Video stabilization remains a fundamental problem in computer vision, particular
         </div>
       </div>
     </article>
+
+
+<!-- /Publication item -->
+
+    <!-- Repeat other pub-items as needed -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="{{ site.baseurl }}/poster_docs/sacvd_placeholder.png" alt="paper thumbnail">
+
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://openreview.net/pdf?id=Z1zHgGGG3B" target="_blank" rel="noopener">Self-Aug: Query and Entropy Adaptive Decoding for Large Vision-Language Models</a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors"></span>
+Eun Woo Im, Muhammad Kashif Ali, Vivek Gupta
+         
+
+           <span class="venue">
+              <a href="https://iclr.cc" target="_blank" rel="noopener">ICLR 2026</a>
+          </span>
+         
+        </div>
+
+        <p class="pub-abstract">
+        
+Large Vision-Language Models (LVLMs) have demonstrated remarkable multi-modal capabilities, 
+but they inherit the tendency to hallucinate from their underlying
+language models. While visual contrastive decoding has been proposed to mitigate
+this issue, existing methods often apply generic visual augmentations that disregard the specific context provided by the text query, limiting their effectiveness.
+This study introduces a novel training-free decoding strategy that addresses these
+limitations, featuring two key contributions. First, a self-augmentation prompting
+strategy that leverages the intrinsic knowledge of the model to dynamically align
+semantics between the query and the visual augmentation. Second, an adaptive
+thresholding algorithm that adaptively adjusts next token candidate size based
+on the output sparsity, utilizing full information from the logit distribution. Extensive experiments...
+
+          
+        </p>
+
+        <div class="pub-links">
+            
+          <a class="btn btn-paper" href="https://openreview.net/pdf?id=Z1zHgGGG3B">paper</a>
+         
+          <a class="btn btn-paper" href="https://eunwooim.github.io/selfaug">website</a> 
+          <a class="btn btn-paper" href="https://github.com/eunwooim/selfaug">code</a> 
+
+        </div>
+      </div>
+    </article>
+  
+
+    
 
 
 <!-- Publication item -->
