@@ -596,6 +596,8 @@ gions, the system performs...
           <span class="venue"> 
           <a href="https://sites.google.com/ucsd.edu/efficient-spatial-reasoning/">ES-Reasoning @ ICLR 2026</a>
           </span>
+
+          
          
         </div>
 
@@ -641,8 +643,10 @@ ate...
 
         <div class="pub-meta">
           <span class="authors"></span>
-     
-      
+
+         
+
+           <span class="venue">
               <a href="https://iclr.cc" target="_blank" rel="noopener">ICLR 2026</a>
           </span>
          
@@ -696,7 +700,8 @@ tensive experiments...
         <div class="pub-meta">
           <span class="authors"></span>
           Muhammad Kashif Ali, Eun Woo Im, Dongjin Kim, Tae Hyun Kim, Vivek Gupta, Haonan Luo, Tianrui Li
-      
+
+           <span class="venue">
               <a href="https://www.computer.org/csdl/journal/tp" target="_blank" rel="noopener">IEEE TPAMI 2026</a>
           </span>
          
