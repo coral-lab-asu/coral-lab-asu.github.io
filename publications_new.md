@@ -260,7 +260,7 @@ long context LLMs. Results show that...
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/decomposed_prompt_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/decomposed_prompt.png" alt="paper thumbnail">
 
       </figure>
 
@@ -355,7 +355,7 @@ Multimodal tables i.e. tabular layouts interleaved with charts, maps, icons, and
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/jobhunt_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/jobmatch_placeholder.png" alt="paper thumbnail">
 
       </figure>
 
@@ -632,7 +632,7 @@ ate...
     <!-- Repeat other pub-items as needed -->
     <article class="pub-item">
       <figure class="thumb">
-        <img src="{{ site.baseurl }}/poster_docs/savd_placeholder.png" alt="paper thumbnail">
+        <img src="{{ site.baseurl }}/poster_docs/sacvd_placeholder.png" alt="paper thumbnail">
 
       </figure>
 
