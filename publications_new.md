@@ -216,7 +216,7 @@ Narratives</a>
           <span class="authors"></span>
   Ritam Upadhyay*, Naman Ahuja*, Rishabh Baral, Aparna Garimella, Vivek Gupta
           <span class="venue"> 
-          <a href="https://2026.aclweb.org">ACL 2026(Findings)</a>
+          <a href="https://2026.aclweb.org">ACL 2026</a> (Findings)
           </span>
          
         </div>
@@ -273,7 +273,7 @@ long context LLMs. Results show that...
           <span class="authors"></span>
   Dhruv Madhwal*, Lyuxin David Zhang*, Dan Roth, Tomer Wolfson, Vivek Gupta
           <span class="venue"> 
-          <a href="https://2026.aclweb.org">ACL 2026(Findings)</a>
+          <a href="https://2026.aclweb.org">ACL 2026 </a> (Findings)
           </span>
          
         </div>
@@ -327,7 +327,7 @@ certainty. We leverage this signal...
           <span class="authors"></span>
   Prasham Titiya*, Jainil Trivedi*, Chitta Baral, Vivek Gupta
           <span class="venue"> 
-          <a href="https://2026.aclweb.org">ACL 2026(Findings)</a>
+          <a href="https://2026.aclweb.org">ACL 2026</a> (Findings)
           </span>
          
         </div>
@@ -370,7 +370,7 @@ Explainable AI</a>
           <span class="authors"></span>
   Mayank Vyas, Abhijit Chakraborty, Vivek Gupta
           <span class="venue"> 
-          <a href="https://2026.aclweb.org">ACL Demo 2026</a>
+          <a href="https://2026.aclweb.org">ACL 2026 </a> (Demo)
           </span>
          
         </div>
@@ -428,7 +428,7 @@ Educational Game Generation</a>
   Shiven Agarwal* Yash Shah* Ashish Raj Shekhar* Priyanuj Bordoloi
 Vivek Gupta
           <span class="venue"> 
-          <a href="https://2026.aclweb.org">ACL Demo 2026</a>
+          <a href="https://2026.aclweb.org">ACL 2026</a> (Demo)
           </span>
          
         </div>
@@ -484,7 +484,7 @@ FOL-based structural validators...
 Muhammad Ali Khan, Kaneez Zahra Rubab Khakwani, Mohamad Bassam Sonbol,
 Irbaz Bin Riaz, Vivek Gupta
           <span class="venue"> 
-          <a href="https://2026.aclweb.org">ACL Demo 2026</a>
+          <a href="https://2026.aclweb.org">ACL 2026</a> (Demo)
           </span>
          
         </div>
@@ -541,7 +541,7 @@ Diagram QA</a>
 Manan Suri, Raviteja Bommireddy, Dinesh Manocha,
 Puneet Mathur*, Vivek Gupta*
           <span class="venue"> 
-          <a href="https://2026.aclweb.org">ACL Demo 2026</a>
+          <a href="https://2026.aclweb.org">ACL 2026</a> (Demo)
           </span>
          
         </div>
