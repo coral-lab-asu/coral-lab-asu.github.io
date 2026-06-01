@@ -690,7 +690,7 @@ tensive experiments...
 
       <div class="pub-body">
         <h3 class="pub-title">
-          <a href="https://openreview.net/pdf?id=Z1zHgGGG3B" target="_blank" rel="noopener">Harnessing Meta-Learning for Controllable Full-Frame Video Stabilization</a>
+          <a href="https://arxiv.org/pdf/2508.18859" target="_blank" rel="noopener">Harnessing Meta-Learning for Controllable Full-Frame Video Stabilization</a>
         </h3>
 
         <div class="pub-meta">
@@ -711,7 +711,7 @@ Video stabilization remains a fundamental problem in computer vision, particular
 
         <div class="pub-links">
             
-          <a class="btn btn-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11458882&tag=1">paper</a>
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2508.18859">paper</a>
 
         </div>
       </div>
