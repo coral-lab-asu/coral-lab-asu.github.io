@@ -11,6 +11,14 @@ permalink: /publication/
   </a>
 </div>
 
+<!-- selected-publications.html -->
+<section class="selected-publications">
+  <h2 class="section-title">RECENT PUBLICATIONS</h2>
+  <h3 class="subsection-title">Complex Data (Structured Data)</h3>
+
+  <div class="pub-list">
+
+
  <!-- /Publication item -->
 
     <!-- Repeat other pub-items as needed -->
@@ -246,12 +254,6 @@ long context LLMs. Results show that...
     </article> 
 
 
-<!-- selected-publications.html -->
-<section class="selected-publications">
-  <h2 class="section-title">RECENT PUBLICATIONS</h2>
-  <h3 class="subsection-title">Complex Data (Structured Data)</h3>
-
-  <div class="pub-list">
 
  <!-- /Publication item -->
 
