@@ -558,6 +558,58 @@ and evidence attribution. Although question answering accuracy remains moderate.
       </div>
     </article>
 
+ <!-- /Publication item -->
+
+    <!-- Repeat other pub-items as needed -->
+    <article class="pub-item">
+      <figure class="thumb">
+        <img src="{{ site.baseurl }}/poster_docs/unjoin_placeholder.png" alt="paper thumbnail">
+
+      </figure>
+
+      <div class="pub-body">
+        <h3 class="pub-title">
+          <a href="https://arxiv.org/pdf/2505.18122" target="_blank" rel="noopener">UNJOIN: Enhancing Multi-Table Text-to-SQL Generation via Schema Simplification</a>
+        </h3>
+
+        <div class="pub-meta">
+          <span class="authors"></span>
+Poojah Ganesan*, Rajat Aayush Jha*, Dan Roth, Vivek Gupta
+          <span class="venue"> 
+          <a href="https://surgellm.github.io/acl2026/">SURGeLLM @ ACL 2026</a>
+          </span>
+         
+        </div>
+
+        <p class="pub-abstract">
+Recent advances in large language models
+(LLMs) have greatly improved Text-to-SQL
+performance for single-table queries. But, it remains challenging in multi-table databases due
+to complex schema and relational operations.
+Existing methods often struggle with retrieving the right tables and columns, generating
+accurate JOINs and UNIONs, and generalizing
+across diverse schemas. To address these issues,
+we introduce UNJOIN, a two-stage framework
+that decouples the retrieval of schema elements
+from SQL logic generation. In the first stage,
+we merge the column names of all tables in the
+database into a single-table representation by
+prefixing each column with its table name. This
+allows the model to focus purely on accurate
+retrieval without being distracted by the need
+to write complex SQL logic. In the second
+stage...
+          
+        </p>
+
+        <div class="pub-links">
+            
+          <a class="btn btn-paper" href="https://arxiv.org/pdf/2505.18122">paper</a>
+                   
+        </div>
+      </div>
+    </article>     
+
   
 
 <!-- /Publication item -->
